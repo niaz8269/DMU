@@ -42,8 +42,9 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/images/logo.png" type="image/png">
-    <link rel="apple-touch-icon" href="/images/logo.png">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">@verbatim
