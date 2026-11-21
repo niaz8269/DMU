@@ -1,0 +1,22 @@
+# secrets and local files
+.env
+**/.env
+.env.*
+!.env.example
+# libraries are installed with composer on the server
+site/vendor/
+# local-only material
+deploy-package/
+source-images/
+ui-reference/
+*.zip
+# the template dump contains the old admin password hash: keep it out of git
+database/university-template.sql
+site/storage/logs/*
+site/storage/framework/cache/data/*
+site/storage/framework/sessions/*
+site/storage/framework/views/*
+site/.phpunit.result.cache
+START-PROMPT.md
+README-SETUP.md
+FACTS.md

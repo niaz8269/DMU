@@ -1,0 +1,115 @@
+Options -Indexes
+DirectoryIndex index.php index.html
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .xml .json .rss .atom
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization / X-XSRF-Token headers (Laravel default)
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    RewriteCond %{HTTP:x-xsrf-token} .
+    RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
+
+    # --- Private files: applicants' documents are served only by the admin panel (/admin/document), never by URL ---
+    RewriteRule ^uploads/(admissions|videos)(/|$) - [F,L]
+    # Files sitting directly in /uploads (old applicant uploads) are private too; public images live in sub-folders.
+    RewriteRule ^uploads/[^/]+$ - [F,L]
+    RewriteRule ^logs(/|$) - [F,L]
+    RewriteRule ^(out\.html|\.git|\.env) - [F,L]
+
+    # --- Canonical host: one address per page = https://dmu.cas.moe (SEO) -----------
+    # Before this rule http://, www. and every other subdomain (wildcard DNS, e.g. webinar.dmu.cas.moe) served the
+    # whole site, so Google saw each page under several hosts. Now they 301 to https://dmu.cas.moe.
+    # Notes: GET/HEAD only (form posts are never redirected); staging.* is left alone; the CDN terminates TLS, so
+    # HTTPS is detected from X-Forwarded-Proto / REQUEST_SCHEME (%{HTTPS} is always "off" behind it).
+    RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
+    RewriteCond %{HTTP_HOST} !^staging\. [NC]
+    RewriteCond %{HTTP_HOST} ^(?:[a-z0-9-]+\.)+dmu\.cas\.moe(?::\d+)?$ [NC]
+    RewriteRule ^ https://dmu.cas.moe%{REQUEST_URI} [R=301,L]
+
+    RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
+    RewriteCond %{HTTP_HOST} ^dmu\.cas\.moe$ [NC]
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+    RewriteCond %{REQUEST_SCHEME} !=https
+    RewriteRule ^ https://dmu.cas.moe%{REQUEST_URI} [R=301,L]
+
+    # --- Canonicalise old .php URLs -> clean URLs (SEO; same as the original site) ---
+    # GET-only, and processing endpoints (save_/get_/send_/submit_/download_/export_/review_) are excluded.
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+    RewriteRule ^ / [R=301,L]
+
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{THE_REQUEST} \s/+([^.\s?/]+)\.php[\s?] [NC]
+    RewriteCond %1 !^(?:save_|get_|send_|submit_|download_|export_|review_) [NC]
+    RewriteRule ^ /%1 [R=301,L]
+
+    # Legacy aliases of the original site: they used to serve another page's content with status 200 (duplicates);
+    # now they 301 to the one real address.
+    RewriteRule ^careers\.(php|html)$ /be-our-partner [R=301,L]
+    RewriteRule ^news\.php$ /events [R=301,L]
+    RewriteRule ^research\.(php|html)$ /blogs [R=301,L]
+    RewriteRule ^login\.html$ /login [R=301,L]
+    RewriteRule ^register\.html$ /register [R=301,L]
+    RewriteRule ^programs\.html$ /programs [R=301,L]
+    RewriteRule ^campus-life\.html$ /gallery [R=301,L]
+    RewriteRule ^mbbs\.html$ /mbbs [R=301,L]
+    RewriteRule ^international\.(php|html)$ /admissions [R=301,L]
+    RewriteRule ^sitemap$ /sitemap.xml [R=301,L]
+    RewriteRule ^sitemap\.php$ /sitemap.xml [R=301,L]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# HTML caching is decided per page by Laravel (PublicCache middleware); only static files are set here.
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+</IfModule>
+
+# SEO safety: a staging.* host is never indexable (covers static files too; pages also get the header from Laravel).
+SetEnvIfNoCase Host ^staging\. DMU_STAGING
+
+<IfModule mod_headers.c>
+    Header always set X-Robots-Tag "noindex, nofollow" env=DMU_STAGING
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+    Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+    Header always set Content-Security-Policy "frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+    Header unset Server
+    Header unset X-Powered-By
+</IfModule>
+
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|bak|env)$">
+    Require all denied
+</FilesMatch>

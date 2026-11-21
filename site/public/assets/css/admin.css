@@ -1,0 +1,54 @@
+/* DMU admin panel tweaks on top of AdminLTE 4 */
+:root { --dmu-red: #E62129; }
+
+.sidebar-brand .brand-link { color: #fff; }
+.app-sidebar .sidebar-menu .nav-link.active { background-color: var(--dmu-red); color: #fff; }
+.app-sidebar .nav-treeview .nav-link.active { background-color: rgba(230,33,41,.85); color:#fff; }
+
+/* Stat cards */
+.stat-card { border: 0; border-radius: .75rem; overflow: hidden; }
+.stat-card .stat-icon { font-size: 2.2rem; opacity: .35; }
+.stat-card .stat-value { font-size: 1.9rem; font-weight: 700; line-height: 1; }
+.stat-card a.stretched-link { color: inherit; text-decoration: none; }
+
+/* Tables */
+.table thead th { white-space: nowrap; }
+.card { border: 0; border-radius: .75rem; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+
+.btn-dmu { background: var(--dmu-red); color:#fff; }
+.btn-dmu:hover { background:#c41c23; color:#fff; }
+
+/* ---------- Brand refresh (22 Nov 2026): same navy, red and fonts as the public site and the applicant portal ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap');
+:root { --dmu-navy: #0b2a4a; --dmu-navy-700: #0e3559; --dmu-line: #e4e8ee; --dmu-bg: #f5f8fc; --dmu-ink: #16202e; --dmu-muted: #667085; }
+body { font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--dmu-bg) !important; color: #33404f; }
+h1, h2, h3, h4, h5, .brand-text, .stat-value { font-family: 'Manrope', 'Inter', 'Segoe UI', sans-serif; color: var(--dmu-ink); letter-spacing: -.01em; }
+.app-header { border-bottom: 1px solid var(--dmu-line); box-shadow: none; }
+.app-sidebar { background: var(--dmu-navy) !important; box-shadow: none !important; }
+.app-sidebar .sidebar-brand { border-bottom: 1px solid rgba(255, 255, 255, .08); }
+.app-sidebar .brand-text { color: #fff; }
+.app-sidebar .sidebar-menu .nav-link { border-radius: 8px; margin: 1px 8px; color: rgba(255, 255, 255, .82); }
+.app-sidebar .sidebar-menu .nav-link:hover { background: var(--dmu-navy-700); color: #fff; }
+.app-sidebar .nav-treeview .nav-link.active { background-color: rgba(255, 255, 255, .14); color: #fff; }
+.app-content-header h1 { font-weight: 800; }
+.card { border: 1px solid var(--dmu-line); border-radius: 14px; box-shadow: 0 1px 2px rgba(16, 24, 40, .04); }
+.card .card { border-radius: 12px; }
+.stat-card { border-radius: 14px; }
+.btn { border-radius: 8px; font-weight: 600; }
+.btn-primary { background: var(--dmu-navy); border-color: var(--dmu-navy); }
+.btn-primary:hover, .btn-primary:focus { background: var(--dmu-navy-700); border-color: var(--dmu-navy-700); }
+.form-control, .form-select { border-radius: 8px; border-color: var(--dmu-line); }
+.form-control:focus, .form-select:focus { border-color: var(--dmu-navy); box-shadow: 0 0 0 3px #eef3f9; }
+.table { --bs-table-striped-bg: #f8fafd; }
+.table thead.table-dark th, .table > thead > tr > th { background: #f1f5fa; color: var(--dmu-muted); font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; border-bottom: 1px solid var(--dmu-line); }
+.table td { vertical-align: middle; }
+.accordion-item { border: 1px solid var(--dmu-line) !important; border-radius: 12px !important; margin-bottom: .6rem; overflow: hidden; }
+.accordion-button { font-weight: 600; }
+.accordion-button:not(.collapsed) { background: #eef3f9; color: var(--dmu-navy); box-shadow: none; }
+.badge { font-weight: 600; border-radius: 999px; padding: .35em .7em; }
+.page-link { color: var(--dmu-navy); }
+.page-item.active .page-link { background: var(--dmu-navy); border-color: var(--dmu-navy); }
+.app-footer { border-top: 1px solid var(--dmu-line); color: var(--dmu-muted); font-size: .85rem; }
+.applications-wrap .status-form { min-width: 250px; }
+.card .stat-value { font-size: 1.7rem; font-weight: 800; line-height: 1.1; }
+a.card:hover { border-color: var(--dmu-navy); }
