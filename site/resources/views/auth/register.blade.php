@@ -281,7 +281,7 @@
           <ul class="list-unstyled small">
             <li class="mb-2"><i class="bi bi-question-circle-fill me-2 text-jmu-primary"></i> <a href="#" class="text-decoration-none text-secondary"><span data-i18n="register.reg_guide">Registration Guide</span></a></li>
             <li class="mb-2"><i class="bi bi-file-earmark-text-fill me-2 text-jmu-primary"></i> <a href="#" class="text-decoration-none text-secondary"><span data-i18n="register.required_docs">Required Documents</span></a></li>
-            <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-jmu-primary"></i> <span data-i18n="register.admissions_phone">Admissions Office: +86 176 4041 2827</span></li>
+            <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-jmu-primary"></i> <span data-i18n="register.admissions_phone">Admissions Office: +86 180 4156 6030</span></li>
             <li><i class="bi bi-envelope-fill me-2 text-jmu-primary"></i>  admissions@dmu.cas.moe</li>
           </ul>
         </div>

@@ -273,7 +273,7 @@ window.sendViaWhatsApp = function() {
     whatsappMessage += `*📅 Submitted:* ${new Date().toLocaleString()}%0A`;
     whatsappMessage += `*🌐 Source:* DMU Website Contact Form`;
 
-    const whatsappNumber = '8617640412827'; // DMU Admissions WhatsApp
+    const whatsappNumber = '8618041566030'; // DMU Admissions WhatsApp
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
     
     // Open WhatsApp in new tab

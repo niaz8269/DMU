@@ -148,7 +148,7 @@
             <p>Start your application to Dalian Medical University or reach our counsellors for guidance on requirements and documents.</p>
             <div class="d-flex flex-wrap gap-3 justify-content-center">
                 <a href="{{ get_absolute_url('login') }}" class="ds-btn ds-btn--lg" style="background:#fff;color:var(--ds-red)!important">Apply Now</a>
-                <a href="https://wa.me/+8617640412827" target="_blank" rel="noopener noreferrer" class="ds-btn ds-btn--ghost-light ds-btn--lg">
+                <a href="https://wa.me/+8618041566030" target="_blank" rel="noopener noreferrer" class="ds-btn ds-btn--ghost-light ds-btn--lg">
                     <i class="fab fa-whatsapp"></i> Chat on WhatsApp
                 </a>
             </div>

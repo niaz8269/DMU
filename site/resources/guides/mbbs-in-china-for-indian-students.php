@@ -178,7 +178,7 @@ return [
         ], 'img' => ['src' => 'assets/images/dmu/dalian-city-view.webp', 'alt' => 'Aerial view of the centre of Dalian city', 'caption' => 'Dalian city centre from the air.']],
 
         ['id' => 'contact', 'eyebrow' => 'Next step', 'h' => 'Speak to admissions', 'p' => [
-            "Write to admissions@dmu.cas.moe or info@dmu.cas.moe, or use WhatsApp: Dr Ayaz for consultation on +86 176 4041 2827 and Kami for admissions on +86 156 7775 1526. DMU's own office can be reached on +86-411-86110202 or at dmunewstudent@163.com, between 08:30 and 11:30 and between 13:20 and 16:30 Beijing time.",
+            "Write to admissions@dmu.cas.moe or info@dmu.cas.moe, or use WhatsApp with Kami on +86 180 4156 6030. DMU's own office can be reached on +86-411-86110202 or at dmunewstudent@163.com, between 08:30 and 11:30 and between 13:20 and 16:30 Beijing time.",
             "Send your marks, your intended intake and your questions about NEET and NMC. We will tell you what DMU has published, and we will point you to the regulator for the rest.",
         ]],
     ],

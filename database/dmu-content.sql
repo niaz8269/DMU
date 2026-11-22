@@ -46,9 +46,9 @@ INSERT INTO gallery (title, category, image_path, sort_order, is_published) VALU
 ('Dalian city centre','city','assets/images/dmu/dalian-city-view.webp',10,1);
 
 -- ---------- consultants ----------
-UPDATE consultants SET name='Dr. Ayaz', role='Admissions Consultant (consultation)', whatsapp='+8617640412827', email='info@dmu.cas.moe', wechat=NULL,
+UPDATE consultants SET name='Dr. Ayaz', role='Admissions Consultant (consultation)', whatsapp=NULL, email='info@dmu.cas.moe', wechat=NULL,
   photo='images/avatar.svg', qr_image='images/drayazqr.jpg' WHERE id=4;
-UPDATE consultants SET name='Kami', role='Admissions Consultant', whatsapp='+8615677751526', email='admissions@dmu.cas.moe', wechat=NULL,
+UPDATE consultants SET name='Kami', role='Admissions Consultant', whatsapp='+8618041566030', email='admissions@dmu.cas.moe', wechat=NULL,
   photo='images/avatar.svg', qr_image='images/kamiqr.jpeg' WHERE id=5;
 UPDATE consultants SET name='General Inquiry', role='CAS Admissions Support', whatsapp=NULL, email='info@dmu.cas.moe', wechat=NULL,
   photo='images/logo.png', qr_image='images/wechat.png' WHERE id=6;
@@ -101,10 +101,10 @@ UPDATE site_settings SET setting_value = CASE setting_key
  WHEN 'site_name' THEN 'Dalian Medical University'
  WHEN 'hero_headline' THEN 'Study MBBS in China at Dalian Medical University'
  WHEN 'hero_subtext' THEN 'MOE-listed, English-taught MBBS in Dalian, Liaoning, with published fees and a clear way to apply.'
- WHEN 'contact_phone' THEN '+8615677751526'
- WHEN 'contact_phone2' THEN '+8617640412827'
- WHEN 'contact_phone_pk' THEN '+8615677751526'
- WHEN 'contact_whatsapp' THEN '+8617640412827'
+ WHEN 'contact_phone' THEN '+8618041566030'
+ WHEN 'contact_phone2' THEN '+8618041566030'
+ WHEN 'contact_phone_pk' THEN ''
+ WHEN 'contact_whatsapp' THEN '+8618041566030'
  WHEN 'contact_email' THEN 'info@dmu.cas.moe'
  WHEN 'admissions_email' THEN 'admissions@dmu.cas.moe'
  WHEN 'support_email' THEN 'info@dmu.cas.moe'
