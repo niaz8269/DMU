@@ -251,38 +251,12 @@
   <footer class="pt-4 bg-white border-top border-3 border-jmu-primary">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mb-4">
-          <div class="fw-bold pb-2 mb-4 fs-5 text-jmu-primary border-bottom border-success border-opacity-50"><span data-i18n="register.news_title">News and Updates</span></div>
-          
-          <div class="d-flex align-items-start mb-3">
-            <div class="news-date me-3 bg-jmu-primary text-white rounded d-flex flex-column justify-content-center align-items-center">
-              <span class="fw-bold small">February. 10</span>
-              <span style="font-size: 0.8rem;">2026</span>
-            </div>
-            <div class="pt-1 lh-base">
-              <strong>Welcome to Dalian Medical University International Students CAS.</strong>
-              <p class="small text-muted mt-1 mb-0">Our new platform streamlines the application process for international students worldwide.</p>
-            </div>
-          </div>
-          
-          <div class="d-flex align-items-start mb-3">
-            <div class="news-date me-3 bg-jmu-primary text-white rounded d-flex flex-column justify-content-center align-items-center">
-              <span class="fw-bold small">February. 05</span>
-              <span style="font-size: 0.8rem;">2026</span>
-            </div>
-            <div class="pt-1 lh-base">
-              <strong>2027 Intake Now Open</strong>
-              <p class="small text-muted mt-1 mb-0">Applications for the 2027 academic year are now being accepted through the CAS portal.</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 mb-4">
+        <div class="col-lg-6 mx-auto mb-4">
           <div class="fw-bold pb-2 mb-4 fs-5 text-jmu-primary border-bottom border-success border-opacity-50"><span data-i18n="register.need_help">Need Help?</span></div>
           <ul class="list-unstyled small">
             <li class="mb-2"><i class="bi bi-question-circle-fill me-2 text-jmu-primary"></i> <a href="#" class="text-decoration-none text-secondary"><span data-i18n="register.reg_guide">Registration Guide</span></a></li>
             <li class="mb-2"><i class="bi bi-file-earmark-text-fill me-2 text-jmu-primary"></i> <a href="#" class="text-decoration-none text-secondary"><span data-i18n="register.required_docs">Required Documents</span></a></li>
-            <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-jmu-primary"></i> <span data-i18n="register.admissions_phone">Admissions Office: +86 176 4041 2827</span></li>
+            <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-jmu-primary"></i> <span data-i18n="register.admissions_phone">Admissions Office: +86 180 4156 6030</span></li>
             <li><i class="bi bi-envelope-fill me-2 text-jmu-primary"></i>  admissions@dmu.cas.moe</li>
           </ul>
         </div>
