@@ -101,6 +101,31 @@ function initHeaderScroll() {
     const mobileMenuPanel = document.querySelector('.mobile-menu-panel');
 
     if (topHeader && brandBar && logo) {
+        // Reserve the header's space while it is fixed, so the page content does not jump (layout shift / CLS).
+        const spacer = document.createElement('div');
+        spacer.id = 'hdrSpacer'; spacer.setAttribute('aria-hidden', 'true'); spacer.style.height = '0px';
+        brandBar.parentNode.insertBefore(spacer, brandBar);
+        const fixOn = function () {
+            if (!brandBar.classList.contains('fixed')) {
+                const navH = (mainNavbar && getComputedStyle(mainNavbar).display !== 'none') ? mainNavbar.offsetHeight : 0;
+                spacer.style.height = (brandBar.offsetHeight + navH) + 'px';
+                brandBar.classList.add('fixed');
+            }
+        };
+        const fixOff = function () { brandBar.classList.remove('fixed'); spacer.style.height = '0px'; };
+        // After every scroll step, make the first content block sit exactly where it sat before the header became fixed.
+        const anchor = mainNavbar ? mainNavbar.nextElementSibling : null;
+        let baseTop = null;
+        const rebalance = function () {
+            if (!anchor) { return; }
+            const top = anchor.getBoundingClientRect().top + (window.pageYOffset || 0);
+            if (!brandBar.classList.contains('fixed')) { baseTop = top; return; }
+            if (baseTop === null) { return; }
+            const diff = baseTop - top;
+            if (Math.abs(diff) > 0.5) {
+                spacer.style.height = Math.max(0, (parseFloat(spacer.style.height) || 0) + diff) + 'px';
+            }
+        };
         let lastScrollTop = 0;
 
         window.addEventListener('scroll', function() {
@@ -117,7 +142,7 @@ function initHeaderScroll() {
 
                 // Fix brand bar to top
                 if (scrollTop > 150) {
-                    brandBar.classList.add('fixed');
+                    fixOn();
                     if (logo) logo.classList.add('small');
 
                     // Move nav links to brand bar on larger screens
@@ -130,7 +155,7 @@ function initHeaderScroll() {
                         }
                     }
                 } else {
-                    brandBar.classList.remove('fixed');
+                    fixOff();
                     if (logo) logo.classList.remove('small');
                     if (window.innerWidth > 992 && mainNavbar && navInBrand) {
                         mainNavbar.style.display = '';
@@ -139,7 +164,7 @@ function initHeaderScroll() {
                 }
             } else {
                 topHeader.classList.remove('hide');
-                brandBar.classList.remove('fixed');
+                fixOff();
                 if (logo) logo.classList.remove('small');
                 if (window.innerWidth > 992 && mainNavbar && navInBrand) {
                     mainNavbar.style.display = '';
@@ -147,6 +172,7 @@ function initHeaderScroll() {
                 }
             }
 
+            rebalance();
             lastScrollTop = scrollTop;
         });
         
@@ -154,7 +180,7 @@ function initHeaderScroll() {
         if (window.pageYOffset > 100) {
             topHeader.classList.add('hide');
             if (window.pageYOffset > 150) {
-                brandBar.classList.add('fixed');
+                fixOn();
                 if (logo) logo.classList.add('small');
             }
         }

@@ -115,7 +115,7 @@
 <!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Global JS -->
-<script src="{!! get_absolute_url('js/global.js') !!}"></script>
+<script src="{!! get_js_url('js/global.js') !!}"></script>
 
 <!-- Auto-link the brand name "Dalian Medical University" to dmu.cas.moe (visible text only) -->
 <script>
