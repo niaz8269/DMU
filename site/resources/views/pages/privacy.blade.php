@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="legal-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2" data-i18n="privacy.eyebrow">Legal</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3" data-i18n="privacy.eyebrow">Legal</span>
         <h1 data-i18n="privacy.page_title">Privacy Policy</h1>
         <p data-i18n="privacy.lead">Dalian Medical University values your privacy. This page explains how we collect, use, and protect personal information submitted through this website.</p>
     </div>

@@ -7,9 +7,9 @@
     <section class="bp-hero">
         <div class="container">
             @if ($blog->is_featured)
-                <span class="ds-eyebrow" style="color:#ffd0d2">Featured</span>
+                <span class="ds-eyebrow" style="color:#cfe0f3">Featured</span>
             @else
-                <span class="ds-eyebrow" style="color:#ffd0d2">Blog</span>
+                <span class="ds-eyebrow" style="color:#cfe0f3">Blog</span>
             @endif
             <h1>{{ $blog->title }}</h1>
             @if ($published_date)

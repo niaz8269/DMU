@@ -16,7 +16,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="fees-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">2027 Fee Structure</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">2027 Fee Structure</span>
         <h1>MBBS Fees in China at Dalian Medical University</h1>
         <p>The published MBBS fees at Dalian Medical University: the first-year package, the yearly fees from year two, and what each one covers.</p>
         <div class="home-hero__trust">

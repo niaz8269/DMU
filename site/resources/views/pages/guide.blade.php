@@ -32,7 +32,7 @@
 <section class="mbbs-hero">
     <div class="mbbs-hero__bg" role="img" aria-label="Dalian Medical University campus"></div>
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">{{ $guide['eyebrow'] }}</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">{{ $guide['eyebrow'] }}</span>
         <h1>{{ $guide['h1'] }}</h1>
         <p class="mbbs-hero__lead">{{ $guide['lead'] }}</p>
         <div class="mbbs-hero__cta">

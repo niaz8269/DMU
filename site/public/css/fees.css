@@ -15,7 +15,7 @@
 .fees-hero p { color:#c3d2e6; max-width: 640px; margin: 0 0 1.4rem; font-size: 1.08rem; line-height: 1.65; }
 .fees-hero .home-hero__trust { justify-content: center; }
 .fees-hero .ds-pill { background: rgba(255,255,255,.1); color:#eaf1f9; border:1px solid rgba(255,255,255,.16); }
-.fees-hero .ds-pill i { color:#ffd0d2; }
+.fees-hero .ds-pill i { color:#cfe0f3; }
 
 /* ---------- breadcrumb ---------- */
 .fees-crumb { font-size:.85rem; color: var(--ds-muted); padding: 1rem 0 0; }

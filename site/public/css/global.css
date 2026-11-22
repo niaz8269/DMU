@@ -1,7 +1,7 @@
 /* Global CSS for Dalian Medical University */
 :root {
-    --primary-color: #e72128;
-    --secondary-color: #cc0000;
+    --primary-color: #0f5fb0;
+    --secondary-color: #0b4a8c;
     --accent-color: #ffcc00;
     --light-bg: #f8f9fa;
     --dark-text: #333333;
@@ -1008,14 +1008,14 @@ body:has(.blog-post-page) {
    Modern navbar (Phase 2 redesign) — overrides the legacy header styles above.
    Loaded on every page via global.css so the nav is consistent site-wide.
    ========================================================================== */
-:root { --navy:#0b2a4a; --navy-600:#14487a; --ink:#16202e; --red-dark:#c81a20; }
+:root { --navy:#0b2a4a; --navy-600:#14487a; --ink:#16202e; --red-dark:#0b4a8c; }
 
 /* --- Utility top bar: logo red; cursive blinking "Welcome!" kept (see original rule below) --- */
 .top-header { background: var(--primary-color); padding: 8px 0; font-size: .82rem; }
 .top-header-content { font-size: .82rem; }
 .top-header-contact a { color:#fff !important; opacity: .92; transition: opacity .2s; }
 .top-header-contact a:hover { opacity: 1; text-decoration: underline; }
-.social-icons a:hover { color: #ff5259; }
+.social-icons a:hover { color: #6fb1ee; }
 
 /* --- Brand bar --- */
 .brand-bar { padding: 12px 0; box-shadow: 0 1px 0 rgba(0,0,0,.06); }
@@ -1144,7 +1144,7 @@ body:has(.blog-post-page) {
     font-weight: 700;
     letter-spacing: .01em;
     white-space: nowrap;
-    box-shadow: 0 6px 16px rgba(230,33,41,.22);
+    box-shadow: 0 6px 16px rgba(15,95,176,.22);
     transition: background .2s ease, transform .2s ease;
 }
 .apply-now-btn:hover { background: var(--red-dark); color: #fff !important; text-decoration: none !important; transform: translateY(-1px); }
@@ -1207,7 +1207,7 @@ body:has(.blog-post-page) {
     transition: background .2s ease, transform .2s ease;
 }
 #partnerWidget:hover {
-    background: var(--red-dark, #c81a20);
+    background: var(--red-dark, #0b4a8c);
     color: #fff !important;
     transform: translateY(-50%) scale(1.09) !important;   /* scale on hover */
 }
@@ -1235,7 +1235,7 @@ body:has(.blog-post-page) {
     transition: transform .2s ease, background .2s ease;
 }
 .chatw__launcher i { font-size: 1.25rem; }
-.chatw__launcher:hover { background: var(--red-dark, #c81a20); transform: scale(1.04); }
+.chatw__launcher:hover { background: var(--red-dark, #0b4a8c); transform: scale(1.04); }
 
 .chatw__panel {
     position: absolute; left: 0; bottom: calc(100% + .9rem);

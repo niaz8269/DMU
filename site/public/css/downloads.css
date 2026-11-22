@@ -31,7 +31,7 @@
     display: flex; align-items: center; justify-content: center;
     margin-bottom: 1.1rem; font-size: 1.4rem; color: #fff;
 }
-.pdf-icon { background: #e0524b; }
+.pdf-icon { background: #0b4a8c; }
 .doc-icon { background: #2f6fb0; }
 .excel-icon { background: #2ba566; }
 .zip-icon { background: #d99411; }

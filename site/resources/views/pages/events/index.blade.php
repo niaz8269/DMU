@@ -3,7 +3,7 @@
     <div class="events-page">
         <section class="events-hero">
             <div class="container">
-                <span class="ds-eyebrow" style="color:#ffd0d2">Campus Life</span>
+                <span class="ds-eyebrow" style="color:#cfe0f3">Campus Life</span>
                 <h1 data-i18n="events.hero_title">News &amp; Events</h1>
                 <p data-i18n="events.hero_desc">Latest campus events, webinars, and news from Dalian Medical University.</p>
             </div>

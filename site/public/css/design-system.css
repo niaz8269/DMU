@@ -16,9 +16,9 @@
     --ds-navy-700:    #0e3559;
     --ds-navy-600:    #14487a;
     --ds-navy-050:    #eef3f9;
-    --ds-red:         #e62129;   /* accent — DMU red / primary CTA */
-    --ds-red-600:     #c81a20;
-    --ds-red-050:     #fdecec;
+    --ds-red:         #0f5fb0;   /* accent — DMU red / primary CTA */
+    --ds-red-600:     #0b4a8c;
+    --ds-red-050:     #e8f1fb;
     --ds-gold:        #f2b705;   /* small trust accents (stars, highlights) */
 
     /* ---- Neutrals ---- */
@@ -94,7 +94,7 @@ body.ds-page {
     color: var(--ds-red);
     margin-bottom: .6rem;
 }
-.ds-section--navy .ds-eyebrow { color: #ffd0d2; }
+.ds-section--navy .ds-eyebrow { color: #cfe0f3; }
 
 .ds-title {
     font-size: clamp(1.7rem, 3.2vw, 2.5rem);
@@ -133,8 +133,8 @@ body.ds-page {
 .ds-btn--lg { padding: 1rem 2rem; font-size: 1.05rem; }
 .ds-btn--block { width: 100%; }
 
-.ds-btn--primary { background: var(--ds-red); color: #fff !important; box-shadow: 0 8px 20px rgba(230,33,41,.28); }
-.ds-btn--primary:hover { background: var(--ds-red-600); transform: translateY(-2px); box-shadow: 0 12px 26px rgba(230,33,41,.34); color:#fff !important; }
+.ds-btn--primary { background: var(--ds-red); color: #fff !important; box-shadow: 0 8px 20px rgba(15,95,176,.28); }
+.ds-btn--primary:hover { background: var(--ds-red-600); transform: translateY(-2px); box-shadow: 0 12px 26px rgba(15,95,176,.34); color:#fff !important; }
 
 .ds-btn--navy { background: var(--ds-navy); color: #fff !important; }
 .ds-btn--navy:hover { background: var(--ds-navy-600); transform: translateY(-2px); color:#fff !important; }

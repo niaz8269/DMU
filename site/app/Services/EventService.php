@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Schema;
 /** Queries and presentation helpers for the public events pages (events, event). */
 class EventService
 {
-    private const PLACEHOLDER_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#e72128"/><stop offset="100%" style="stop-color:#cc0000"/></linearGradient></defs><rect width="400" height="250" fill="url(#g)"/><text x="200" y="130" fill="white" text-anchor="middle" font-size="18" font-family="sans-serif">Event</text></svg>';
+    private const PLACEHOLDER_SVG = '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0f5fb0"/><stop offset="100%" style="stop-color:#0b4a8c"/></linearGradient></defs><rect width="400" height="250" fill="url(#g)"/><text x="200" y="130" fill="white" text-anchor="middle" font-size="18" font-family="sans-serif">Event</text></svg>';
 
     public function tableExists(): bool
     {

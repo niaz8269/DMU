@@ -13,7 +13,7 @@
     <p><strong>Message from the admissions office</strong></p>
     <p style="background: #f5f8fc; border-left: 4px solid #0b2a4a; padding: 10px 14px;">{{ $remark }}</p>
   @endif
-  <p><a href="{{ $portalUrl }}" style="display: inline-block; background: #e62129; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;">Open the applicant portal</a></p>
+  <p><a href="{{ $portalUrl }}" style="display: inline-block; background: #0f5fb0; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;">Open the applicant portal</a></p>
   <p>If you have a question, reply to this email or contact the admissions office.</p>
   <p>Kind regards,<br>International Students Admissions<br>Dalian Medical University</p>
 </div>

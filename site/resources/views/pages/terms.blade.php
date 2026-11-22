@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="legal-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2" data-i18n="terms.eyebrow">Legal</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3" data-i18n="terms.eyebrow">Legal</span>
         <h1 data-i18n="terms.page_title">Terms of Use</h1>
         <p data-i18n="terms.lead">By using this website, you agree to these terms and applicable laws related to admissions content and services.</p>
     </div>

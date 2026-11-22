@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="partner-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2" data-i18n="partner.eyebrow">Partner Program</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3" data-i18n="partner.eyebrow">Partner Program</span>
         <h1 data-i18n="partner.page_title">Why partner with Dalian Medical University</h1>
         <p data-i18n="partner.hero_sub">Join our global network of agencies and consultants recruiting international students for MBBS programs in China.</p>
     </div>

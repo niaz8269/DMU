@@ -5,7 +5,7 @@
         <!-- Hero Section -->
         <section class="blog-hero">
             <div class="container">
-                <span class="ds-eyebrow" style="color:#ffd0d2">Insights &amp; Stories</span>
+                <span class="ds-eyebrow" style="color:#cfe0f3">Insights &amp; Stories</span>
                 <h1 data-i18n="blogs.hero_title">DMU Blog</h1>
                 <p data-i18n="blogs.hero_desc">Welcome to Dalian Medical University's official blog. Stay updated with the latest news, announcements, student life, campus events, and everything you need to know about studying MBBS in China.</p>
             </div>

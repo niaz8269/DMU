@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="schol-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">Funding</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">Funding</span>
         <h1 data-i18n="scholarships.page_title">Scholarships at Dalian Medical University</h1>
         <p data-i18n="scholarships.lead_desc">Explore various scholarship opportunities to support your education.</p>
     </div>

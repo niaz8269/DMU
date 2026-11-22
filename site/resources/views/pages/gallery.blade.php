@@ -244,7 +244,7 @@
             }
             
             .close-modal:hover {
-                background: #cc0000;
+                background: #0b4a8c;
                 transform: rotate(90deg);
             }
             

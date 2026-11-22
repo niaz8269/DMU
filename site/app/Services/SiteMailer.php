@@ -114,7 +114,7 @@ class SiteMailer
             <p>We received a request to reset your password.</p>
             <p style='margin: 30px 0;'>
                 <a href='$resetUrl'
-                   style='background-color: #e62129; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
+                   style='background-color: #0f5fb0; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; display: inline-block;'>
                     Reset Password
                 </a>
             </p>

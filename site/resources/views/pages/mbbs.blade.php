@@ -19,7 +19,7 @@
 <section class="mbbs-hero">
     <div class="mbbs-hero__bg" role="img" aria-label="Dalian Medical University campus"></div>
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">{{ $t['mbbs_hero_eyebrow'] }}</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">{{ $t['mbbs_hero_eyebrow'] }}</span>
         <h1>{{ $t['mbbs_hero_title'] }}</h1>
         <p class="mbbs-hero__lead">{{ $t['mbbs_hero_subtitle'] }}</p>
         <div class="mbbs-hero__cta">

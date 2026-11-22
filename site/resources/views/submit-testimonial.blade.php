@@ -3,7 +3,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="contact-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">Testimonials</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">Testimonials</span>
         <h1>Share your DMU experience</h1>
         <p>Are you a current student or graduate of Dalian Medical University? Tell us about your journey — your testimonial may be featured on our website.</p>
     </div>

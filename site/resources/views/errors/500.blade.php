@@ -9,9 +9,9 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f8f9fa; color: #222; }
     .card { max-width: 560px; background: #fff; border: 1px solid #e9ecef; padding: 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); text-align: center; }
-    h1 { margin: 0 0 12px; color: #E62129; }
+    h1 { margin: 0 0 12px; color: #0f5fb0; }
     p { margin: 0 0 16px; line-height: 1.5; }
-    a { color: #E62129; text-decoration: none; font-weight: 700; }
+    a { color: #0f5fb0; text-decoration: none; font-weight: 700; }
   </style>
 </head>
 <body>

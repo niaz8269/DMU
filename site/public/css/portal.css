@@ -1,9 +1,9 @@
 /* Applicant portal (dashboard, profile, application form). Uses the site's brand colours. */
 :root {
-  --p-navy: #0b2a4a; --p-navy-050: #eef3f9; --p-red: #e62129; --p-red-600: #c81a20;
+  --p-navy: #0b2a4a; --p-navy-050: #eef3f9; --p-red: #0f5fb0; --p-red-600: #0b4a8c;
   --p-ink: #16202e; --p-body: #33404f; --p-muted: #667085; --p-line: #e4e8ee; --p-bg: #f5f8fc;
   --p-green: #15803d; --p-green-050: #e8f6ee; --p-amber: #b45309; --p-amber-050: #fdf3e2;
-  --jmu-primary: #e62129; --jmu-secondary: #e62129;
+  --jmu-primary: #0f5fb0; --jmu-secondary: #0f5fb0;
 }
 body.portal { font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--p-bg); color: var(--p-body); }
 .portal h1, .portal h2, .portal h3 { font-family: 'Manrope', 'Inter', 'Segoe UI', sans-serif; color: var(--p-ink); letter-spacing: -.01em; }

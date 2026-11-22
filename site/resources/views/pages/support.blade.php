@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="support-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2" data-i18n="support.eyebrow">Student Support</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3" data-i18n="support.eyebrow">Student Support</span>
         <h1 data-i18n="support.page_title">Dedicated Support for International Students</h1>
         <p data-i18n="support.hero_sub">Academic guidance, health services, visa assistance, and language support to help you thrive at Dalian Medical University.</p>
     </div>

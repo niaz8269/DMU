@@ -90,7 +90,7 @@
             </div>
           </div>
           <div class="text-end mt-4">
-            <button type="submit" class="btn text-white" style="background-color: #E62129;">Save</button>
+            <button type="submit" class="btn text-white" style="background-color: #0f5fb0;">Save</button>
           </div>
         </form>
 
@@ -257,7 +257,7 @@
         
             <div id="personalSaveMsg" class="alert small" style="display: none;"></div>
             <div class="text-end mt-4">
-                <button type="submit" class="btn text-white" style="background-color: #E62129;">Verify and Save</button>
+                <button type="submit" class="btn text-white" style="background-color: #0f5fb0;">Verify and Save</button>
             </div>
         </form>
         <hr>
@@ -399,7 +399,7 @@
        </div>
          <div id="educationSaveMsg" class="alert small" style="display: none;"></div>
          <div class="text-end mt-4">
-                <button type="submit" class="btn text-white" style="background-color: #E62129;">Verify and Save</button>
+                <button type="submit" class="btn text-white" style="background-color: #0f5fb0;">Verify and Save</button>
             </div>
        </form>
        <hr>
@@ -440,7 +440,7 @@
         
 
          <div class="text-end mt-2">
-          <button type="submit" class="btn text-white" style="background-color: #E62129;">Verify and Save</button>
+          <button type="submit" class="btn text-white" style="background-color: #0f5fb0;">Verify and Save</button>
       </div>
         </form>
       <hr>
@@ -452,7 +452,7 @@
     <!-- Submit Button -->
     <div class="p-submit">
       <p id="applyMissing" class="p-note mb-2"></p>
-      <button id="submitApplicationBtn" type="button" class="btn btn-custom text-white" style="background-color: #E62129;">Submit Application</button>
+      <button id="submitApplicationBtn" type="button" class="btn btn-custom text-white" style="background-color: #0f5fb0;">Submit Application</button>
       <p class="p-note">After you submit, your application is locked and sent to the admissions office.</p>
     </div>
   </div>

@@ -1,9 +1,9 @@
 /* DMU admin panel tweaks on top of AdminLTE 4 */
-:root { --dmu-red: #E62129; }
+:root { --dmu-red: #0f5fb0; }
 
 .sidebar-brand .brand-link { color: #fff; }
 .app-sidebar .sidebar-menu .nav-link.active { background-color: var(--dmu-red); color: #fff; }
-.app-sidebar .nav-treeview .nav-link.active { background-color: rgba(230,33,41,.85); color:#fff; }
+.app-sidebar .nav-treeview .nav-link.active { background-color: rgba(15,95,176,.85); color:#fff; }
 
 /* Stat cards */
 .stat-card { border: 0; border-radius: .75rem; overflow: hidden; }
@@ -16,7 +16,7 @@
 .card { border: 0; border-radius: .75rem; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
 
 .btn-dmu { background: var(--dmu-red); color:#fff; }
-.btn-dmu:hover { background:#c41c23; color:#fff; }
+.btn-dmu:hover { background:#0b4a8c; color:#fff; }
 
 /* ---------- Brand refresh (22 Nov 2026): same navy, red and fonts as the public site and the applicant portal ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap');

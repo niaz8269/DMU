@@ -6,7 +6,7 @@
     <!-- Hero -->
     <section class="ev-hero">
         <div class="container">
-            <span class="ds-eyebrow" style="color:#ffd0d2">Event</span>
+            <span class="ds-eyebrow" style="color:#cfe0f3">Event</span>
             <h1>{{ $event->title }}</h1>
             @if (!empty($event->event_date))
             <p class="ev-meta">

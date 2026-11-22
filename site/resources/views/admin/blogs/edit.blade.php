@@ -27,7 +27,7 @@
         }
 
         .header h1 {
-            color: #e72128;
+            color: #0f5fb0;
             font-size: 2rem;
             margin-bottom: 10px;
         }
@@ -93,7 +93,7 @@
         }
 
         .form-group label .required {
-            color: #e72128;
+            color: #0f5fb0;
         }
 
         .form-group input[type="text"],
@@ -112,7 +112,7 @@
         .form-group select:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: #e72128;
+            border-color: #0f5fb0;
         }
 
         .form-group textarea {
@@ -145,14 +145,14 @@
         }
 
         .btn-primary {
-            background: #e72128;
+            background: #0f5fb0;
             color: white;
             padding: 15px 40px;
             font-size: 1.1rem;
         }
 
         .btn-primary:hover {
-            background: #cc0000;
+            background: #0b4a8c;
             transform: translateY(-2px);
         }
 

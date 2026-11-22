@@ -12,7 +12,7 @@
     <li>your school certificates and transcripts</li>
     <li>a study plan, a physical examination record and a non-criminal record report</li>
   </ul>
-  <p><a href="{{ $portalUrl }}" style="display: inline-block; background: #e62129; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;">{{ $registered ? 'Continue my application' : 'Start my application' }}</a></p>
+  <p><a href="{{ $portalUrl }}" style="display: inline-block; background: #0f5fb0; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;">{{ $registered ? 'Continue my application' : 'Start my application' }}</a></p>
   <p>If you have a question about fees, intakes or documents, reply to this email and our admissions team will help you.</p>
   <p>If you are no longer interested, reply and tell us, and we will not write again.</p>
   <p>Kind regards,<br>International Students Admissions<br>Dalian Medical University</p>

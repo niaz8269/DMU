@@ -125,7 +125,7 @@
     font-size: .9rem;
     font-weight: 700;
     text-decoration: none;
-    box-shadow: 0 8px 20px rgba(230,33,41,.28);
+    box-shadow: 0 8px 20px rgba(15,95,176,.28);
     transition: var(--ds-t);
 }
 .partner-wave .btn:hover { background: var(--ds-red-600); transform: translateY(-2px); }
@@ -218,7 +218,7 @@
     font-weight: 700;
     padding: .85rem 2.5rem;
     cursor: pointer;
-    box-shadow: 0 8px 20px rgba(230,33,41,.28);
+    box-shadow: 0 8px 20px rgba(15,95,176,.28);
     transition: var(--ds-t);
 }
 .partner-submit:hover:not(:disabled) { background: var(--ds-red-600); transform: translateY(-2px); }

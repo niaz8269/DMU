@@ -18,7 +18,7 @@
     .stat-number {
         font-size: 3rem;
         font-weight: 700;
-        color: #e72128;
+        color: #0f5fb0;
         margin-bottom: 10px;
     }
 

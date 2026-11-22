@@ -4,7 +4,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="hta-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">Admissions</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">Admissions</span>
         <h1>Dalian Medical University — How to Apply</h1>
         <p>Eligibility criteria, required documents and the full step-by-step application process for international MBBS students.</p>
     </div>

@@ -19,13 +19,13 @@
       background-color: #f8f9fa;
     }
     /* --- Custom Utility Classes for Branding --- */
-    .text-jmu-primary { color: #E62129 !important; }
-    .bg-jmu-primary { background-color: #E62129 !important; }
-    .text-jmu-secondary { color: #E62129 !important; }
+    .text-jmu-primary { color: #0f5fb0 !important; }
+    .bg-jmu-primary { background-color: #0f5fb0 !important; }
+    .text-jmu-secondary { color: #0f5fb0 !important; }
     
     /* Navbar specific overrides */
     .navbar {
-      border-bottom: 2px solid #E62129;
+      border-bottom: 2px solid #0f5fb0;
       min-height: 60px;
     }
     
@@ -46,20 +46,20 @@
 
     /* Form Styling Overrides */
     .form-control:focus {
-      border-color: #E62129;
+      border-color: #0f5fb0;
       box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);
     }
 
     .btn-jmu {
-      background-color: #E62129;
-      border-color: #E62129;
+      background-color: #0f5fb0;
+      border-color: #0f5fb0;
       color: white;
       font-weight: 600;
       transition: all 0.3s;
     }
     .btn-jmu:hover {
-      background-color: #E62129;
-      border-color: #E62129;
+      background-color: #0f5fb0;
+      border-color: #0f5fb0;
       color: white;
     }
 
@@ -71,7 +71,7 @@
       background-position: 0 0, 5px 5px;
       letter-spacing: 5px;
       font-family: 'Courier New', monospace;
-      color: #E62129;
+      color: #0f5fb0;
       cursor: pointer;
     }
 

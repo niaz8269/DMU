@@ -146,10 +146,10 @@
     <style>
     .dmu-lang-switcher{display:flex;align-items:center;gap:4px;margin-left:12px}
     .dmu-lang-btn{background:transparent;border:1px solid #ccc;color:#555;padding:3px 8px;font-size:11px;font-weight:700;cursor:pointer;border-radius:3px;transition:background .2s,color .2s,border-color .2s;line-height:1.5;letter-spacing:.4px}
-    .dmu-lang-btn:hover,.dmu-lang-btn.active{background:#e72128;color:#fff;border-color:#e72128}
+    .dmu-lang-btn:hover,.dmu-lang-btn.active{background:#0f5fb0;color:#fff;border-color:#0f5fb0}
     .dmu-lang-switcher-mobile{display:flex;gap:8px;padding:14px 20px;border-top:1px solid #eee;margin-top:8px}
     .dmu-lang-btn-mobile{flex:1;background:#f4f4f4;border:1px solid #ddd;color:#333;padding:9px 4px;font-size:13px;font-weight:600;cursor:pointer;border-radius:4px;transition:background .2s,color .2s,border-color .2s;text-align:center}
-    .dmu-lang-btn-mobile:hover,.dmu-lang-btn-mobile.active{background:#e72128;color:#fff;border-color:#e72128}
+    .dmu-lang-btn-mobile:hover,.dmu-lang-btn-mobile.active{background:#0f5fb0;color:#fff;border-color:#0f5fb0}
     </style>
 </head>
 <body{!! $siteHead['body_attr'] !!}>

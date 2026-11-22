@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="prog-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">Academics</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">Academics</span>
         <h1 data-i18n="programs.page_title">Medical Programs at Dalian Medical University</h1>
         <p>English-medium MBBS, Master's, Doctoral and other medical programs for international students — with duration, language and tuition at a glance.</p>
     </div>

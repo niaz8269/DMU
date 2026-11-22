@@ -9,7 +9,7 @@
     <li>You can check your status at any time in the applicant portal.</li>
   </ul>
   <p>You can also download a copy of your application from the portal for your records.</p>
-  <p><a href="{{ $portalUrl }}" style="display: inline-block; background: #e62129; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;">Open the applicant portal</a></p>
+  <p><a href="{{ $portalUrl }}" style="display: inline-block; background: #0f5fb0; color: #ffffff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold;">Open the applicant portal</a></p>
   <p>If you have a question, reply to this email or contact the admissions office.</p>
   <p>Kind regards,<br>International Students Admissions<br>Dalian Medical University</p>
 </div>

@@ -18,12 +18,12 @@
 		body {
 			background-color: #f8f9fa;
 		}
-		.text-jmu-primary { color: #E62129 !important; }
-		.bg-jmu-primary { background-color: #E62129 !important; }
-		.border-jmu-primary { border-color: #E62129 !important; }
+		.text-jmu-primary { color: #0f5fb0 !important; }
+		.bg-jmu-primary { background-color: #0f5fb0 !important; }
+		.border-jmu-primary { border-color: #0f5fb0 !important; }
     
 		.navbar {
-			border-bottom: 2px solid #E62129;
+			border-bottom: 2px solid #0f5fb0;
 			min-height: 60px;
 		}
 
@@ -63,20 +63,20 @@
 
 		/* Custom Form Styling */
 		.form-control:focus {
-			border-color: #E62129;
+			border-color: #0f5fb0;
 			box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);
 		}
 
-		.login-header-bg { background-color: #E62129; }
+		.login-header-bg { background-color: #0f5fb0; }
     
 		.login-btn {
-			background-color: #E62129;
+			background-color: #0f5fb0;
 			color: black;
 			font-weight: 600;
 			transition: all 0.3s ease;
 		}
 		.login-btn:hover {
-			background-color: #E62129;
+			background-color: #0f5fb0;
 			color: white;
 			transform: translateY(-2px);
 			box-shadow: 0 4px 12px rgba(0, 104, 55, 0.3);
@@ -91,7 +91,7 @@
 			letter-spacing: 5px;
 			cursor: pointer;
 			font-family: 'Courier New', monospace;
-			color: #E62129;
+			color: #0f5fb0;
 		}
 		.captcha-container:hover { transform: scale(1.05); }
 
@@ -331,7 +331,7 @@
 	<div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
-				<div class="modal-header text-white" style="background: linear-gradient(135deg, #E62129 0%, #E62129 100%);">
+				<div class="modal-header text-white" style="background: linear-gradient(135deg, #0f5fb0 0%, #0f5fb0 100%);">
 					<h5 class="modal-title fw-bold"><i class="bi bi-key me-2"></i> <span data-i18n="login.reset_title">Reset Password</span></h5>
 					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>

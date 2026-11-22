@@ -4,7 +4,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="contact-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">Contact</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">Contact</span>
         <h1 data-i18n="contact.page_title">Get in touch</h1>
         <p data-i18n="contact.subheading">Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
     </div>

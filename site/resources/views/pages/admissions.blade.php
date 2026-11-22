@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="adm-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">Admissions</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">Admissions</span>
         <h1 data-i18n="admissions.page_title">Admissions at Dalian Medical University</h1>
         <p>Requirements, application process, key dates and tuition for international students applying to DMU.</p>
     </div>

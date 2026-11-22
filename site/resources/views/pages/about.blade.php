@@ -5,7 +5,7 @@
 <!-- ===================== HERO ===================== -->
 <section class="about-hero">
     <div class="container">
-        <span class="ds-eyebrow" style="color:#ffd0d2">About Us</span>
+        <span class="ds-eyebrow" style="color:#cfe0f3">About Us</span>
         <h1 data-i18n="about.page_title">About Dalian Medical University</h1>
         <p>A public medical university in Dalian, China, since 1947 — combining teaching, research and clinical practice to train globally-minded healthcare professionals.</p>
     </div>
