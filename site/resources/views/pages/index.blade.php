@@ -292,37 +292,33 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
-<!-- ===================== CONTACT (WeChat / WhatsApp) ===================== -->
-<section class="dmu-contact">
+<!-- ===================== CONTACT (WhatsApp / WeChat) ===================== -->
+<section class="dmu-c2-wrap">
     <div class="container">
-        <div class="dmu-contact__head">
-            <span class="dmu-contact__eyebrow">CONTACT</span>
-            <h2>Talk to our admissions team</h2>
-        </div>
-        <div class="row g-4 justify-content-center">
-            <div class="col-md-6 col-lg-4">
-                <div class="dmu-contact__card">
-                    <span class="dmu-contact__tag"><i class="fab fa-weixin"></i> Admissions</span>
-                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="120" height="120"></div>
-                    <p class="dmu-contact__hint">Scan with WeChat</p>
-                </div>
+        <div class="dmu-c2">
+            <div class="dmu-c2__info">
+                <span class="dmu-c2__eyebrow">Contact</span>
+                <h2 class="dmu-c2__title">Talk to our admissions team</h2>
+                <ul class="dmu-c2__list">
+                    <li><a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">
+                        <span class="dmu-c2__icon dmu-c2__icon--wa"><i class="fab fa-whatsapp"></i></span>
+                        <span class="dmu-c2__text"><small>Admissions &middot; WhatsApp</small><b>+86 180 4156 6030</b></span>
+                        <i class="fas fa-arrow-right dmu-c2__go"></i></a></li>
+                    <li><a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">
+                        <span class="dmu-c2__icon dmu-c2__icon--wa"><i class="fab fa-whatsapp"></i></span>
+                        <span class="dmu-c2__text"><small>Consultation &middot; WhatsApp</small><b>+86 176 4041 2827</b></span>
+                        <i class="fas fa-arrow-right dmu-c2__go"></i></a></li>
+                    <li><a href="mailto:admissions@dmu.cas.moe">
+                        <span class="dmu-c2__icon"><i class="far fa-envelope"></i></span>
+                        <span class="dmu-c2__text"><small>Email</small><b>admissions@dmu.cas.moe</b></span>
+                        <i class="fas fa-arrow-right dmu-c2__go"></i></a></li>
+                </ul>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="dmu-contact__card">
-                    <span class="dmu-contact__tag"><i class="fab fa-weixin"></i> Consultation</span>
-                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="120" height="120"></div>
-                    <p class="dmu-contact__hint">Scan with WeChat</p>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-                <div class="dmu-contact__card dmu-contact__card--wa">
-                    <span class="dmu-contact__tag dmu-contact__tag--wa"><i class="fab fa-whatsapp"></i> WhatsApp</span>
-                    <a class="dmu-contact__btn dmu-contact__btn--wa" href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i><span><small>Consultation</small>+86 176 4041 2827</span></a>
-                    <a class="dmu-contact__btn dmu-contact__btn--wa" href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i><span><small>Admissions</small>+86 180 4156 6030</span></a>
-                    <a class="dmu-contact__btn dmu-contact__btn--mail" href="mailto:admissions@dmu.cas.moe">
-                        <i class="fas fa-envelope"></i><span><small>Email</small>admissions@dmu.cas.moe</span></a>
+            <div class="dmu-c2__qrs">
+                <span class="dmu-c2__qrtitle"><i class="fab fa-weixin"></i> WeChat</span>
+                <div class="dmu-c2__qrrow">
+                    <figure><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="112" height="112"><figcaption>Admissions</figcaption></figure>
+                    <figure><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="112" height="112"><figcaption>Consultation</figcaption></figure>
                 </div>
             </div>
         </div>
