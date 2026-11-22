@@ -162,8 +162,8 @@
                 <a href="#" data-i18n="header.admissions_label"> International Students Admissions: </a>
             </div>
             <div class="top-header-contact contact-a" style="display: flex; justify-content: left; align-items:center;">
-                @if ($siteTop['wa_cn'])<a href="https://wa.me/{!! $siteTop['wa_cn_digits'] !!}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp whatsapp"></i> {{ $siteTop['wa_cn'] }} (Dr Ayaz) </a>@endif
-                @if ($siteTop['wa_pk'])<a href="https://wa.me/{!! $siteTop['wa_pk_digits'] !!}" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-whatsapp whatsapp"></i> {{ $siteTop['wa_pk'] }} (Kami) </a>@endif
+                @if ($siteTop['wa_cn'])<a href="https://wa.me/{!! $siteTop['wa_cn_digits'] !!}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp whatsapp"></i> {{ $siteTop['wa_cn'] }} (consultation) </a>@endif
+                @if ($siteTop['wa_pk'])<a href="https://wa.me/{!! $siteTop['wa_pk_digits'] !!}" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-whatsapp whatsapp"></i> {{ $siteTop['wa_pk'] }} (admissions) </a>@endif
                 @if ($siteTop['email'])<a href="mailto:{{ $siteTop['email'] }}"><i class="fas fa-envelope"></i> {{ $siteTop['email'] }}</a>@endif
             </div>
             <div class="social-icons">

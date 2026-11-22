@@ -467,7 +467,7 @@
 </div> 
 
 <footer class="p-foot">
-  <p class="mb-1">Need help? WhatsApp Dr Ayaz {{ \App\Support\Settings::get('contact_phone2', '+86 176 4041 2827') }} / Kami {{ \App\Support\Settings::get('contact_phone_pk', '+86 180 4156 6030') }} &middot; {{ \App\Support\Settings::get('contact_email', 'admissions@dmu.cas.moe') }}</p>
+  <p class="mb-1">Need help? WhatsApp consultation {{ \App\Support\Settings::get('contact_phone2', '+86 176 4041 2827') }} / admissions {{ \App\Support\Settings::get('contact_phone_pk', '+86 180 4156 6030') }} &middot; {{ \App\Support\Settings::get('contact_email', 'admissions@dmu.cas.moe') }}</p>
   <p class="mb-0">{{ \App\Support\Cms::portal('copyright') }} International Students Admissions.</p>
 </footer>
 

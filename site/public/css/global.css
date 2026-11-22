@@ -1398,3 +1398,30 @@ iframe[src=""] { display: none !important; }
 .main-navbar { background: var(--dmu-blue); border-top: 0; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
 .main-navbar .nav-links > li > a, .main-navbar .nav-links > li > .nav-link, .main-navbar .nav-links > li > .nav-dd-toggle { color: #fff !important; font-weight: 600; }
 .main-navbar .nav-links > li > a:hover, .main-navbar .nav-links > li > .nav-link:hover, .main-navbar .nav-links > li > .nav-dd-toggle:hover { background: rgba(255,255,255,.16); color: #fff !important; }
+
+/* ================= Responsive safety net (phones to 32-inch screens) ================= */
+html { -webkit-text-size-adjust: 100%; }
+body { overflow-x: clip; }
+img, video, iframe, svg { max-width: 100%; }
+table { max-width: 100%; }
+.table-responsive, .page-section-body { overflow-x: auto; }
+@media (max-width: 767.98px) {
+    /* Bootstrap g-5 gutters (3rem) pushed rows 13px past the 12px container padding on phones */
+    .row.g-5, .row.gx-5 { --bs-gutter-x: 1.5rem; }
+    .row.g-4, .row.gx-4 { --bs-gutter-x: 1.5rem; }
+}
+@media (min-width: 1600px) { .container { max-width: 1480px; } }
+@media (min-width: 2200px) { html { font-size: 18px; } .container { max-width: 1800px; } }
+@media (min-width: 3000px) { html { font-size: 22px; } .container { max-width: 2200px; } }
+.ds-btn.ds-btn { max-width: 100%; white-space: normal; text-align: center; line-height: 1.25; }
+@media (max-width: 575.98px) {
+    .ds-btn.ds-btn { padding: .8rem 1.15rem; }
+    .ds-btn.ds-btn--lg { padding: .9rem 1.3rem; font-size: 1rem; }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .row.g-5, .row.gx-5 { --bs-gutter-x: 1.5rem; }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-navbar .nav-links > li > a, .main-navbar .nav-links > li > .nav-link, .main-navbar .nav-links > li > .nav-dd-toggle { padding-left: .55rem !important; padding-right: .55rem !important; font-size: .86rem; }
+    .brand-bar .brand-actions { gap: .4rem; }
+}

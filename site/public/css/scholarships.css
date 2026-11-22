@@ -89,3 +89,8 @@
         text-align: left; flex: 0 0 auto;
     }
 }
+
+/* responsive: long cells wrap, wide tables scroll inside their box */
+.schol-table-wrap { overflow-x: auto; }
+.schol-table td, .schol-table th { overflow-wrap: anywhere; word-break: break-word; }
+@media (max-width: 575.98px) { .schol-table td, .schol-table th { padding-left: .5rem; padding-right: .5rem; } }

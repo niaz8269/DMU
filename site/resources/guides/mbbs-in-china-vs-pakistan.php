@@ -179,7 +179,7 @@ return [
         ]],
 
         ['id' => 'next', 'eyebrow' => 'Talk to us', 'h' => 'When you are ready to ask DMU questions', 'p' => [
-            "You can reach CAS at admissions@dmu.cas.moe or info@dmu.cas.moe. On WhatsApp, Dr Ayaz handles consultation at +86 176 4041 2827 and Kami handles admissions at +86 180 4156 6030. DMU's own admissions office can be called on +86-411-86110202, or emailed at dmunewstudent@163.com, from 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
+            "You can reach CAS at admissions@dmu.cas.moe or info@dmu.cas.moe. On WhatsApp, consultation is at +86 176 4041 2827 and admissions at +86 180 4156 6030. DMU's own admissions office can be called on +86-411-86110202, or emailed at dmunewstudent@163.com, from 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
             "If after reading this you conclude that a Pakistani private college is the right choice for your family, that is a legitimate outcome, and we would rather you chose it with open eyes than apply to us without them.",
         ], 'img' => ['src' => 'assets/images/dmu/dalian-city-view.webp', 'alt' => 'Aerial view of the centre of Dalian city', 'caption' => 'Dalian city centre from above.']],
     ],

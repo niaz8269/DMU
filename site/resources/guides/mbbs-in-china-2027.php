@@ -140,7 +140,7 @@ return [
         ]],
 
         ['id' => 'contacts', 'eyebrow' => 'Contact', 'h' => 'Who to ask', 'p' => [
-            "CAS can be reached at admissions@dmu.cas.moe or info@dmu.cas.moe, and by WhatsApp: Dr Ayaz on +86 176 4041 2827 for consultation and Kami on +86 180 4156 6030 for admissions. The university's own admissions office is on +86-411-86110202 or dmunewstudent@163.com, open 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
+            "CAS can be reached at admissions@dmu.cas.moe or info@dmu.cas.moe, and by WhatsApp on +86 176 4041 2827 for consultation or +86 180 4156 6030 for admissions. The university's own admissions office is on +86-411-86110202 or dmunewstudent@163.com, open 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The Dalian Medical University library building with its sign at the entrance', 'caption' => 'The library building on campus.']],
     ],
     'faqs' => [

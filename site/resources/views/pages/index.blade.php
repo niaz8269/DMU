@@ -301,11 +301,11 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <div class="row g-4 align-items-stretch">
             <div class="col-md-4"><div class="dmu-matrix__card"><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy"><b>Admissions</b><small>Scan with WeChat</small></div></div>
-            <div class="col-md-4"><div class="dmu-matrix__card"><img src="{{ get_absolute_url('images/drayazqr.jpg') }}" alt="WeChat QR code for consultation" loading="lazy"><b>Consultation</b><small>Scan with WeChat</small></div></div>
+            <div class="col-md-4"><div class="dmu-matrix__card"><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy"><b>Consultation</b><small>Scan with WeChat</small></div></div>
             <div class="col-md-4"><div class="dmu-matrix__card dmu-matrix__card--wa">
                 <i class="fab fa-whatsapp"></i><b>WhatsApp</b>
-                <a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827 (Dr Ayaz)</a>
-                <a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030 (Kami)</a>
+                <a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827 (consultation)</a>
+                <a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030 (admissions)</a>
                 <a href="mailto:admissions@dmu.cas.moe">admissions@dmu.cas.moe</a>
             </div></div>
         </div>

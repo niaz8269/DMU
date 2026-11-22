@@ -92,6 +92,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/portal-auth.css?v=2">
+<style>@media (max-width:1199.98px){.row.g-5,.row.gx-5,.row.g-4,.row.gx-4{--bs-gutter-x:1.5rem}} body{overflow-x:clip}</style>
 </head>
 <body class="d-flex flex-column min-vh-100 portal-auth">
 

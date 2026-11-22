@@ -152,7 +152,7 @@ return [
         ]],
 
         ['id' => 'contact', 'eyebrow' => 'Talk to us', 'h' => 'Ask DMU your questions', 'p' => [
-            "Write to admissions@dmu.cas.moe or info@dmu.cas.moe. On WhatsApp, Dr Ayaz handles consultation at +86 176 4041 2827 and Kami handles admissions at +86 180 4156 6030. DMU's own admissions office can be called on +86-411-86110202 or emailed at dmunewstudent@163.com, from 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
+            "Write to admissions@dmu.cas.moe or info@dmu.cas.moe. On WhatsApp, consultation is at +86 176 4041 2827 and admissions at +86 180 4156 6030. DMU's own admissions office can be called on +86-411-86110202 or emailed at dmunewstudent@163.com, from 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
             "If you decide another country suits you better, we would rather you made that choice with open eyes.",
         ]],
     ],

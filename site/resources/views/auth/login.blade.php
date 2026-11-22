@@ -112,6 +112,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/portal-auth.css?v=2">
+<style>@media (max-width:1199.98px){.row.g-5,.row.gx-5,.row.g-4,.row.gx-4{--bs-gutter-x:1.5rem}} body{overflow-x:clip}</style>
 </head>
 <body class="d-flex flex-column min-vh-100 portal-auth">
 
@@ -314,7 +315,7 @@
 					<div class="fw-bold pb-2 mb-4 fs-5 text-jmu-primary border-bottom border-success border-opacity-50" data-i18n="login.contact_info_title">Contact Information</div>
 					<ul class="list-unstyled small">
 						<li class="mb-2"><i class="bi bi-geo-alt-fill me-2 text-jmu-primary"></i> <span data-i18n="login.contact_address">Dalian Medical University, Dalian, Liaoning, China</span></li>
-						<li class="mb-2"><i class="bi bi-telephone-fill me-2 text-jmu-primary"></i> <span data-i18n="login.contact_phone">Dr Ayaz +86 176 4041 2827 / Kami +86 180 4156 6030</span> </li>
+						<li class="mb-2"><i class="bi bi-telephone-fill me-2 text-jmu-primary"></i> <span data-i18n="login.contact_phone">Consultation +86 176 4041 2827 / Admissions +86 180 4156 6030</span> </li>
 						<li class="mb-2"><i class="bi bi-envelope-fill me-2 text-jmu-primary"></i> admissions@dmu.cas.moe</li>
 						<li><i class="bi bi-clock-fill me-2 text-jmu-primary"></i> <span data-i18n="login.contact_hours">Mon-Fri: 8:30 AM - 5:00 PM (CST)</span></li>
 					</ul>

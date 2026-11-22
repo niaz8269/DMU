@@ -46,10 +46,10 @@ INSERT INTO gallery (title, category, image_path, sort_order, is_published) VALU
 ('Dalian city centre','city','assets/images/dmu/dalian-city-view.webp',10,1);
 
 -- ---------- consultants ----------
-UPDATE consultants SET name='Dr. Ayaz', role='Admissions Consultant (consultation)', whatsapp='+8617640412827', email='info@dmu.cas.moe', wechat=NULL,
-  photo='images/avatar.svg', qr_image='images/drayazqr.jpg' WHERE id=4;
-UPDATE consultants SET name='Kami', role='Admissions Consultant', whatsapp='+8618041566030', email='admissions@dmu.cas.moe', wechat=NULL,
-  photo='images/avatar.svg', qr_image='images/kamiqr.jpeg' WHERE id=5;
+UPDATE consultants SET name='CAS Consultation', role='Consultation', whatsapp='+8617640412827', email='info@dmu.cas.moe', wechat=NULL,
+  photo='images/avatar.svg', qr_image='images/qr-consultation.jpg' WHERE id=4;
+UPDATE consultants SET name='CAS Admissions', role='Admissions', whatsapp='+8618041566030', email='admissions@dmu.cas.moe', wechat=NULL,
+  photo='images/avatar.svg', qr_image='images/qr-admissions-2.jpeg' WHERE id=5;
 UPDATE consultants SET name='General Inquiry', role='CAS Admissions Support', whatsapp=NULL, email='info@dmu.cas.moe', wechat=NULL,
   photo='images/logo.png', qr_image='images/wechat.png' WHERE id=6;
 
