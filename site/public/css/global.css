@@ -1431,3 +1431,6 @@ table { max-width: 100%; }
 .main-navbar .nav-links > li > a, .main-navbar .nav-links > li > .nav-link, .main-navbar .nav-links > li > .nav-dd-toggle {
     margin-top: 3.6px !important; margin-bottom: 3.6px !important; padding-top: 6px !important; padding-bottom: 6px !important;
 }
+
+/* Utility top bar: 40% less vertical padding */
+.top-header { padding-top: 4.8px !important; padding-bottom: 4.8px !important; }
