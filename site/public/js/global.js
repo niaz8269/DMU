@@ -127,10 +127,15 @@ function initHeaderScroll() {
             }
         };
         let lastScrollTop = 0;
+        const navTop0 = mainNavbar ? mainNavbar.getBoundingClientRect().top + (window.pageYOffset || 0) : 0;
 
         window.addEventListener('scroll', function() {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
+
+            // The blue menu bar is sticky in CSS now (no layout change on scroll). Only add a shadow once it has stuck.
+            if (mainNavbar) { mainNavbar.classList.toggle('is-stuck', scrollTop >= navTop0 - 1); }
+            return;
+
             // Skip scroll effects if mobile menu is open
             if (mobileMenuPanel && mobileMenuPanel.classList.contains('show')) {
                 return;
@@ -177,7 +182,7 @@ function initHeaderScroll() {
         });
         
         // Initial check
-        if (window.pageYOffset > 100) {
+        if (false) {
             topHeader.classList.add('hide');
             if (window.pageYOffset > 150) {
                 fixOn();

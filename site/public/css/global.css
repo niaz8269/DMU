@@ -1434,3 +1434,11 @@ table { max-width: 100%; }
 
 /* Utility top bar: 40% less vertical padding */
 .top-header { padding-top: 4.8px !important; padding-bottom: 4.8px !important; }
+
+/* Header on scroll: the blue menu bar is simply sticky (no fixed/hidden/cloned parts, so nothing jumps) */
+@media (min-width: 992px) {
+    .brand-bar, .brand-bar.fixed { position: static !important; width: auto; animation: none; box-shadow: none; }
+    .main-navbar { position: sticky; top: 0; z-index: 1050; transition: box-shadow .2s ease; }
+    .main-navbar.is-stuck { box-shadow: 0 6px 16px rgba(5, 30, 66, .22); }
+}
+.top-header.hide { transform: none; opacity: 1; }
