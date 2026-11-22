@@ -56,24 +56,7 @@
             <p class="ds-lead">Fees last checked on 22 November 2026 and shown for MBBS. US$ conversions are approximate; confirm current fees with admissions before you pay.</p>
         </div>
         <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="fee-table-card">
-                    <div class="fee-table-card__head">
-                        <h3>First Year — Complete Package</h3>
-                        <span class="tag">CAS first-year package · includes service charges</span>
-                    </div>
-                    <table class="fee-table">
-                        <tbody>
-                            <tr class="total"><th>Total (1st year)</th><td>¥67,100 (≈ US$9,450)</td></tr>
-                            <tr><th>Application processing, tuition &amp; hostel</th><td>Included</td></tr>
-                            <tr><th>Visa, health insurance &amp; medical</th><td>Included</td></tr>
-                            <tr><th>Registration, liaison, management &amp; admission charges</th><td>Included</td></tr>
-                            <tr><th>JW202 letter &amp; airport pickup</th><td>Included</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-lg-6">
+            <div class="col-lg-8 mx-auto">
                 <div class="fee-table-card">
                     <div class="fee-table-card__head">
                         <h3>2nd Year Onward — Per Year</h3>
