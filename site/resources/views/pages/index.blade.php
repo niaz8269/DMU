@@ -298,21 +298,20 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="dmu-contact__head">
             <span class="dmu-contact__eyebrow">CONTACT</span>
             <h2>Talk to our admissions team</h2>
-            <p>Scan a WeChat code or message us on WhatsApp.</p>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-md-6 col-lg-4">
                 <div class="dmu-contact__card">
                     <span class="dmu-contact__tag"><i class="fab fa-weixin"></i> Admissions</span>
-                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="180" height="180"></div>
-                    <p class="dmu-contact__hint">Scan with WeChat to reach the admissions desk</p>
+                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="120" height="120"></div>
+                    <p class="dmu-contact__hint">Scan with WeChat</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="dmu-contact__card">
                     <span class="dmu-contact__tag"><i class="fab fa-weixin"></i> Consultation</span>
-                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="180" height="180"></div>
-                    <p class="dmu-contact__hint">Scan with WeChat for a first consultation</p>
+                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="120" height="120"></div>
+                    <p class="dmu-contact__hint">Scan with WeChat</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
