@@ -1425,3 +1425,9 @@ table { max-width: 100%; }
     .main-navbar .nav-links > li > a, .main-navbar .nav-links > li > .nav-link, .main-navbar .nav-links > li > .nav-dd-toggle { padding-left: .55rem !important; padding-right: .55rem !important; font-size: .86rem; }
     .brand-bar .brand-actions { gap: .4rem; }
 }
+
+/* Blue menu bar: 40% less vertical padding and margin */
+.main-navbar { --bs-navbar-padding-y: .3rem; padding-top: .3rem; padding-bottom: .3rem; }
+.main-navbar .nav-links > li > a, .main-navbar .nav-links > li > .nav-link, .main-navbar .nav-links > li > .nav-dd-toggle {
+    margin-top: 3.6px !important; margin-bottom: 3.6px !important; padding-top: 6px !important; padding-bottom: 6px !important;
+}
