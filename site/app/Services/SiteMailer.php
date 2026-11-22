@@ -188,7 +188,7 @@ class SiteMailer
         $dkimIdentity = config('smtp.dkim_identity') ?? $smtpFrom;
 
         $secure = strtolower(trim((string) config('smtp.secure')));
-        $primarySecure = ($secure === 'ssl' || $secure === 'smtps') ? 'ssl' : 'tls';
+        $primarySecure = in_array($secure, ['ssl', 'smtps', 'ssltls'], true) ? 'ssl' : 'tls';
 
         $configs = [
             ['host' => $smtpHost, 'port' => $smtpPort, 'secure' => $primarySecure],
