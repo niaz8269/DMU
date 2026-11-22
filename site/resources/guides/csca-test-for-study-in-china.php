@@ -119,7 +119,7 @@ return [
 
         ['id' => 'fees-dates', 'eyebrow' => 'Planning', 'h' => 'Budget and timing alongside any test', 'p' => [
             "If a test is part of your route, add its registration fee and travel to your budget separately from the university's fees. The university figures below come from the CAS fee sheet, last checked on 22 November 2026. Fees can change, so confirm with admissions.",
-            "The MBBS first-year complete package is ¥67,100 (about US$9,450). From year two the total is ¥52,100-56,100 a year (about US$7,350-7,900). The application windows are 1 March to 5 July for the autumn intake and 1 September to 5 January for the spring intake; confirm the current dates with admissions. If you need a test result for a scholarship, work out the date by which the result must be ready and plan backwards.",
+            "MBBS tuition is ¥42,000 a year. The application fee plus first-year tuition (¥42,800, about US$6,700) are paid within 10 days of receiving the admission letter. From year two the total is ¥52,100-56,100 a year (about US$7,350-7,900). The application windows are 1 March to 5 July for the autumn intake and 1 September to 5 January for the spring intake; confirm the current dates with admissions. If you need a test result for a scholarship, work out the date by which the result must be ready and plan backwards.",
         ], 'table' => $s['calendar'], 'link' => ['mbbs-in-china-scholarship-2027', 'Read the MBBS scholarship guide']],
     ],
     'faqs' => [

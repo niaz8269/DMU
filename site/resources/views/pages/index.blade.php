@@ -393,13 +393,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <table class="home-fee-table">
                         <tbody>
-                            <tr><th>1st Year (complete package)</th><td>¥67,100</td></tr>
-                            <tr><th>Tuition (2nd year onward)</th><td>¥42,000/yr</td></tr>
+                            <tr><th>Tuition</th><td>¥42,000/yr</td></tr>
                             <tr><th>Accommodation</th><td>¥8,000–12,000/yr</td></tr>
                             <tr><th>Insurance</th><td>¥800/yr</td></tr>
                             <tr><th>Medical</th><td>¥500/yr</td></tr>
                             <tr><th>Residence permit</th><td>¥800/yr</td></tr>
-                            <tr class="total"><th>Total (2nd year onward)</th><td>¥52,100–56,100/yr</td></tr>
+                            <tr class="total"><th>Yearly total</th><td>¥52,100–56,100/yr</td></tr>
                         </tbody>
                     </table>
                 </div>

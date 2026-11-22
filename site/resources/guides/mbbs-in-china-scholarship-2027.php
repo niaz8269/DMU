@@ -68,7 +68,7 @@ return [
         ], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The Dalian Medical University library building with its name sign', 'caption' => 'The library building on campus.']],
 
         ['id' => 'budget', 'eyebrow' => 'Planning', 'h' => 'Budgeting without counting on an award', 'p' => [
-            "The safest plan funds the full MBBS from your own resources and treats any scholarship as a reduction when it arrives. The fee tables give you a firm base: a first-year package of ¥67,100, then ¥52,100 to ¥56,100 a year from year two.",
+            "The safest plan funds the full MBBS from your own resources and treats any scholarship as a reduction when it arrives. The fee tables give you a firm base: tuition of ¥42,000 a year, and a yearly total of ¥52,100 to ¥56,100 from year two. Confirm current fees with admissions.",
         ], 'table' => $s['feeYearly'], 'link' => ['mbbs-in-china-fees-2027', 'Read the MBBS in China fees guide'], 'note' => 'Fee table last checked 22 November 2026. Confirm with admissions before paying.'],
 
         ['id' => 'ask', 'eyebrow' => 'Questions', 'h' => 'What to ask admissions', 'p' => [
@@ -110,7 +110,7 @@ return [
         ['Can CAS guarantee a scholarship?', 'No. CAS is an admissions guide and application help service, not the university or a scholarship body.'],
         ['Should I count on a scholarship in my budget?', 'No. Budget from the fee tables and treat any award as a reduction once you hold a written offer.'],
         ['How do I apply for a scholarship?', 'Ask admissions for the official route for each scheme in writing. Some routes may be separate from the admission application.'],
-        ['How much does the MBBS cost without one?', 'The first-year package is ¥67,100, and later years are ¥52,100 to ¥56,100 a year.'],
+        ['How much does the MBBS cost without one?', 'Tuition is ¥42,000 a year, and from year two the yearly total is ¥52,100 to ¥56,100. Confirm current fees with admissions.'],
     ],
     'related' => ['mbbs-in-china-fees-2027', 'mbbs-in-china-2027', 'mbbs-in-china-admission-calendar-2027'],
 ];

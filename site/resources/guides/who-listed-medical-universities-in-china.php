@@ -124,9 +124,9 @@ return [
 
         ['id' => 'next', 'eyebrow' => 'Next steps', 'h' => 'After recognition: fees, dates and documents at DMU', 'p' => [
             "Once the recognition checks are in your folder, you can turn to the practical side of the application. The figures below come from the CAS fee sheet and the university's own notices. Fees can change, so confirm them with admissions before you pay.",
-            "The MBBS first-year complete package is ¥67,100 (about US$9,450). It covers the application processing fee, tuition, hostel, visa, health insurance and medical check, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup. From year two the total is ¥52,100-56,100 a year (about US$7,350-7,900).",
+            "MBBS tuition at DMU is ¥42,000 a year. DMU's own fee letter also lists an application fee of ¥800, a visa fee of ¥800, a medical check-up of ¥500, books of ¥500 and insurance of ¥800. From year two the yearly total is ¥52,100-56,100 a year (about US$7,350-7,900).",
             "DMU has two intakes, March and September. For the September intake, applications run from 1 March to 5 July; for the March intake, from 1 September to 5 January. Confirm the current dates with admissions.",
-        ], 'table' => $s['feeFirstYear']],
+        ], 'table' => $s['feeYearly']],
     ],
     'faqs' => [
         ['Is Dalian Medical University WDOMS listed?', "The site owner has confirmed that Dalian Medical University is WHO and WDOMS listed, and is also MOE listed and ECFMG recognised. Search the directory yourself and keep a dated screenshot, because entries can be updated."],

@@ -72,7 +72,7 @@ return [
         ], 'note' => $s['moeSource'], 'link' => ['moe-listed-mbbs-universities-in-china', 'See all 43 MOE listed universities and their seats']],
 
         ['id' => 'fees', 'eyebrow' => 'Fees', 'h' => 'Fees to expect', 'p' => [
-            "For the MBBS, the confirmed first-year package is ¥67,100 (about USD 9,450), and the later years total ¥52,100 to ¥56,100 (about USD 7,350 to 7,900). For Clinical Medicine, the only published figure we can use is the tuition of ¥32,000 a year. We do not state a total for Clinical Medicine, because we have no confirmed package; ask admissions for a written breakdown of tuition, hostel, insurance, residence permit and medical costs.",
+            "For the MBBS, tuition is ¥42,000 a year and the yearly total from the second year is ¥52,100 to ¥56,100 (about USD 7,350 to 7,900). For Clinical Medicine, the only published figure we can use is the tuition of ¥32,000 a year. We do not state a total for Clinical Medicine, because we have no confirmed breakdown; fees were last checked on 22 November 2026, so ask admissions for a written breakdown of tuition, hostel, insurance, residence permit and medical costs.",
             "Hostel figures in DMU's fee letter are about ¥8,000 a year for a boys' double room and about ¥11,000 for girls, over ten months, which gives you a way to estimate your own accommodation cost for either programme.",
         ], 'table' => $s['programmes'], 'img' => ['src' => 'assets/images/dmu/dmu-campus-lake-view.webp', 'alt' => 'Lawns and sea view on the Dalian Medical University campus', 'caption' => 'Campus lawns looking toward the sea.']],
 

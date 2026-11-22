@@ -5,14 +5,14 @@ $s = require __DIR__ . '/_shared.php';
 return [
     'updated' => '2026-11-22',
     'title' => 'Dalian Medical University MBBS 2027: Fees, Apply Online, MOE List',
-    'description' => 'Dalian Medical University (DMU) MBBS: English-medium course, MOE list position, ¥67,100 first-year package, intakes and how to apply online through CAS.',
+    'description' => 'Dalian Medical University (DMU) MBBS: English-medium course, MOE list position, ¥42,000 tuition, intakes and how to apply online through CAS.',
     'keywords' => 'Dalian Medical University MBBS, Dalian Medical University MBBS apply online, Dalian Medical University, DMU MBBS fees, DMU China, Dalian Medical University admission 2027, Dalian Medical University international students, Dalian Medical University MOE listed, MBBS in Dalian',
     'eyebrow' => 'University guide',
     'h1' => 'Dalian Medical University MBBS: Programme, Fees and How to Apply Online',
     'lead' => 'A plain-language profile of Dalian Medical University (DMU) for international applicants: how the university began, what its campus and hospitals look like on paper, which English-medium programmes it teaches, what the MBBS costs, and the exact steps of an online application through CAS.',
     'crumb' => 'Dalian Medical University',
     'cta' => 'Apply to Dalian Medical University',
-    'answer' => 'Dalian Medical University (DMU) teaches a six-year English-medium MBBS, including a one-year internship, and stands third on the Ministry of Education list issued on 1 June 2026, with 120 seats. The first-year package is ¥67,100 (about USD 9,450). You apply online through the CAS portal, upload your documents, receive an Acceptance Letter and then pay the fee shown in it.',
+    'answer' => 'Dalian Medical University (DMU) teaches a six-year English-medium MBBS, including a one-year internship, and stands third on the Ministry of Education list issued on 1 June 2026, with 120 seats. MBBS tuition is ¥42,000 a year. You apply online through the CAS portal, upload your documents, receive an Acceptance Letter and then pay the fee shown in it.',
     'facts' => [
         ['University', 'Dalian Medical University (DMU), public, Dalian, Liaoning Province'],
         ['Founded', '1947 as Guandong Medical College; renamed in 1994'],
@@ -20,7 +20,7 @@ return [
         ['MOE list (1 June 2026)', 'Third of 43 universities, 120 seats'],
         ['International students', 'More than 1,200 from over 100 countries'],
         ['Intakes', 'March (spring) and September (autumn); BDS autumn only'],
-        ['First-year package', '¥67,100 (about USD 9,450)'],
+        ['Tuition', '¥42,000 a year for MBBS'],
         ['From year two', '¥52,100-56,100 a year (about USD 7,350-7,900)'],
         ['HSK / IELTS for MBBS', 'No requirement published'],
         ['Fee table last checked', '22 November 2026'],
@@ -38,7 +38,7 @@ return [
             ['Main international programme', 'MBBS, taught in English, 6 years including a 1-year internship'],
             ['Is it on the MOE list?', 'Yes, third on the notice of 1 June 2026, with 120 seats'],
             ['Intakes', 'March and September'],
-            ['First-year MBBS cost', '¥67,100 as a complete package (about USD 9,450)'],
+            ['MBBS tuition', '¥42,000 a year; DMU charges are listed in the fee guide'],
         ]]],
 
         ['id' => 'history', 'eyebrow' => 'History', 'h' => 'From Guandong Medical College to Dalian Medical University', 'p' => [
@@ -106,12 +106,19 @@ return [
         'note' => $s['moeSource'], 'link' => ['moe-listed-mbbs-universities-in-china', 'See all 43 MOE listed universities and their seats']],
 
         ['id' => 'fees', 'eyebrow' => 'Fees', 'h' => 'What the MBBS costs: the numbers that are confirmed', 'p' => [
-            "Costs are where many agents become vague, so here is the full structure from the CAS fee sheet, confirmed by the site owner and last checked on 22 November 2026. The first year is sold as one complete package of ¥67,100, about USD 9,450. It covers the application processing fee, tuition, hostel, visa, health insurance and medical examination, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup.",
+            "Costs are where many agents become vague, so here is the full structure from the CAS fee sheet, confirmed by the site owner and last checked on 22 November 2026. In the first year DMU's own charges are an application fee of ¥800 and a year of tuition at ¥42,000, both due within ten days of receiving the admission letter, then the visa at ¥800, a medical check-up at ¥500, books at ¥500 and insurance at ¥800 on arrival. The hostel is priced separately, and we do not add these into a first-year total.",
             "From the second year the costs fall into five ordinary items: tuition of ¥42,000, accommodation of ¥8,000 to ¥12,000, insurance of ¥800, a residence permit of ¥800 and a medical of ¥500. That adds up to ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900.",
             "We do not print a six-year total, an estimate of living costs in Dalian or any exchange rate other than the ones above, because they are not confirmed. Fees can change, so confirm the current figures with admissions before you pay anything.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
+        ], 'table' => ['caption' => 'DMU first-year charges, MBBS (RMB)', 'head' => ['Item', 'Amount', 'When'], 'rows' => [
+            ['Application fee', '¥800', 'Within 10 days of the admission letter'],
+            ['Tuition (MBBS), one year', '¥42,000', 'Within 10 days of the admission letter'],
+            ['Visa', '¥800', 'On arrival'],
+            ['Medical check-up', '¥500', 'On arrival'],
+            ['Books', '¥500', 'On arrival'],
+            ['Insurance', '¥800', 'On arrival'],
+        ]], 'sub' => [
             ['h' => 'From the second year onward', 'p' => [
-                "The table that follows this section breaks down the yearly cost after the package year. The accommodation range reflects the difference between room types.",
+                "The table that follows this section breaks down the yearly cost after the first year. The accommodation range reflects the difference between room types.",
             ], 'list' => [
                 'Tuition: ¥42,000',
                 'Accommodation: ¥8,000 to ¥12,000',
@@ -172,7 +179,7 @@ return [
         ], 'list' => [
             'Is the current minimum-marks requirement for my school system the same as the one in the image on the admissions portal?',
             'Which closing date applies to my intake this year, and is it the one shown in the portal?',
-            'What exactly is covered by the first-year package, and what will I pay in year two?',
+            'Which charges fall in the first year, and what will I pay in year two?',
             'Which room type will I be given, and what do the two months without rent mean for my belongings?',
             'Which affiliated hospitals do English-medium students rotate through, and in what language are ward rounds held?',
             'What are my own medical council\'s current rules for graduates of a university like DMU?',
@@ -183,7 +190,7 @@ return [
         ['What is Dalian Medical University?', 'Dalian Medical University (DMU, 大连医科大学) is a public medical university in Dalian, Liaoning Province, founded in 1947 as Guandong Medical College and renamed in 1994. Its campus in Lvshunkou District has been in use since 2007, and its International Education College has taught international students since 1985.'],
         ['Is Dalian Medical University MBBS English medium?', 'Yes. English-medium MBBS teaching began at DMU in 2004. The degree lasts six years, including a one-year internship. DMU is third on the Ministry of Education list issued on 1 June 2026, with 120 seats.'],
         ['How do I apply online to Dalian Medical University?', 'Apply through the CAS portal or the DMU online system and upload your documents. DMU decides from those documents and issues an Acceptance Letter. You pay the fee shown in the letter, and DMU then issues the admission letter and JW202 form.'],
-        ['How much is the first year of MBBS at DMU?', 'The CAS complete package for the first year is ¥67,100, about USD 9,450. It covers the application processing fee, tuition, hostel, visa, health insurance and medical, registration and management charges, the JW202 letter and airport pickup. Confirm current fees with admissions before paying.'],
+        ['How much is the first year of MBBS at DMU?', 'DMU bills an application fee of ¥800 and tuition of ¥42,000 within ten days of the admission letter, then the visa (¥800), medical check-up (¥500), books (¥500) and insurance (¥800) on arrival, plus the hostel. Confirm current fees with admissions before paying.'],
         ['What does MBBS cost from the second year?', 'Tuition is ¥42,000, accommodation ¥8,000 to ¥12,000, insurance ¥800, residence permit ¥800 and medical ¥500. The total is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900.'],
         ['Which intakes does DMU have?', 'Two: March (spring) and September (autumn). The autumn window is 1 March to 5 July and the spring window is 1 September to 5 January. BDS is autumn only. Confirm dates with admissions.'],
         ['Is there an age limit?', 'For MBBS and BDS the admissions portal states an age range of 18 to 25, along with good mental and physical health.'],

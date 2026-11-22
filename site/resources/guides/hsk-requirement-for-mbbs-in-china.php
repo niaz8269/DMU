@@ -122,7 +122,7 @@ return [
 
         ['id' => 'costs-dates', 'eyebrow' => 'Planning', 'h' => 'Fees and dates that go with the language question', 'p' => [
             "If you are budgeting for a language course before you travel, keep it separate from the university's fees. The figures below come from the CAS fee sheet, last checked on 22 November 2026. Fees can change, so confirm them with admissions.",
-            "The MBBS first-year complete package is ¥67,100 (about US$9,450) and covers the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup. From year two the total is ¥52,100-56,100 a year (about US$7,350-7,900).",
+            "MBBS tuition is ¥42,000 a year. The application fee plus first-year tuition (¥42,800, about US$6,700) are paid within 10 days of receiving the admission letter, and the rest on arrival. From year two the total is ¥52,100-56,100 a year (about US$7,350-7,900).",
         ], 'table' => $s['calendar'], 'link' => ['mbbs-in-china-eligibility-2027', 'Read the full MBBS eligibility guide']],
     ],
     'faqs' => [

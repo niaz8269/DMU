@@ -76,7 +76,7 @@ INSERT INTO home_why (title, description, sort_order, is_published) VALUES
 ('Affiliated hospitals','Three directly affiliated hospitals and 14 affiliated hospitals in total. The First Affiliated Hospital has 3,700 authorised beds.',0,1),
 ('International campus','More than 1,200 international students from over 100 countries.',1,1),
 ('English-medium since 2004','DMU launched its English-medium MBBS in 2004 through its International Education College.',2,1),
-('Clear published fees','A CAS first-year package of ¥67,100, then ¥52,100-56,100 a year for MBBS.',3,1),
+('Clear published fees','Tuition of ¥42,000 a year and a yearly total of ¥52,100-56,100 for MBBS.',3,1),
 ('MOE-listed programme','Listed by China''s Ministry of Education for English-medium MBBS.',4,1),
 ('Scholarship routes','Chinese Government, Liaoning Provincial, Dalian Government and DMU scholarships.',5,1);
 
@@ -91,7 +91,7 @@ DELETE FROM home_facts;
 INSERT INTO home_facts (label, value, sort_order, is_published) VALUES
 ('Duration','6 years (incl. 1-year internship)',0,1),
 ('Medium','English',1,1),
-('1st-year package','¥67,100 (approx. US$9,450)',2,1),
+('Tuition','¥42,000 per year',2,1),
 ('Intake','March & September 2027',3,1),
 ('Eligibility','Aged 18-25; chemistry, physics, biology, English',4,1),
 ('Recognition','WHO / WDOMS, MOE, ECFMG',5,1);
@@ -151,16 +151,16 @@ UPDATE site_settings SET setting_value = CASE setting_key
  WHEN 'mbbs_overview_p1' THEN 'Dalian Medical University, founded in 1947 in Dalian, Liaoning, launched its English-medium MBBS in 2004 through its International Education College. The programme is designed for international students and taught in English.'
  WHEN 'mbbs_overview_p2' THEN 'Clinical training takes place in DMU''s affiliated hospitals: three are directly affiliated and 14 are affiliated in total. The First Affiliated Hospital, founded in 1930, has 3,700 authorised beds across four campuses.'
  WHEN 'mbbs_overview_p3' THEN 'Graduates are awarded the MBBS degree. Licensing rules differ by country, so check the current rules of your own medical council before you apply.'
- WHEN 'mbbs_facts_list' THEN 'Degree Awarded | MBBS\nDuration | 6 years, including a 1-year internship\nMedium | English\nIntake | March (spring) & September (autumn) 2027\n1st-Year Package | ¥67,100 (approx. US$9,450)\nEligibility | Aged 18-25; chemistry, physics, biology and English\nRecognition | WHO / WDOMS, MOE-listed'
+ WHEN 'mbbs_facts_list' THEN 'Degree Awarded | MBBS\nDuration | 6 years, including a 1-year internship\nMedium | English\nIntake | March (spring) & September (autumn) 2027\nTuition | ¥42,000 per year\nEligibility | Aged 18-25; chemistry, physics, biology and English\nRecognition | WHO / WDOMS, MOE-listed'
  WHEN 'mbbs_why_title' THEN 'Why study MBBS at Dalian Medical University'
  WHEN 'mbbs_why_list' THEN 'Recognition | MOE-listed and WHO / WDOMS listed. Check your own medical council''s current rules before applying.\nClear fees | A first-year package of ¥67,100, then ¥52,100-56,100 a year.\nClinical exposure | Three directly affiliated hospitals; the First Affiliated Hospital has 3,700 authorised beds.\nInternational campus | More than 1,200 international students from over 100 countries.'
  WHEN 'mbbs_eligibility_list' THEN 'Aged 18 to 25 and in good mental and physical health\nCompleted senior high school with good marks\nChemistry, physics, biology and English are compulsory; mathematics is a reference subject\nPassport information page, passport-size photo and senior high school transcript (compulsory)\nTranscripts certified by the Chinese embassy or consulate, or notarised in China\nMedical check-up\nFamily financial certificate or one year of bank statements'
  WHEN 'mbbs_fees_title' THEN 'MBBS fee structure'
- WHEN 'mbbs_fees_note' THEN 'The first-year package covers application processing, tuition, hostel, visa, insurance, medical, registration and admission charges, the JW202 visa letter and airport pickup. Fees last checked 22 November 2026.'
- WHEN 'mbbs_fee_rows' THEN '1st Year (complete package) | ¥67,100 | total\nTuition (2nd year onward) | ¥42,000/yr\nAccommodation | ¥8,000-12,000/yr\nInsurance | ¥800/yr\nResidence permit | ¥800/yr\nMedical | ¥500/yr\nTotal (2nd year onward) | ¥52,100-56,100/yr | total'
+ WHEN 'mbbs_fees_note' THEN 'DMU published MBBS charges: tuition, hostel, insurance, residence permit and medical. Fees last checked 22 November 2026.'
+ WHEN 'mbbs_fee_rows' THEN 'Tuition (2nd year onward) | ¥42,000/yr\nAccommodation | ¥8,000-12,000/yr\nInsurance | ¥800/yr\nResidence permit | ¥800/yr\nMedical | ¥500/yr\nTotal (2nd year onward) | ¥52,100-56,100/yr | total'
  WHEN 'mbbs_recognition_list' THEN 'WHO / WDOMS | Listed in the World Directory of Medical Schools.\nMOE Listed | Listed by China''s Ministry of Education for English-medium MBBS.\nECFMG | Eligible for ECFMG, according to the programme sheet.\nPMDC & NMC | Recognized by medical councils. Check your own council''s current rules.'
  WHEN 'mbbs_apply_list' THEN 'Prepare your documents | Passport page, photo, certified transcript, medical check-up and financial proof.\nSubmit your application | Apply through our portal. DMU decides from your documents.\nReceive your acceptance letter | DMU issues an acceptance letter.\nPay the fees in the letter | The application fee and first-year tuition (¥42,800) confirm your seat.\nReceive the admission letter and JW202 | DMU issues them after payment, then you apply for your student visa.'
- WHEN 'mbbs_faq_list' THEN 'Is the MBBS at Dalian Medical University MOE-listed? | Yes. The English-medium MBBS is MOE-listed and the university is listed in WHO''s World Directory of Medical Schools. Check your own medical council''s current rules before you apply.\nHow long is the MBBS programme? | Six years, including a 1-year internship, taught in English.\nWhat does the first year cost? | The CAS first-year package is ¥67,100 (about US$9,450). From year two the total is ¥52,100-56,100 a year.\nWhen are the intakes? | March (spring) and September (autumn). Confirm the current application dates with admissions.\nWho can apply? | Applicants aged 18 to 25 who completed senior high school with chemistry, physics, biology and English.'
+ WHEN 'mbbs_faq_list' THEN 'Is the MBBS at Dalian Medical University MOE-listed? | Yes. The English-medium MBBS is MOE-listed and the university is listed in WHO''s World Directory of Medical Schools. Check your own medical council''s current rules before you apply.\nHow long is the MBBS programme? | Six years, including a 1-year internship, taught in English.\nWhat does MBBS cost each year? | Tuition is ¥42,000 a year. The yearly total is ¥52,100-56,100 (about US$7,350-7,900). Confirm current fees with admissions.\nWhen are the intakes? | March (spring) and September (autumn). Confirm the current application dates with admissions.\nWho can apply? | Applicants aged 18 to 25 who completed senior high school with chemistry, physics, biology and English.'
  WHEN 'mbbs_cta_title' THEN 'Ready to study MBBS at Dalian Medical University?'
  WHEN 'mbbs_cta_lead' THEN 'Apply for the March (spring) or September (autumn) 2027 intake, or talk to our admissions team for free guidance.'
  WHEN 'video_admissions_dates' THEN ''
@@ -180,3 +180,14 @@ INSERT INTO gallery (title, category, image_path, sort_order, is_published) VALU
 ('DMU letters on campus','campus','assets/images/dmu/dmu-letters-campus-scenes.webp',12,1),
 ('Welcome arches at the new-student fair','student life','assets/images/dmu/dmu-welcome-arches-new-student-fair.webp',13,1),
 ('Campus shuttle bus','campus','assets/images/dmu/dmu-campus-shuttle-bus.webp',14,1);
+
+-- remove the CAS first-year package figure; keep only DMU's own charges
+UPDATE home_why SET description='Tuition of ¥42,000 a year and a yearly total of ¥52,100-56,100 for MBBS.' WHERE title='Clear published fees';
+UPDATE home_facts SET label='Tuition', value='¥42,000 per year' WHERE label='1st-year package';
+UPDATE site_settings SET setting_value='DMU published MBBS charges: tuition, hostel, insurance, residence permit and medical. The yearly total is ¥52,100-56,100.' WHERE setting_key='home_fees_note';
+UPDATE site_settings SET setting_value=REPLACE(setting_value,'Tuition | ¥42,000 per year','Tuition | ¥42,000 per year') WHERE setting_key='mbbs_facts_list';
+UPDATE site_settings SET setting_value=REPLACE(setting_value,'Clear fees | A first-year package of ¥67,100, then ¥52,100-56,100 a year.','Clear fees | Tuition of ¥42,000 a year and a yearly total of ¥52,100-56,100.') WHERE setting_key='mbbs_why_list';
+UPDATE site_settings SET setting_value=REPLACE(REPLACE(setting_value,'',''),'Tuition (2nd year onward)','Tuition') WHERE setting_key='mbbs_fee_rows';
+UPDATE site_settings SET setting_value=REPLACE(setting_value,'Total (2nd year onward)','Yearly total') WHERE setting_key='mbbs_fee_rows';
+UPDATE site_settings SET setting_value='DMU published MBBS charges: tuition, hostel, insurance, residence permit and medical. Fees last checked 22 November 2026; confirm the current fees with admissions before you pay.' WHERE setting_key='mbbs_fees_note';
+UPDATE site_settings SET setting_value=REPLACE(setting_value,'What does MBBS cost each year? | Tuition is ¥42,000 a year. The yearly total is ¥52,100-56,100 (about US$7,350-7,900). Confirm current fees with admissions.','What does MBBS cost each year? | Tuition is ¥42,000 a year. The yearly total is ¥52,100-56,100 (about US$7,350-7,900). Confirm current fees with admissions.') WHERE setting_key='mbbs_faq_list';

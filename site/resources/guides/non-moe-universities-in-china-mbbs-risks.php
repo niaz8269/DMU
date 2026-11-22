@@ -128,7 +128,7 @@ return [
             "CAS, the consultancy that runs this site, also lists DMU as WHO and WDOMS listed and ECFMG recognised, and as recognised by medical councils in Pakistan (PMDC), India, the UK, the US, the Gulf countries and Africa. Students must still check the current rules of their own council before applying. Nothing on this site is a promise of a licence outcome.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building at Dalian Medical University with its sign', 'caption' => 'The library at Dalian Medical University.'], 'table' => $s['programmes'], 'sub' => [
             ['h' => 'Costs, so you can compare', 'p' => [
-                "The first-year complete package for the MBBS is ¥67,100 (about US$9,450). From year two, tuition is ¥42,000, with accommodation of ¥8,000-12,000, insurance ¥800, residence permit ¥800 and medical ¥500, a total of ¥52,100-56,100 a year (about US$7,350-7,900). A very different price is a reason to ask what is left out.",
+                "For comparison, DMU's MBBS tuition is ¥42,000 a year, and from year two the yearly cost adds accommodation of ¥8,000-12,000, insurance ¥800, residence permit ¥800 and medical ¥500, a total of ¥52,100-56,100 a year (about US$7,350-7,900). A very different price is a reason to ask what is left out.",
             ]],
         ]],
     ],

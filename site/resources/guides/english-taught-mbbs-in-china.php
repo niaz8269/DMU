@@ -72,9 +72,9 @@ return [
         ], 'list' => $s['requirements']],
 
         ['id' => 'cost', 'eyebrow' => 'Cost', 'h' => 'What the English-taught MBBS costs at DMU', 'p' => [
-            "Tuition for the MBBS is ¥42,000 a year. The first year is sold as one package of ¥67,100 (about USD 9,450), which covers the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup. From the second year the total is ¥52,100 to ¥56,100 a year (about USD 7,350 to 7,900).",
+            "Tuition for the MBBS is ¥42,000 a year. Accommodation is ¥8,000-12,000 a year, insurance ¥800, the residence permit ¥800 and medical ¥500. The application fee plus first-year tuition (¥42,800, about US$6,700) are paid within 10 days of receiving the admission letter, and the rest on arrival. From the second year the total is ¥52,100 to ¥56,100 a year (about USD 7,350 to 7,900).",
             "We do not state a six-year total or a Dalian living budget because neither is confirmed. Fees can change, and the table was last checked on 22 November 2026, so confirm with admissions before paying.",
-        ], 'table' => $s['feeFirstYear'], 'link' => ['mbbs-in-china-fees-2027', 'Read the full MBBS in China fees guide']],
+        ], 'table' => $s['feeYearly'], 'link' => ['mbbs-in-china-fees-2027', 'Read the full MBBS in China fees guide']],
 
         ['id' => 'intakes', 'eyebrow' => 'Timing', 'h' => 'When to apply', 'p' => [
             "DMU takes students twice a year. The autumn intake has an application window from 1 March to 5 July and a semester that starts in September or October. The spring intake applies from 1 September to 5 January and starts in March. BDS is autumn only. An IEC notice says that the 2027 spring online system opened on 20 October 2026; it gives no closing date, so confirm the 5 January date with admissions.",
@@ -108,7 +108,7 @@ return [
         ['Will I need to speak Chinese in hospitals?', 'We have no verified detail on how much Chinese DMU requires on the wards. Learning basic Chinese is sensible, and you should ask admissions which language is used during clinical rotations.'],
         ['What is the difference between English-medium and bilingual?', 'English-medium means lectures and exams are in English. A bilingual course mixes languages. Ask the university for the exact language of teaching and of the certificate in writing.'],
         ['How long is the English-taught MBBS at DMU?', 'Six years, including a one-year internship.'],
-        ['How much does it cost?', 'The first-year package is ¥67,100, about USD 9,450. From the second year it is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900.'],
+        ['How much does it cost?', 'MBBS tuition is ¥42,000 a year. From the second year the yearly total is ¥52,100 to ¥56,100, about USD 7,350 to 7,900. Confirm current fees with admissions.'],
         ['When can I start?', 'In March (spring) or September (autumn). The autumn window runs 1 March to 5 July and the spring window 1 September to 5 January. BDS is autumn only.'],
         ['Will my country accept the degree?', 'DMU is recognised by councils in several regions, but you must check the current rules of your own medical council. We cannot promise a licence outcome.'],
     ],

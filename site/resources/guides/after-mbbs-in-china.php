@@ -76,7 +76,7 @@ return [
         ]]],
 
         ['id' => 'cost-planning', 'eyebrow' => 'Money', 'h' => 'Plan the cost of the whole journey', 'p' => [
-            "The costs that come after graduation, such as examination fees and registration fees, are set by the relevant bodies and are not covered here. What we can set out are the figures during the course: ¥67,100 for the first-year package (about USD 9,450) and ¥52,100 to ¥56,100 a year from the second year (about USD 7,350 to 7,900). We do not print a six-year total.",
+            "The costs that come after graduation, such as examination fees and registration fees, are set by the relevant bodies and are not covered here. What we can set out are the figures during the course: MBBS tuition of ¥42,000 a year, and a yearly total of ¥52,100 to ¥56,100 from the second year (about USD 7,350 to 7,900). We do not print a six-year total. Fees were last checked on 22 November 2026, so confirm current fees with admissions.",
             "Add the costs of examinations and any supervised-practice period that your council requires, and remember that pay during supervised practice varies by country. Do not rely on an agent's single total; ask for each item in writing.",
         ], 'table' => $s['feeYearly'], 'link' => ['mbbs-in-china-fees-2027', 'Read the full MBBS in China fees guide']],
 

@@ -44,7 +44,7 @@ return [
         ['University covered by this site', 'Dalian Medical University (DMU), third on the list, 120 seats'],
         ['Criteria used', 'MOE listing, language, fees, hospitals, recognition, intakes, support'],
         ['DMU course', 'English-medium MBBS, 6 years including a 1-year internship'],
-        ['DMU first year', '¥67,100 package (about USD 9,450)'],
+        ['DMU tuition', '¥42,000 a year (MBBS)'],
         ['DMU from year two', '¥52,100-56,100 a year (about USD 7,350-7,900)'],
         ['Rankings', 'Not provided; none confirmed for this site'],
     ],
@@ -82,7 +82,7 @@ return [
 
         ['id' => 'fees', 'eyebrow' => 'Step three', 'h' => 'Step three: fees, itemised and dated', 'p' => [
             "Compare total yearly cost, not tuition alone. Ask each university or agent for the same list of items: tuition, hostel, insurance, residence permit, medical examination, application and visa fees, and any deposit. A low tuition figure can sit beside a long list of extras.",
-            "For DMU the confirmed structure is a first-year package of ¥67,100 (about USD 9,450) covering the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 letter and airport pickup. From the second year the cost is ¥52,100 to ¥56,100 a year (about USD 7,350 to 7,900). Our table was last checked on 22 November 2026, and fees can change. We do not print a six-year total, and we hold no confirmed fees for any other university, so use each university's own current fee letter for them.",
+            "For DMU the confirmed figures are MBBS tuition of ¥42,000 a year, accommodation of ¥8,000-12,000, insurance of ¥800, a residence permit of ¥800 and medical of ¥500. DMU also lists first-arrival charges: application fee ¥800, visa ¥800, medical check-up ¥500, books ¥500 and insurance ¥800. From the second year the cost is ¥52,100 to ¥56,100 a year (about USD 7,350 to 7,900). Our table was last checked on 22 November 2026, and fees can change. We do not print a six-year total, and we hold no confirmed fees for any other university, so use each university's own current fee letter for them.",
         ], 'table' => $s['feeYearly'], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building of Dalian Medical University with its sign', 'caption' => 'The library at DMU.'],
         'link' => ['mbbs-in-china-fees-2027', 'Read the full MBBS in China fees guide']],
 
@@ -106,7 +106,7 @@ return [
         ], 'table' => ['caption' => 'Comparison scorecard with DMU facts', 'head' => ['Criterion', 'What to ask', 'DMU (confirmed)'], 'rows' => [
             ['MOE listing', 'Position and seats on the current notice', 'Third of 43; 120 seats'],
             ['Language', 'Language of lectures, exams and wards', 'English medium; HSK / IELTS not published'],
-            ['First-year cost', 'Complete itemised package', '¥67,100 (about USD 9,450)'],
+            ['Tuition', 'Yearly tuition and itemised extras', '¥42,000 a year (MBBS)'],
             ['Later years', 'Per-year total', '¥52,100-56,100 (about USD 7,350-7,900)'],
             ['Hospitals', 'Number, beds, visits', '3 direct, 14 in total; First Affiliated 3,700 beds'],
             ['Recognition', 'Councils and directories', 'WHO / WDOMS, ECFMG, several councils; check yours'],
@@ -120,7 +120,7 @@ return [
         ['Is the order of the MOE list a ranking?', 'We have no evidence that it is. Treat it as an approval list. DMU is third on the 1 June 2026 list with 120 seats.'],
         ['How many universities are on the 2026-2027 MOE list?', 'Forty-three, with 2,790 seats in total, according to the notice of 1 June 2026.'],
         ['Should I choose the university with the most seats?', 'Not for that reason alone. Seats show the size of the approval, not the quality of teaching or your chances of admission.'],
-        ['How does DMU compare on fees?', 'We confirm DMU only: a first-year package of ¥67,100 and ¥52,100 to ¥56,100 a year afterwards. We have no confirmed fees for other universities, so get theirs in writing.'],
+        ['How does DMU compare on fees?', 'We confirm DMU only: tuition of ¥42,000 a year, and a yearly total of ¥52,100 to ¥56,100 from the second year. We have no confirmed fees for other universities, so get theirs in writing.'],
         ['Do I need to check recognition for each university?', 'Yes. Check the rules of your own medical council against each university. We cannot promise a licence outcome.'],
     ],
     'related' => ['moe-listed-mbbs-universities-in-china', 'mbbs-in-china-fees-2027', 'dalian-medical-university'],

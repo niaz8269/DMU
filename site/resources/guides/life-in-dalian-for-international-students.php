@@ -19,7 +19,7 @@ return [
         ['On this campus since', '2007'],
         ['Hostel, double room', 'About ¥8,000 (boys) to ¥11,000 (girls) a year; postgraduate ¥10,000'],
         ['Rent period', '10 months a year'],
-        ['Hostel cost from year two (CAS fee sheet)', '¥8,000-12,000 a year'],
+        ['Hostel cost per year (CAS fee sheet)', '¥8,000-12,000 a year'],
         ['Affiliated hospitals', '3 directly affiliated, 14 in total'],
         ['Not verified here', 'Climate, local transport, food and daily living costs'],
     ],
@@ -42,15 +42,14 @@ return [
 
         ['id' => 'hostel', 'eyebrow' => 'Accommodation', 'h' => 'Hostel rooms and rent', 'p' => [
             "Hostel is the most useful fee to understand because it is in two of our confirmed sources. In DMU's own fee letter, a double room costs about ¥8,000 a year for boys and about ¥11,000 for girls. Postgraduate students pay ¥10,000. Rent runs for ten months a year rather than twelve.",
-            "The CAS fee sheet gives a range for the same cost from the second year onward: ¥8,000 to ¥12,000 a year for accommodation. In the first year the hostel is already included in the complete package of ¥67,100. We do not know the exact bed arrangement, bathroom type or rules on visitors, so do not rely on any description that comes from a source other than the university.",
+            "The CAS fee sheet gives a range for the same cost: ¥8,000 to ¥12,000 a year for accommodation, depending on the room. Hostel rent is listed separately from the ¥42,000 MBBS tuition. We do not know the exact bed arrangement, bathroom type or rules on visitors, so do not rely on any description that comes from a source other than the university.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-1947-arch-and-student-hostel.webp', 'alt' => 'A stone arch marked 1947 in front of a residence block at Dalian Medical University', 'caption' => 'A residence block behind the 1947 stone arch.'],
         'table' => ['caption' => 'Hostel figures confirmed for DMU', 'head' => ['Item', 'Figure'], 'rows' => [
             ['Double room, boys (DMU fee letter)', 'About ¥8,000 a year'],
             ['Double room, girls (DMU fee letter)', 'About ¥11,000 a year'],
             ['Postgraduate room (DMU fee letter)', '¥10,000 a year'],
             ['Rent period', '10 months a year'],
-            ['Accommodation from year two (CAS fee sheet)', '¥8,000-12,000 a year'],
-            ['First year', 'Included in the ¥67,100 package'],
+            ['Accommodation, yearly range (CAS fee sheet)', '¥8,000-12,000 a year'],
         ]], 'link' => ['mbbs-in-china-fees-2027', 'Read the full MBBS in China fees guide']],
 
         ['id' => 'hospitals', 'eyebrow' => 'Training', 'h' => 'How the hospitals shape your week', 'p' => [
@@ -69,7 +68,7 @@ return [
             'How do I contact the university in an emergency, and who meets me at the airport?',
         ], 'sub' => [
             ['h' => 'A note on safety and health', 'p' => [
-                "Many applicants and parents ask whether China is safe for international students. We do not have verified statistics for Dalian, so we will not answer with a number. Health insurance is part of the complete package in the first year and costs ¥800 a year afterwards, and a medical examination is part of the process. Ask admissions about the university's security arrangements and about what to do if you fall ill.",
+                "Many applicants and parents ask whether China is safe for international students. We do not have verified statistics for Dalian, so we will not answer with a number. Health insurance costs ¥800 a year, and a medical examination (¥500) is part of the process. Ask admissions about the university's security arrangements and about what to do if you fall ill.",
             ]],
         ]],
 
@@ -81,7 +80,7 @@ return [
     'faqs' => [
         ['Where is Dalian Medical University?', 'In Dalian, a coastal city in Liaoning Province, China. The address is No. 9 West Section, Lvshun South Road, Lvshunkou District, Dalian, postcode 116044. The university has used this campus since 2007.'],
         ['How much is a hostel room at DMU?', 'DMU\'s fee letter gives about ¥8,000 a year for a boys\' double room and about ¥11,000 for girls, and ¥10,000 for a postgraduate room. Rent runs for ten months of the year. The CAS fee sheet gives ¥8,000 to ¥12,000 a year from the second year.'],
-        ['Is the hostel included in the first-year fee?', 'Yes. The ¥67,100 first-year package for MBBS includes the hostel, tuition, visa, health insurance and medical, registration and management charges, the JW202 letter and airport pickup.'],
+        ['Is the hostel fee separate from tuition?', 'Yes. MBBS tuition is ¥42,000 a year and accommodation is listed separately at ¥8,000-12,000 a year, depending on the room. Confirm current fees with admissions.'],
         ['What is the weather like in Dalian?', 'We have no verified climate data, so this site does not describe it. Ask admissions or current students before you decide what to pack.'],
         ['How much should I budget for food and transport?', 'We do not publish a figure because none is confirmed. The fees we can confirm are tuition, hostel, insurance, residence permit and medical, as listed in the fees guide.'],
         ['Is it safe for international students in Dalian?', 'We cannot cite verified safety statistics for the city. Ask the university about campus security and emergency contacts, and read your own government\'s travel advice before you go.'],

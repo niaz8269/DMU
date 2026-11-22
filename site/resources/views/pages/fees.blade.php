@@ -18,9 +18,9 @@
     <div class="container">
         <span class="ds-eyebrow" style="color:#cfe0f3">2027 Fee Structure</span>
         <h1>MBBS Fees in China at Dalian Medical University</h1>
-        <p>The published MBBS fees at Dalian Medical University: the first-year package, the yearly fees from year two, and what each one covers.</p>
+        <p>The published MBBS fees at Dalian Medical University: tuition, accommodation, insurance, residence permit and medical.</p>
         <div class="home-hero__trust">
-            <span class="ds-pill"><i class="fas fa-check-circle"></i> Package breakdown</span>
+            <span class="ds-pill"><i class="fas fa-check-circle"></i> DMU's own charges</span>
             <span class="ds-pill"><i class="fas fa-check-circle"></i> Checked 22 Nov 2026</span>
             <span class="ds-pill"><i class="fas fa-check-circle"></i> Scholarships named by DMU</span>
         </div>
@@ -78,40 +78,14 @@
     </div>
 </section>
 
-<!-- ===================== WHAT'S INCLUDED ===================== -->
+<!-- ===================== SCHOLARSHIPS ===================== -->
 <section class="ds-section ds-section--soft">
     <div class="container">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <span class="ds-eyebrow">What's Included</span>
-                <h2 class="ds-title">Your first-year package covers everything</h2>
-                <p class="ds-lead mb-4">No surprises after you arrive — the first-year fee bundles all the essentials to get you enrolled and settled.</p>
-                <ul class="fee-inc-grid">
-                    <li><i class="fas fa-check-circle"></i> Application processing</li>
-                    <li><i class="fas fa-check-circle"></i> Tuition fee</li>
-                    <li><i class="fas fa-check-circle"></i> Hostel / accommodation</li>
-                    <li><i class="fas fa-check-circle"></i> Student visa</li>
-                    <li><i class="fas fa-check-circle"></i> Health insurance &amp; medical</li>
-                    <li><i class="fas fa-check-circle"></i> Registration fee</li>
-                    <li><i class="fas fa-check-circle"></i> Admission &amp; management</li>
-                    <li><i class="fas fa-check-circle"></i> JW202 visa letter</li>
-                    <li><i class="fas fa-check-circle"></i> Airport pickup</li>
-                    <li><i class="fas fa-check-circle"></i> Liaison support</li>
-                </ul>
-            </div>
-            <div class="col-lg-6">
-                <div class="row g-3">
-                    <div class="col-sm-4"><div class="ds-card fee-col-card"><div class="ds-icon-badge"><i class="fas fa-utensils"></i></div><div class="fee-col-amount">US$150–250</div><p>Food / month</p></div></div>
-                    <div class="col-sm-4"><div class="ds-card fee-col-card"><div class="ds-icon-badge ds-icon-badge--navy"><i class="fas fa-bus"></i></div><div class="fee-col-amount">US$10–20</div><p>Transport / month</p></div></div>
-                    <div class="col-sm-4"><div class="ds-card fee-col-card"><div class="ds-icon-badge"><i class="fas fa-mobile-alt"></i></div><div class="fee-col-amount">US$10–15</div><p>SIM / month</p></div></div>
-                </div>
-                <div class="ds-card mt-3">
-                    <div class="ds-icon-badge ds-icon-badge--navy"><i class="fas fa-hand-holding-usd"></i></div>
-                    <h3>Reduce your fees with a scholarship</h3>
-                    <p>Eligible students can apply for CSC government scholarships and merit awards.
-                    <a href="{{ get_absolute_url('scholarships') }}">See scholarships →</a></p>
-                </div>
-            </div>
+        <div class="ds-card mt-3" style="max-width:760px;margin:0 auto">
+            <div class="ds-icon-badge ds-icon-badge--navy"><i class="fas fa-hand-holding-usd"></i></div>
+            <h3>Reduce your fees with a scholarship</h3>
+            <p>DMU names the Chinese Government, Liaoning Provincial, Dalian Government and DMU scholarships. Amounts and deadlines are not published here.
+            <a href="{{ get_absolute_url('scholarships') }}">See scholarships &rarr;</a></p>
         </div>
     </div>
 </section>

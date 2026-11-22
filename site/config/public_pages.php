@@ -6,7 +6,7 @@
 return [
     'home' => [
         'page_title' => 'Study MBBS in China 2027 | Dalian Medical University (DMU)',
-        'page_description' => 'Study MBBS in China at Dalian Medical University: MOE-listed, English-medium, 6 years. First-year package ¥67,100. March and September intakes. Apply with CAS.',
+        'page_description' => 'Study MBBS in China at Dalian Medical University: MOE-listed, English-medium, 6 years. Tuition ¥42,000 a year. March and September intakes. Apply with CAS.',
         'page_keywords' => 'study MBBS in China, Dalian Medical University MBBS, Dalian Medical University, DMU, MBBS in China 2027, MBBS in China fees, MBBS in China admission, English medium MBBS, MOE listed MBBS universities, CSC scholarship, MBBS for international students',
         'page_url' => 'https://dmu.cas.moe/',
         'page_image' => 'https://dmu.cas.moe/images/logo.png',
@@ -51,7 +51,7 @@ return [
     ],
     'fees' => [
         'page_title' => 'MBBS in China Fees 2027 | Dalian Medical University Cost',
-        'page_description' => 'MBBS in China fees at Dalian Medical University: tuition ¥42,000, first-year package ¥67,100 (about US$9,450), then ¥52,100-56,100 a year. Fee table checked 22 Nov 2026.',
+        'page_description' => 'MBBS in China fees at Dalian Medical University: tuition ¥42,000 a year, yearly total ¥52,100-56,100 (about US$7,350-7,900). Fee table checked 22 Nov 2026.',
         'page_keywords' => 'MBBS in China fees, Dalian Medical University fees, DMU tuition fee, cost of MBBS in China, MBBS in China fee structure 2027, MBBS in China cost, study MBBS in China cost',
         'page_url' => 'https://dmu.cas.moe/fees',
         'page_image' => 'https://dmu.cas.moe/images/logo.png',
@@ -105,10 +105,10 @@ return [
     // fees_faqs
     'fees_faqs' => [
         ['q' => 'How much does MBBS cost in China at DMU?',
-         'a' => 'The complete first-year package is ¥67,100 (about US$9,450). From the second year onward the yearly total is ¥52,100-56,100 (about US$7,350-7,900): tuition ¥42,000, accommodation ¥8,000-12,000, insurance ¥800, residence permit ¥800 and medical ¥500.'],
-        ['q' => 'What is included in the first-year MBBS fee package?',
-         'a' => 'The first-year package covers the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup.'],
-        ['q' => 'Are there costs outside the package?',
+         'a' => 'The yearly total is ¥52,100-56,100 (about US$7,350-7,900): tuition ¥42,000, accommodation ¥8,000-12,000, insurance ¥800, residence permit ¥800 and medical ¥500. Fees last checked 22 November 2026; confirm the current fees with admissions before you pay.'],
+        ['q' => 'What does the first year of MBBS include?',
+         'a' => 'The DMU fee letter lists an application fee of ¥800, visa ¥800, a medical check-up of ¥500, books of about ¥500 and insurance of ¥800, plus tuition and hostel. The application fee and first-year tuition (¥42,800, about US$6,700) are due within 10 days of the admission letter; the rest is paid on arrival.'],
+        ['q' => 'Are there other costs?',
          'a' => 'DMU\'s own fee letter also lists books at about ¥500. Food and personal spending are not part of these figures. Ask admissions for the current fee letter before you pay.'],
         ['q' => 'Can I get a scholarship to reduce MBBS fees?',
          'a' => 'DMU lists several scholarships for international students, including the Chinese Government Scholarship. Amounts and deadlines are not published, so visit our scholarships page or ask a counsellor what currently applies.'],
@@ -123,7 +123,7 @@ return [
         ['question' => 'What is the medium of instruction for the MBBS program?',
          'answer' => 'The MBBS program is taught in English. DMU launched its English-medium MBBS in 2004. No HSK or IELTS requirement is published for MBBS.'],
         ['question' => 'How much does MBBS at DMU cost?',
-         'answer' => 'The complete first-year package is ¥67,100 (about US$9,450), covering tuition, hostel, visa, insurance and admission charges. From the second year the total is ¥52,100-56,100 a year (about US$7,350-7,900).'],
+         'answer' => 'MBBS tuition is ¥42,000 a year. The yearly total, with accommodation, insurance, residence permit and medical, is ¥52,100-56,100 (about US$7,350-7,900).'],
         ['question' => 'How long is the MBBS program at DMU?',
          'answer' => 'The MBBS degree takes 6 years, including a one-year internship.'],
         ['question' => 'When is the intake and how do I apply?',
@@ -189,7 +189,7 @@ return [
         'home_mbbs_lead' => 'The MBBS program is taught in English and lasts 6 years including a one-year internship. DMU launched its English-medium MBBS in 2004 and works with its affiliated hospitals.',
         'home_fees_eyebrow' => 'Tuition',
         'home_fees_title' => 'MBBS Fee Structure',
-        'home_fees_note' => 'First-year package includes tuition, hostel, visa, insurance, medical, registration & admission charges and JW202 visa letter.',
+        'home_fees_note' => 'DMU published MBBS charges: tuition, hostel, insurance, residence permit and medical. The yearly total is 52,100-56,100 RMB.',
         'home_fees_tag' => 'MOE-listed · English medium',
         'home_why_eyebrow' => 'Why DMU',
         'home_why_title' => 'Why international students choose DMU',

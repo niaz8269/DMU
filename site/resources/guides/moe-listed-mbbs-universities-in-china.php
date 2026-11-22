@@ -126,7 +126,7 @@ return [
             "A confirmed listing earns the university a place on your shortlist. It does not choose for you. These are the practical steps that usually follow.",
         ], 'sub' => [
             ['h' => 'Compare fees using one yardstick', 'p' => [
-                "Ask each university for the first-year amount and the amount from year two, and ask which items are inside each figure. For DMU, the MBBS first-year complete package is ¥67,100 (about US$9,450), and from year two the total is ¥52,100-56,100 a year (about US$7,350-7,900). Fees can change, so confirm the figure with admissions.",
+                "Ask each university for the first-year amount and the amount from year two, and ask which items are inside each figure. For DMU, MBBS tuition is ¥42,000 a year, and from year two the total is ¥52,100-56,100 a year (about US$7,350-7,900). Fees can change, so confirm the figure with admissions.",
             ]],
             ['h' => 'Compare calendars', 'p' => [
                 "DMU runs two intakes. The autumn window runs from 1 March to 5 July and the spring window from 1 September to 5 January. Confirm the dates with admissions, because the university's own notice for a given intake may differ.",

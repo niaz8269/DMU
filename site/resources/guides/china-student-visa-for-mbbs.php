@@ -17,7 +17,7 @@ return [
         ['Visa type', 'Long-term study visa (X1) for a programme of more than 180 days; confirm with your embassy'],
         ['Papers from DMU', 'Admission letter and JW202 form, issued after you pay the fee shown in the acceptance letter'],
         ['Order at DMU', 'Apply, decision, acceptance letter (LOA), payment, admission letter and JW202'],
-        ['First-year package', '¥67,100 (about US$9,450); includes visa, JW202 visa letter and airport pickup'],
+        ['Visa fee in DMU\'s letter', '¥800 on first arrival, with a ¥500 medical check-up; confirm current fees with admissions'],
         ['Visa item in later years', 'Residence permit ¥800 and medical ¥500 a year from year two'],
         ['Where to apply', 'The Chinese embassy, consulate or visa centre that serves your place of residence'],
         ['After arrival', 'Residence permit application; confirm the deadline with the international student office'],
@@ -34,7 +34,7 @@ return [
             ['Which visa does an MBBS student need?', 'A long-term study visa, normally X1; confirm the category with your embassy'],
             ['What does DMU send you?', 'Acceptance letter first; admission letter and JW202 form after payment'],
             ['Who decides on the visa?', 'The consular officer at the embassy, consulate or visa centre'],
-            ['Is the visa included in the fees?', 'The first-year complete package of ¥67,100 includes visa, health insurance and medical, and the JW202 visa letter'],
+            ['Is the visa included in the fees?', 'DMU\'s first-arrival charges list a visa item of ¥800 and a medical check-up of ¥500; confirm current fees with admissions'],
             ['Can DMU publish its bank account here?', 'No. Never pay to an account you have not confirmed through an official channel'],
             ['Is approval guaranteed?', 'No']
         ]]],
@@ -60,7 +60,7 @@ return [
             "The embassy file is only as strong as the admission file behind it. These are the documents DMU asks for at application. Several, such as the passport and the medical check-up, are used again later, so prepare them carefully once and keep the originals safe.",
         ], 'list' => $s['documents'], 'sub' => [
             ['h' => 'Step 1: apply and upload your documents', 'p' => [
-                "Apply through the CAS portal or the DMU online system. The application processing fee in DMU's own fee letter is ¥800, and the first-year complete package includes it. Upload clear scans of the passport information page, the photograph, the transcript and the other papers.",
+                "Apply through the CAS portal or the DMU online system. The application processing fee in DMU's own fee letter is ¥800, and it is paid with the first-year tuition. Upload clear scans of the passport information page, the photograph, the transcript and the other papers.",
             ]],
             ['h' => 'Step 2: DMU decides', 'p' => [
                 "DMU reviews the documents. If a document is unclear or missing, the office may ask you to resend it. Reply quickly, because the delay counts against the intake window.",
@@ -124,13 +124,13 @@ return [
                 "Use a real statement from the person who will pay your fees, with that person's name on it and a clear link to you, such as a parent. Money that appears in an account a few days before the application invites questions. Never use a borrowed or altered statement. A false document can lead to refusal and can affect later applications.",
             ]],
             ['h' => 'The visa requirement is not your budget', 'p' => [
-                "An embassy minimum, where it exists, is not the cost of the degree. Use DMU's own figures to plan: the first-year complete package of ¥67,100, then ¥52,100-56,100 a year from year two, before flights and personal spending.",
+                "An embassy minimum, where it exists, is not the cost of the degree. Use DMU's own figures to plan: tuition of ¥42,000 a year, a yearly total of ¥52,100-56,100 from year two, and DMU's first-arrival charges (application ¥800, visa ¥800, medical ¥500, books ¥500, insurance ¥800), before flights and personal spending.",
             ]],
         ], 'link' => ['mbbs-in-china-fees-2027', 'See the full MBBS fee breakdown']],
 
         ['id' => 'medical', 'eyebrow' => 'Health', 'h' => 'The medical check-up', 'p' => [
             "DMU lists a medical check-up among the documents for application. Chinese authorities use a standard physical examination form for foreigners who come for a long stay. A doctor completes it after an examination, and laboratory and other reports are attached. Your embassy's list shows whether it must be shown with the visa application. Where it does not, carry the original form and reports to China anyway, because registration and the residence permit may call for a health record.",
-            "The medical item is part of the first-year package. In later years, DMU's figures list medical at ¥500 a year.",
+            "DMU's first-arrival charges include a medical check-up of ¥500. In later years, DMU's figures list medical at ¥500 a year.",
         ], 'sub' => [
             ['h' => 'How to get the form right', 'p' => [
                 "Have the examination at a recognised hospital. Make sure every box is completed, the photograph is attached and stamped where the form asks, and the doctor's signature and the hospital stamp are present. Keep the original reports with the form.",
@@ -164,7 +164,7 @@ return [
 
         ['id' => 'arrival', 'eyebrow' => 'After the visa', 'h' => 'Travel, registration and the residence permit', 'p' => [
             "When the passport comes back, read the visa sticker before you leave the counter. Check your name, passport number and the category, and note the date by which you must enter China. Book the flight only after the visa is in your passport.",
-            "The first-year package includes airport pickup, so send your flight details to the admissions office before you fly. Carry your passport, admission letter, JW202, medical records, photographs and payment receipts in hand luggage.",
+            "Ask the admissions office whether airport pickup can be arranged, and send your flight details before you fly. Carry your passport, admission letter, JW202, medical records, photographs and payment receipts in hand luggage.",
             "After arrival, a student on a long-term study visa normally has to apply for a residence permit within a limited time. Embassy pages state the number of days, and the date counts from the day you enter China, not from the day classes begin. Report to the international student office as soon as you arrive and follow its instructions. The residence permit is renewed each year; from year two DMU's figures list ¥800 for it.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-campus-willows-and-sea.webp', 'alt' => 'Willow trees beside the sea on the Dalian Medical University campus', 'caption' => 'After arrival, register with the international student office and begin the residence permit.'],
         'table' => $s['feeYearly'], 'sub' => [
@@ -193,7 +193,7 @@ return [
         ['What bank statement is needed for a China student visa?', "It depends on the embassy, and some pages do not state a figure. DMU separately asks for a family financial certificate or one year of bank statements at application."],
         ['Is a physical examination form needed?', "DMU lists a medical check-up among its application documents. Whether your embassy wants the form with the visa depends on its list. Carry the original in any case."],
         ['How long does the China student visa take?', "It differs by office and case, and it can be longer if documents are added or an interview is held. Do not buy a flight before the decision."],
-        ['Is the visa included in the DMU fee?', "The first-year complete package of ¥67,100 (about US$9,450) includes visa, health insurance and medical, and the JW202 visa letter. Costs you pay in your own country, such as embassy fees, are separate; ask admissions for the detail."],
+        ['Is the visa included in the DMU fee?', "DMU's first-arrival charges list a visa item of ¥800, insurance of ¥800 and a medical check-up of ¥500. Costs you pay in your own country, such as embassy fees, are separate; ask admissions for the detail."],
         ['Can DMU guarantee my visa?', "No. The consular officer decides on every application."],
         ['Where do I send questions about my visa letter?', "Email admissions@dmu.cas.moe, or contact the DMU admissions office on +86-411-86110202 during its office hours."],
     ],

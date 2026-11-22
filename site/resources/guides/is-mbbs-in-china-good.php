@@ -12,11 +12,11 @@ return [
     'lead' => 'Nobody can say for you whether an MBBS in China is worth it, but you can test the question against facts. This guide sets out what is in favour, what needs care and which checks to run, using the confirmed figures for Dalian Medical University as the working example.',
     'crumb' => 'Is MBBS in China good?',
     'cta' => 'Talk to CAS about DMU',
-    'answer' => 'It can be, if the university is on the Ministry of Education list, the course is taught in English, you can afford the whole stay and your own medical council accepts the degree. Dalian Medical University is third on the 2026 list with 120 seats and charges ¥67,100 for the first year. Verify your council\'s current rules before you commit.',
+    'answer' => 'It can be, if the university is on the Ministry of Education list, the course is taught in English, you can afford the whole stay and your own medical council accepts the degree. Dalian Medical University is third on the 2026 list with 120 seats and charges MBBS tuition of ¥42,000 a year. Verify your council\'s current rules before you commit.',
     'facts' => [
         ['MOE listing at DMU', 'Third of 43; 120 seats (notice of 1 June 2026)'],
         ['Course', 'English-medium MBBS, 6 years including a 1-year internship'],
-        ['First year', '¥67,100 complete package (about USD 9,450)'],
+        ['Tuition', '¥42,000 a year (MBBS)'],
         ['From year two', '¥52,100-56,100 a year (about USD 7,350-7,900)'],
         ['Hospitals', '3 directly affiliated, 14 affiliated in total'],
         ['Recognition', 'Confirmed for several councils; check your own current rules'],
@@ -35,10 +35,10 @@ return [
         ], 'note' => $s['moeSource'], 'link' => ['moe-listed-mbbs-universities-in-china', 'See all 43 MOE listed universities and their seats']],
 
         ['id' => 'cost', 'eyebrow' => 'Test two', 'h' => 'Can you afford it?', 'p' => [
-            "Cost is the most concrete part of the decision. For the MBBS at DMU, the first year is a complete package of ¥67,100, about USD 9,450, covering the application processing fee, tuition, hostel, visa, health insurance and medical, registration and management charges, the JW202 letter and airport pickup. From the second year, the cost is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900.",
+            "Cost is the most concrete part of the decision. For the MBBS at DMU, tuition is ¥42,000 a year, with accommodation of ¥8,000-12,000, insurance of ¥800, a residence permit of ¥800 and medical of ¥500. The application fee plus first-year tuition (¥42,800, about US$6,700) are paid within 10 days of receiving the admission letter, and the rest on arrival. From the second year, the cost is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900.",
             "We do not state a six-year total, because it is not confirmed, and fees may change; the table was last checked on 22 November 2026. We also have no verified figure for living costs in Dalian, so do not borrow another city's budget. A sensible way to plan is to take the year-two figure for each remaining year, ask admissions in writing whether any price rise is expected, and add your own travel and personal spending on top.",
             "Whether the price is worth it depends on what you compare it with. Compare against private options in your own country using each institution's current written fee schedule, not hearsay, and include the cost of any extra steps your council requires after graduation.",
-        ], 'table' => $s['feeFirstYear'], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building at Dalian Medical University', 'caption' => 'The library building at DMU.'],
+        ], 'table' => $s['feeYearly'], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building at Dalian Medical University', 'caption' => 'The library building at DMU.'],
         'link' => ['mbbs-in-china-fees-2027', 'Read the full MBBS in China fees guide']],
 
         ['id' => 'training', 'eyebrow' => 'Test three', 'h' => 'Will the training be good enough?', 'p' => [
@@ -58,7 +58,7 @@ return [
             "This site never promises a licence outcome. If an agent says you will definitely be licensed, treat the statement as a warning sign, not as reassurance.",
         ], 'table' => ['caption' => 'A five-test scorecard you can fill in yourself', 'head' => ['Test', 'What to verify', 'Where DMU stands on our confirmed facts'], 'rows' => [
             ['Listing', 'Ministry of Education list', 'Third of 43; 120 seats'],
-            ['Cost', 'Written fee schedule and total budget', 'First-year package and yearly costs confirmed; six-year total not published'],
+            ['Cost', 'Written fee schedule and total budget', 'Tuition and yearly costs confirmed; six-year total not published'],
             ['Training', 'Hospitals, rotations, supervision', 'Hospital figures published; outcomes not published'],
             ['Language', 'Language of teaching and daily life', 'English medium; no HSK or IELTS published'],
             ['Licence', 'Your own council\'s current rules', 'Recognition confirmed for several councils; you must check yours'],
@@ -71,7 +71,7 @@ return [
                 'A listed, public university with a long record of teaching international students.',
                 'English-medium teaching, with no HSK or IELTS requirement published for the MBBS.',
                 'Large affiliated hospital network, with published figures.',
-                'A clearly itemised first-year package and a published yearly cost afterwards.',
+                'Published tuition, itemised yearly costs and a list of first-arrival charges.',
             ]],
             ['h' => 'Needing care', 'list' => [
                 'Your own council\'s rules decide your licence, not the university.',
@@ -91,7 +91,7 @@ return [
     'faqs' => [
         ['Is MBBS in China good?', 'It can be a sound choice when the university is on the Ministry of Education list, teaches in English, fits your budget and is accepted by your own medical council. Dalian Medical University is third of 43 on the 1 June 2026 list, with 120 seats.'],
         ['Is MBBS in China worth it for Pakistani students?', 'DMU is recognised by PMDC according to the site owner, but PMDC rules can change. Read the current PMDC rules before you apply. This site cannot promise a licence outcome.'],
-        ['How much does MBBS at DMU cost?', 'The first-year package is ¥67,100, about USD 9,450. From the second year the cost is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900. A six-year total is not published.'],
+        ['How much does MBBS at DMU cost?', 'MBBS tuition is ¥42,000 a year. From the second year the yearly total is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900. A six-year total is not published.'],
         ['Is the degree taught in English?', 'Yes. English-medium MBBS has been taught at DMU since 2004, and no HSK or IELTS requirement is published for it.'],
         ['What are the main risks?', 'The main risks are choosing an unlisted university, relying on a licence promise, and underestimating costs. Check the ministry list, your council\'s rules and a written fee schedule.'],
         ['Can I get a scholarship?', 'DMU names six scholarships, but no amounts, quotas or deadlines are published. Ask the university directly what each one covers.'],

@@ -12,7 +12,7 @@ return [
     'lead' => 'This guide walks through an English-medium MBBS at Dalian Medical University (DMU), a public university on the Liaodong coast. It covers where DMU stands on the Ministry of Education list, what the degree costs, who can apply, when the two intakes open, which scholarships exist and how an application moves from documents to admission letter.',
     'crumb' => 'MBBS in China 2027',
     'cta' => 'Talk to admissions about DMU',
-    'answer' => 'Dalian Medical University teaches an English-medium MBBS lasting six years, including a one-year internship. It is third on the 2026 Ministry of Education list, with 120 seats. Tuition is 42,000 yuan a year, the first-year package is 67,100 yuan, and applications run from March to July for autumn or September to January for spring.',
+    'answer' => 'Dalian Medical University teaches an English-medium MBBS lasting six years, including a one-year internship. It is third on the 2026 Ministry of Education list, with 120 seats. Tuition is 42,000 yuan a year, with a yearly total of 52,100 to 56,100 yuan from year two, and applications run from March to July for autumn or September to January for spring.',
     'facts' => [
         ['University', 'Dalian Medical University (DMU), public, Dalian, Liaoning Province'],
         ['Degree', 'MBBS, English medium; 6 years including a 1-year internship'],
@@ -20,7 +20,7 @@ return [
         ['Intakes', 'March (spring) and September (autumn); BDS autumn only'],
         ['Entry', 'Age 18 to 25; chemistry, physics, biology and English at senior high school'],
         ['Language tests', 'No HSK or IELTS requirement is published for MBBS'],
-        ['First-year package', '¥67,100 (about US$9,450), CAS service charges included'],
+        ['Tuition', '¥42,000 a year for MBBS'],
         ['From year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['Scholarships', 'Six named schemes; amounts and deadlines are not published here'],
     ],
@@ -85,9 +85,16 @@ return [
         ], 'img' => ['src' => 'assets/images/dmu/dmu-glass-teaching-building.webp', 'alt' => 'A modern glass teaching building at Dalian Medical University with students walking past', 'caption' => 'Students walking past a glass-fronted teaching building.']],
 
         ['id' => 'fees', 'eyebrow' => 'Money', 'h' => 'What the MBBS costs', 'p' => [
-            "The first year is quoted as one complete package of ¥67,100, about US$9,450. It covers the application processing fee, tuition, hostel, visa, health insurance and medical check, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup.",
-            "That CAS package includes CAS service charges. DMU's own charges are listed separately in the dedicated fee guide, so you can see which part goes to the university and which part pays for the service around it.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
+            "Tuition for the MBBS is ¥42,000 a year. In the first year DMU's own charges are an application fee of ¥800 and a year of tuition, both due within ten days of receiving the admission letter, then the visa at ¥800, a medical check-up at ¥500, books at ¥500 and insurance at ¥800 on arrival. The hostel is priced separately.",
+            "We list these charges one by one and do not add them into a first-year total. The dedicated fee guide sets out each charge and when it is due.",
+        ], 'table' => ['caption' => 'DMU first-year charges, MBBS (RMB)', 'head' => ['Item', 'Amount', 'When'], 'rows' => [
+            ['Application fee', '¥800', 'Within 10 days of the admission letter'],
+            ['Tuition (MBBS), one year', '¥42,000', 'Within 10 days of the admission letter'],
+            ['Visa', '¥800', 'On arrival'],
+            ['Medical check-up', '¥500', 'On arrival'],
+            ['Books', '¥500', 'On arrival'],
+            ['Insurance', '¥800', 'On arrival'],
+        ]], 'sub' => [
             ['h' => 'From the second year', 'p' => [
                 "After year one the fixed cost falls to tuition of ¥42,000 plus accommodation, insurance, the residence permit and a medical check. The total is ¥52,100 to ¥56,100 a year, about US$7,350 to 7,900, depending on the hostel room.",
             ]],
@@ -124,7 +131,7 @@ return [
         ], 'table' => $s['scholarships'], 'link' => ['mbbs-in-china-scholarship-2027', 'Read the scholarship guide']],
 
         ['id' => 'life', 'eyebrow' => 'Campus', 'h' => 'Hostel and campus life', 'p' => [
-            "A hostel place is part of the first-year package. DMU's fee letter gives a double room at about ¥8,000 a year for boys and about ¥11,000 for girls, with postgraduate rooms at ¥10,000. Rent runs for ten months of the year.",
+            "The hostel is billed separately from the charges above. DMU's fee letter gives a double room at about ¥8,000 a year for boys and about ¥11,000 for girls, with postgraduate rooms at ¥10,000. Rent runs for ten months of the year.",
             "Photographs show a 1947 stone arch beside a residence block, which reflects the age of the institution. We do not publish a description of Dalian's climate or living costs because that data is not in our confirmed source list; ask the university or a current student.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-1947-arch-and-student-hostel.webp', 'alt' => 'A stone arch marked 1947 standing in front of a student residence block at Dalian Medical University', 'caption' => 'The 1947 arch in front of a residence block.']],
 
@@ -134,7 +141,7 @@ return [
             'Confirm the programme is on the current MOE list.',
             'Read your own medical council\'s current rules for foreign graduates.',
             'Check your subjects and age against DMU\'s entry rules and ask for the marks table.',
-            'Request the fee breakdown in writing and compare it with the package here.',
+            'Request the fee breakdown in writing and compare it with the charges listed here.',
             'Pick the intake whose window you can meet with certified documents.',
             'Apply, wait for the LOA, then pay only the amount the LOA states.',
         ]],
@@ -149,7 +156,7 @@ return [
         ['How long is the MBBS at DMU?', 'Six years in total, of which the last year is an internship.'],
         ['What are the MBBS in China requirements?', 'Age 18 to 25, senior high school with good marks, and compulsory chemistry, physics, biology and English. You also need proof of financial support and a medical check-up. Mathematics is a reference subject.'],
         ['Do I need IELTS or HSK?', 'No HSK or IELTS requirement is published for the MBBS at DMU.'],
-        ['What is the MBBS in China fee for 2027?', 'The first-year package is ¥67,100, about US$9,450, and later years run ¥52,100 to ¥56,100 depending on the hostel room. Confirm with admissions before paying.'],
+        ['What is the MBBS in China fee for 2027?', 'Tuition is ¥42,000 a year, and from year two the yearly total is ¥52,100 to ¥56,100 depending on the hostel room. Confirm current fees with admissions before paying.'],
         ['When is MBBS in China admission 2027?', 'Autumn applications run 1 March to 5 July, spring ones 1 September to 5 January. Confirm the current dates with admissions.'],
         ['Can I apply for the March intake?', 'Yes for MBBS. The spring window is 1 September to 5 January, and the online system for spring 2027 opened on 20 October 2026.'],
         ['Is the MBBS taught in English?', 'Yes. DMU has taught MBBS in English for international students since 2004.'],

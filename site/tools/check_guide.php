@@ -2,7 +2,7 @@
 // Usage: php tools/check_guide.php slug [slug...]   (no args = every guide). Mirrors tests/Feature/SeoGuidesTest.php.
 chdir(dirname(__DIR__));
 $slugs = array_slice($argv, 1) ?: array_map(fn ($f) => basename($f, '.php'), glob('resources/guides/[!_]*.php'));
-$bad = ['Xinjiang', 'XJMU', 'Urumqi', 'Ürümqi', 'xjmu', '49,950', '35,950', '8th of 43', '60 seats'];
+$bad = ['Xinjiang', 'XJMU', 'Urumqi', 'Ürümqi', 'xjmu', '49,950', '35,950', '8th of 43', '60 seats', '67,100', '9,450', 'first-year package', 'complete package'];
 foreach ($slugs as $slug) {
     $g = require "resources/guides/$slug.php";
     $text = [$g['h1'], $g['lead']];

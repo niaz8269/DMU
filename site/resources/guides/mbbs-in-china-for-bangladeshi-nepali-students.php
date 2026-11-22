@@ -12,13 +12,13 @@ return [
     'lead' => 'Students from Bangladesh and Nepal share one practical problem: the rules that turn a foreign MBBS into a licence at home belong to a national council, not to China. This guide covers what Dalian Medical University publishes, what it costs, and a method for checking BMDC or Nepal Medical Council rules yourself.',
     'crumb' => 'MBBS in China for Bangladeshi and Nepali students',
     'cta' => 'Talk to admissions',
-    'answer' => 'Bangladeshi and Nepali students can apply to the English-medium MBBS at Dalian Medical University, third on China\'s 2026 MOE list, if they have finished senior high school with physics, chemistry, biology and English and are 18 to 25. The first year costs ¥67,100. Recognition at home is decided by your own council, so verify it first.',
+    'answer' => 'Bangladeshi and Nepali students can apply to the English-medium MBBS at Dalian Medical University, third on China\'s 2026 MOE list, if they have finished senior high school with physics, chemistry, biology and English and are 18 to 25. MBBS tuition is ¥42,000 a year. Recognition at home is decided by your own council, so verify it first.',
     'facts' => [
         ['University', 'Dalian Medical University (DMU), public university in Dalian, China'],
         ['Programme', 'MBBS in English, 6 years including a 1-year internship'],
         ['MOE list', '3rd of 43 universities, 120 seats (MOE notice of 1 June 2026)'],
         ['Entry', 'Senior high school with chemistry, physics, biology and English; age 18 to 25'],
-        ['First-year package', '¥67,100 (about US$9,450)'],
+        ['MBBS tuition', '¥42,000 a year'],
         ['From year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['Intakes', 'March (spring) and September (autumn)'],
         ['Language tests', 'No HSK or IELTS requirement is published for MBBS'],
@@ -37,7 +37,7 @@ return [
             ['Programme', 'MBBS taught in English'],
             ['Length', '6 years including a 1-year internship'],
             ['Students from abroad', '1,200+ from over 100 countries'],
-            ['First-year package', '¥67,100, about US$9,450'],
+            ['MBBS tuition', '¥42,000 a year'],
             ['Intakes', 'March and September'],
         ]]],
 
@@ -111,9 +111,9 @@ return [
 
         ['id' => 'fees', 'eyebrow' => 'Costs', 'h' => 'Fees, in yuan, and how to think about them in taka or rupees', 'p' => [
             "DMU charges in Chinese yuan. We quote an approximate US dollar figure, and we do not give amounts in taka or Nepali rupees, because rates move. Plan in yuan, convert at the rate on each payment day, and keep a reserve for movement. These figures were last checked on 22 November 2026 and can change, so confirm them with admissions.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
-            ['h' => 'After the first year', 'p' => [
-                "The package is not repeated. From year two you pay the items listed in the second table, with accommodation varying by room.",
+        ], 'sub' => [
+            ['h' => 'Tuition and the first payment', 'p' => [
+                "MBBS tuition is ¥42,000 a year. The application fee of ¥800 and the first year's tuition, ¥42,800 in all (about US$6,700), are paid within ten days of receiving the admission letter. The other charges are paid on arrival and are listed in the next section, with accommodation varying by room.",
             ]],
         ]],
 
@@ -198,7 +198,7 @@ return [
         ['Can Nepali students study MBBS in China?', 'Yes, DMU admits Nepali applicants who meet its published conditions. Check what the Nepali medical council requires before and after study abroad.'],
         ['Is MBBS in China recognised in Nepal?', 'We cannot give a verified summary of the Nepali council\'s rules. Read its current notices, or ask it in writing, before paying any fee.'],
         ['What are the entry requirements?', 'Senior high school with chemistry, physics, biology and English, an age of 18 to 25, good health and proof of financial support. DMU does not publish a percentage as text.'],
-        ['How much does it cost?', 'The first-year package is ¥67,100, about US$9,450. From year two the total is ¥52,100-56,100 a year. Fees can change, so confirm with admissions.'],
+        ['How much does it cost?', 'MBBS tuition is ¥42,000 a year. With accommodation, insurance, the residence permit and the medical, the yearly total from year two is ¥52,100-56,100 (about US$7,350-7,900). Fees were last checked on 22 November 2026 and can change, so confirm with admissions.'],
         ['Is the course in English?', 'Yes. DMU has taught MBBS in English since 2004. Ask how Chinese is taught, since clinical work involves Chinese-speaking patients.'],
         ['Is there an HSK or IELTS requirement?', 'None is published for MBBS at DMU.'],
         ['How long is the programme?', 'Six years, including a one-year internship.'],

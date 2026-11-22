@@ -12,13 +12,13 @@ return [
     'lead' => 'A working guide for Pakistani applicants and their parents. It explains how the six-year English-medium MBBS at Dalian Medical University is organised, what the published fees are, how to apply from home, and, just as important, which questions only your own regulator can answer.',
     'crumb' => 'MBBS in China for Pakistani students',
     'cta' => 'Apply from Pakistan',
-    'answer' => 'Pakistani students can apply to the six-year English-medium MBBS at Dalian Medical University, a public university that sits third on China\'s 2026 MOE list. The first-year package is ¥67,100 (about US$9,450), later years cost ¥52,100-56,100, and intakes are March and September. Check PMDC\'s current rules before paying anything.',
+    'answer' => 'Pakistani students can apply to the six-year English-medium MBBS at Dalian Medical University, a public university that sits third on China\'s 2026 MOE list. MBBS tuition is ¥42,000 a year, the yearly total from year two is ¥52,100-56,100, and intakes are March and September. Check PMDC\'s current rules before paying anything.',
     'facts' => [
         ['University', 'Dalian Medical University (DMU), Dalian, Liaoning Province; public university founded in 1947'],
         ['Degree', 'MBBS taught in English, 6 years including a 1-year internship'],
         ['MOE list', '3rd of 43 universities, 120 seats (MOE notice of 1 June 2026)'],
         ['Entry', 'Senior high school with chemistry, physics, biology and English; age 18 to 25'],
-        ['First-year package', '¥67,100 (about US$9,450)'],
+        ['MBBS tuition', '¥42,000 a year'],
         ['From year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['Intakes', 'March (spring) and September (autumn)'],
         ['Language tests', 'No HSK or IELTS requirement is published for MBBS'],
@@ -38,7 +38,7 @@ return [
             ['International students', '1,200+ from over 100 countries'],
             ['Affiliated hospitals', '3 directly affiliated and 14 in total'],
             ['Application windows', '1 March to 5 July (autumn); 1 September to 5 January (spring)'],
-            ['First-year package', '¥67,100, about US$9,450'],
+            ['MBBS tuition', '¥42,000 a year'],
             ['Later years', '¥52,100-56,100 a year'],
         ]]],
 
@@ -99,9 +99,9 @@ return [
         ['id' => 'fees', 'eyebrow' => 'Money', 'h' => 'What the MBBS costs, in the currency you actually pay', 'p' => [
             "DMU's fees are in Chinese yuan. We show US dollar equivalents as a guide, and we do not print rupee amounts, because the exchange rate changes. When your family plans the budget, convert at the rate on the day you transfer money and keep a margin for movement over six years.",
             "The fee figures were last checked on 22 November 2026. Fees can change, so confirm the current schedule with admissions before paying.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
-            ['h' => 'Year two onward', 'p' => [
-                "After the first year there is no package. Tuition, accommodation, insurance, the residence permit and the annual medical are listed separately. The accommodation range depends on the room type.",
+        ], 'sub' => [
+            ['h' => 'Tuition and the first payment', 'p' => [
+                "MBBS tuition is ¥42,000 a year. Accommodation, insurance, the residence permit and the annual medical are listed separately, and the accommodation range depends on the room type. The application fee of ¥800 and the first year's tuition, ¥42,800 in all (about US$6,700), are paid within ten days of receiving the admission letter.",
             ]],
         ]],
 
@@ -221,7 +221,7 @@ return [
         ['Is MBBS in China valid for Pakistani students?', 'DMU is a public university on China\'s MOE list and states recognition by the Pakistan medical council. What matters for you is your own PMDC position when you graduate, so read its current rules and keep a dated copy.'],
         ['Can I study MBBS in China after FSc?', 'Yes, if you have completed senior high school with chemistry, physics, biology and English, and you are aged 18 to 25. DMU does not publish a percentage, so send your result to admissions for confirmation.'],
         ['Is MDCAT needed for admission to DMU?', 'DMU\'s published requirements do not list it. Whether PMDC wants it from students going abroad is a separate regulator question, so check the council\'s public notices.'],
-        ['How much does MBBS in China cost for Pakistani students?', 'The first-year package is ¥67,100, about US$9,450. From year two the total is ¥52,100-56,100 a year, about US$7,350-7,900. Fees can change, so confirm with admissions.'],
+        ['How much does MBBS in China cost for Pakistani students?', 'MBBS tuition is ¥42,000 a year. From year two the yearly total, with accommodation, insurance, the residence permit and the medical, is ¥52,100-56,100, about US$7,350-7,900. Fees can change, so confirm with admissions.'],
         ['Is there free MBBS in China for Pakistani students?', 'DMU names several scholarships, including the Chinese Government Scholarship, but publishes no amounts or deadlines. Treat any promise of a guaranteed free place with suspicion.'],
         ['Is MBBS in China five years or six?', 'Six years at DMU, with the final year being a clinical internship. The internship is counted within the six years.'],
         ['What is the internship like for Pakistani students?', 'The last year is clinical. DMU has three directly affiliated hospitals and 14 affiliated hospitals in all. Ask admissions how the internship is documented, since your regulator may ask for proof.'],

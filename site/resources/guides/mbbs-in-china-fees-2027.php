@@ -5,16 +5,16 @@ $s = require __DIR__ . '/_shared.php';
 return [
     'updated' => '2026-11-22',
     'title' => 'MBBS in China Fees 2027: DMU Fee Structure and Cost',
-    'description' => 'MBBS in China fees for 2027 at Dalian Medical University: the 67,100 yuan first-year package, yearly costs from year two, DMU charges and payment timing.',
+    'description' => 'MBBS in China fees for 2027 at Dalian Medical University: DMU first-arrival charges, yearly costs from year two, hostel prices and payment timing.',
     'keywords' => 'MBBS in China fees, MBBS in China fees 2027, MBBS in China fee structure, MBBS in China cost, MBBS in China low fees, MBBS in China application fee, MBBS in China hostel fee, MBBS in China fee payment, Dalian Medical University fees, DMU MBBS fee',
     'eyebrow' => 'Fee guide',
     'h1' => 'MBBS in China Fees 2027: What Dalian Medical University Charges',
-    'lead' => 'A line-by-line explanation of the money side of an MBBS at Dalian Medical University: the first-year package quoted by CAS, the lower yearly cost that follows, the separate charges in DMU\'s own fee letter, hostel prices, and the order in which payments fall due.',
+    'lead' => 'A line-by-line explanation of the money side of an MBBS at Dalian Medical University: the charges you meet in the first year, the lower yearly cost that follows, the separate charges in DMU\'s own fee letter, hostel prices, and the order in which payments fall due.',
     'crumb' => 'MBBS in China fees 2027',
     'cta' => 'Ask admissions about fees',
-    'answer' => 'The first year of the MBBS at Dalian Medical University costs 67,100 yuan, about US$9,450, as a complete CAS package covering tuition, hostel, visa, insurance, medical, the JW202 letter and airport pickup. From year two the yearly total is 52,100 to 56,100 yuan, about US$7,350 to 7,900, depending on the hostel room.',
+    'answer' => 'The MBBS at Dalian Medical University has tuition of 42,000 yuan a year. In the first year DMU bills an application fee of 800 yuan, tuition, then visa, medical check-up, books and insurance on arrival, plus the hostel. From year two the yearly total is 52,100 to 56,100 yuan, about US$7,350 to 7,900, depending on the room.',
     'facts' => [
-        ['First-year package', '¥67,100 (about US$9,450), CAS service charges included'],
+        ['First-year charges', 'Application fee ¥800, tuition ¥42,000, then visa, medical, books, insurance and hostel'],
         ['Tuition', '¥42,000 a year for MBBS'],
         ['From year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['Hostel', 'Double room about ¥8,000 (boys) to ¥11,000 (girls) a year; rent runs 10 months'],
@@ -26,25 +26,25 @@ return [
     'sections' => [
 
         ['id' => 'overview', 'eyebrow' => 'Overview', 'h' => 'The fee picture in one minute', 'p' => [
-            "Searches for MBBS in China fees tend to ask for a single number, and no single number is honest. There are two numbers that you can plan with: a package for the first year and a lower recurring figure afterwards. A third set, DMU's own fee letter, shows what the university itself bills, and it is useful because it lets you see how a package is built.",
+            "Searches for MBBS in China fees tend to ask for a single number, and no single number is honest. There are two things you can plan with: the list of charges that fall in the first year and a lower recurring figure afterwards. DMU's own fee letter shows what the university itself bills, and it is the best guide to the first year.",
             "Everything on this page is for the English-medium MBBS at Dalian Medical University (DMU). Amounts are in Chinese yuan, with approximate US dollar equivalents given only where the owner's fee sheet supplies them. We do not print conversions into other currencies because exchange rates move from week to week, and a wrong figure in your own currency would mislead you more than help.",
             "The fee table was last checked on 22 November 2026. Fees can change between intakes, so treat the table as a starting point and ask admissions to confirm the figure in writing before you pay anything.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-main-gate-panorama.webp', 'alt' => 'Wide view of the Dalian Medical University main gate and the plaza in front of it', 'caption' => 'The gate of the campus where the fees below apply.']],
 
-        ['id' => 'first-year', 'eyebrow' => 'Year one', 'h' => 'The first-year complete package: 67,100 yuan', 'p' => [
-            "The first-year package is ¥67,100, about US$9,450. CAS quotes it as a complete figure so that a new student does not have to chase six or seven separate payments. It covers the application processing fee, tuition, the hostel, the visa, health insurance and medical examination, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup.",
-            "An important distinction: this is a CAS package, so it includes CAS service charges. It is not a copy of the university's invoice. DMU's own charges are set out in a separate section below, and the gap between the two is what pays for the application handling and the arrival support.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
+        ['id' => 'first-year', 'eyebrow' => 'Year one', 'h' => 'What you pay in the first year', 'p' => [
+            "The first year has more separate charges than later years, because several of them happen once. They are the application fee of ¥800, a year of tuition at ¥42,000, the visa at ¥800, the medical check-up at ¥500, books at ¥500, insurance at ¥800 and the hostel. The hostel is priced separately, as explained in its own section below.",
+            "We list these as DMU's separate charges and do not add them into a single first-year total. The table in the next section shows each charge with the time it is due, so you can add up your own figure for the room type you choose.",
+        ], 'sub' => [
             ['h' => 'Why year one is the heaviest', 'p' => [
-                "The first year carries costs that happen once: processing the application, registration, the visa and the first medical check, plus the pickup on arrival. From the second year those items fall away, which is why the recurring figure is lower.",
+                "The first year carries costs that happen once: the application fee, the visa, the first medical check-up and books. From the second year those items fall away, which is why the recurring figure is lower.",
             ]],
             ['h' => 'What you should still ask', 'p' => [
-                "Ask for the package in writing with each included item named. If a line you expect, such as the hostel, is missing, find out before you pay rather than after.",
+                "Ask admissions to name every charge in writing with its amount and due date. If a line you expect, such as the hostel, is missing, find out before you pay rather than after.",
             ]],
         ]],
 
         ['id' => 'dmu-charges', 'eyebrow' => 'University charges', 'h' => 'What DMU itself charges', 'p' => [
-            "DMU's own fee letter lists a short set of charges. These are the amounts the university bills, separate from any consultancy service:",
+            "DMU's own fee letter lists a short set of charges. These are the amounts the university bills, as listed in the letter:",
         ], 'table' => ['caption' => 'DMU fee letter, MBBS (RMB)', 'head' => ['Item', 'Amount', 'When'], 'rows' => [
             ['Application fee', '¥800', 'Within 10 days of the admission letter'],
             ['Tuition (MBBS), one year', '¥42,000', 'Within 10 days of the admission letter'],
@@ -57,14 +57,14 @@ return [
             ['h' => 'Reading the payment order', 'p' => [
                 "The first payment of ¥42,800 combines the application fee with a year of tuition and is due within ten days of receiving the admission letter. The remaining items are collected when you arrive. The hostel is billed separately, as explained next.",
             ]],
-            ['h' => 'Why the package is higher', 'p' => [
-                "If you add the university's charges and the hostel, you reach a smaller figure than the CAS package. The difference covers the CAS services listed above, including the visa letter handling and the airport pickup. We state that as a structure, not as a figure, because the sheet does not itemise the service portion.",
+            ['h' => 'Where the hostel fits', 'p' => [
+                "The hostel is not part of the letter's short list above. It is priced per year by room type, and the next section gives the figures. Add the room you are allocated to the charges above when you plan your first-year budget.",
             ]],
         ]],
 
         ['id' => 'hostel', 'eyebrow' => 'Accommodation', 'h' => 'Hostel prices and how rent is counted', 'p' => [
             "DMU's fee letter prices a double room at about ¥8,000 a year for boys and about ¥11,000 a year for girls. Postgraduate rooms cost ¥10,000 a year. Rent covers ten months of the year, not twelve.",
-            "From year two, the CAS yearly table shows accommodation as a range of ¥8,000 to ¥12,000. The range is why the yearly total is also a range rather than a single sum. The sheet does not say which room type sits at which point, so ask admissions where you would fall.",
+            "From year two, the yearly table shows accommodation as a range of ¥8,000 to ¥12,000. The range is why the yearly total is also a range rather than a single sum. The sheet does not say which room type sits at which point, so ask admissions where you would fall.",
             "Ask admissions which room type is allocated to you and whether you may request a different one. Room choice is the main reason two students in the same year can have totals that differ by several thousand yuan.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-1947-arch-and-student-hostel.webp', 'alt' => 'A stone arch dated 1947 in front of a residence block at Dalian Medical University', 'caption' => 'A residence block behind the 1947 arch.']],
 
@@ -94,11 +94,11 @@ return [
         ]],
 
         ['id' => 'not-included', 'eyebrow' => 'Planning', 'h' => 'What is not in these figures', 'p' => [
-            "The numbers above cover university and package charges. This site deliberately does not give a six-year total, a monthly living-cost estimate for Dalian or any exchange-rate table beyond the two quoted, because those figures are not part of the confirmed fee sheet.",
+            "The numbers above cover DMU's charges and the hostel. This site deliberately does not give a six-year total, a monthly living-cost estimate for Dalian or any exchange-rate table beyond the two quoted, because those figures are not part of the confirmed fees.",
             "Plan separately for flights, personal spending, clothing and any examination you may need when you return home. A returning graduate may also face a licensing exam set by their own council, and its fee is outside the university's charges.",
         ], 'sub' => [
             ['h' => 'A simple way to build your own total', 'list' => [
-                'Take the first-year package.',
+                "Add up DMU's first-year charges listed above, with the hostel for your room type.",
                 'Add the yearly figure for each remaining year, using the low or high end according to your hostel room.',
                 'Add your own flights and personal spending.',
                 'Add a margin in case fees change, which they can.',
@@ -110,7 +110,7 @@ return [
         ], 'list' => [
             'Is the university on the current MOE list for English-medium clinical medicine?',
             'Does the quoted fee include hostel, insurance, medical and visa?',
-            'Which charges are paid to the university and which to a service provider?',
+            'Which charges are paid to the university and which to anyone else?',
             'What is paid before travel and what on arrival?',
             'Will you receive a receipt naming the payee for every payment?',
         ], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building of Dalian Medical University with its name sign', 'caption' => 'Compare what each quote includes, not only the headline.']],
@@ -120,9 +120,9 @@ return [
         ], 'table' => $s['programmes'], 'link' => ['mbbs-in-china-2027', 'Read the complete MBBS in China 2027 guide']],
     ],
     'faqs' => [
-        ['How much is the MBBS in China fee at DMU?', 'The first-year complete package is ¥67,100, about US$9,450. From year two it is ¥52,100 to ¥56,100 a year, about US$7,350 to 7,900.'],
-        ['What does the first-year package include?', 'Application processing, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup.'],
-        ['Does the package include CAS service charges?', 'Yes. The CAS package includes service charges, and DMU\'s own charges are listed separately in the section on university charges.'],
+        ['How much is the MBBS in China fee at DMU?', 'Tuition is ¥42,000 a year. From year two the yearly total is ¥52,100 to ¥56,100, about US$7,350 to 7,900. Confirm current fees with admissions.'],
+        ["What are DMU's charges in the first year?", 'An application fee of ¥800, tuition of ¥42,000, and on arrival the visa at ¥800, medical check-up at ¥500, books at ¥500 and insurance at ¥800, plus the hostel.'],
+        ["Where can I see DMU's own charges?", 'They are listed in the section on what DMU itself charges, with the amount and when each is due.'],
         ['What is DMU\'s tuition for MBBS?', '¥42,000 a year.'],
         ['What is the MBBS in China application fee?', 'DMU\'s fee letter lists an application fee of ¥800.'],
         ['What do I pay after the admission letter?', 'The application fee plus tuition, ¥42,800 (about US$6,700), within ten days of receiving the admission letter. The rest is paid on arrival.'],

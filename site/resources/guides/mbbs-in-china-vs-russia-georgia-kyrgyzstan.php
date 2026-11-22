@@ -12,12 +12,12 @@ return [
     'lead' => 'Which country is best for MBBS abroad? We cannot answer that honestly with claims about three countries we have not verified. What we can do is give you the questions to ask about any country, show where Dalian Medical University stands on each, and help you build a comparison from sources you can check yourself.',
     'crumb' => 'MBBS in China vs Russia, Georgia and Kyrgyzstan',
     'cta' => 'Talk to admissions',
-    'answer' => 'No country is best for every student. To compare China with Russia, Georgia or Kyrgyzstan, check each university\'s government approval, teaching language, total cost, clinical training and your own council\'s rules. Dalian Medical University is third on China\'s MOE list, teaches in English for six years and charges ¥67,100 in year one. Verify the other countries yourself.',
+    'answer' => 'No country is best for every student. To compare China with Russia, Georgia or Kyrgyzstan, check each university\'s government approval, teaching language, total cost, clinical training and your own council\'s rules. Dalian Medical University is third on China\'s MOE list, teaches in English for six years and charges MBBS tuition of ¥42,000 a year. Verify the other countries yourself.',
     'facts' => [
         ['DMU approval', '3rd of 43 universities on China\'s MOE list, 120 seats (notice of 1 June 2026)'],
         ['DMU programme', 'MBBS in English, 6 years including a 1-year internship'],
         ['DMU entry', 'Senior high school with chemistry, physics, biology and English; age 18 to 25'],
-        ['DMU first-year package', '¥67,100 (about US$9,450)'],
+        ['DMU MBBS tuition', '¥42,000 a year'],
         ['DMU from year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['DMU intakes', 'March and September'],
         ['Other countries', 'No verified figures held; use each university\'s written terms and each government\'s own list'],
@@ -64,9 +64,9 @@ return [
         ]],
 
         ['id' => 'q-cost', 'eyebrow' => 'Question 5', 'h' => 'What is the cost, from the first fee to the last?', 'p' => [
-            "At DMU the first-year package for the MBBS is ¥67,100, about US$9,450. It covers the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup. From year two the cost is ¥52,100-56,100 a year, about US$7,350-7,900. Fees were last checked on 22 November 2026 and can change.",
+            "At DMU the MBBS tuition is ¥42,000 a year. DMU's own fee letter also lists an application fee of ¥800, a visa fee of ¥800, a medical check-up of ¥500, books of ¥500 and insurance of ¥800. From year two the yearly total, with accommodation, insurance, the residence permit and the medical, is ¥52,100-56,100 a year, about US$7,350-7,900. Fees were last checked on 22 November 2026 and can change.",
             "We do not state a six-year total, since we hold no confirmed figure for the final year or for living costs in Dalian. For another country, ask the university for a complete schedule, with every item, in one currency, for every year, including the last.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
+        ], 'sub' => [
             ['h' => 'Comparing in a common currency', 'p' => [
                 "Convert each country's fees at the same rate on the same day, and add a reserve for movement. A cheaper-looking figure in one currency may not stay cheaper once the rate moves.",
             ]],
@@ -101,7 +101,7 @@ return [
         ['id' => 'walkthrough', 'eyebrow' => 'In practice', 'h' => 'A worked walkthrough: checking one claim from start to finish', 'p' => [
             "Suppose an adviser tells you that a university in another country is fully approved, cheaper than DMU and accepted by your home council. That is three claims, and each can be tested. Here is how, without needing to trust anybody.",
             "Take the approval claim first. Ask the adviser for the name of the government body that approves the university, and the address of the page where the approval is published. Open that page yourself. Does the university's name appear exactly as given? Is the page dated, and is the date current for the year you would enrol? If the page is in a language you cannot read, ask a bilingual friend or a professional translator, not the adviser.",
-            "Now the price claim. Ask for a written schedule that lists every fee for every year of the course, in one currency, with the due dates. Put DMU's published figures beside it: ¥67,100 for the first-year package, then ¥52,100-56,100 a year. If the other schedule omits hostel, insurance or the final year, ask whether those are charged separately and for how much, and add them before comparing.",
+            "Now the price claim. Ask for a written schedule that lists every fee for every year of the course, in one currency, with the due dates. Put DMU's published figures beside it: ¥42,000 a year for MBBS tuition, and ¥52,100-56,100 a year in total from year two. If the other schedule omits hostel, insurance or the final year, ask whether those are charged separately and for how much, and add them before comparing.",
             "Finally the acceptance claim. This one never comes from the university or the adviser. It comes from your own council. Read its current notices on foreign graduates, find whether they mention the country or the university, and note the date. If the notice does not mention it, ask the council directly, in writing.",
         ], 'sub' => [
             ['h' => 'What you end up with', 'p' => [
@@ -116,8 +116,8 @@ return [
             ['Length of degree', '6 years including a 1-year internship', 'Fill in from the university'],
             ['Teaching language', 'English', 'Fill in from the university'],
             ['Entry', 'Senior high school with sciences and English; age 18 to 25', 'Fill in from the university'],
-            ['First-year cost', '¥67,100 (about US$9,450)', 'Fill in from a written offer'],
-            ['Later years', '¥52,100-56,100 a year', 'Fill in from a written offer'],
+            ['Tuition per year', '¥42,000 (MBBS)', 'Fill in from a written offer'],
+            ['Yearly total from year two', '¥52,100-56,100 (about US$7,350-7,900)', 'Fill in from a written offer'],
             ['Home council position', 'Read your council\'s current rules', 'Read your council\'s current rules'],
         ]]],
 
@@ -161,7 +161,7 @@ return [
         ['Is MBBS in China better than Russia?', 'We cannot claim that. Ask each university for its government approval, teaching language, complete fee schedule and clinical training, and read your own council\'s rules for each.'],
         ['MBBS in China vs Kyrgyzstan: which is better?', 'We hold no verified figures for Kyrgyzstan. Use the eight questions in this guide for each, and fill the comparison grid from primary sources.'],
         ['MBBS in China vs Georgia: what should I check?', 'The same things as for any country: the approval list, the length and structure of the degree, the language, every fee and your own council\'s current notices.'],
-        ['What does DMU publish that I can compare?', 'MOE list position (3rd of 43, 120 seats), six-year English-medium MBBS, entry conditions, a first-year package of ¥67,100 and later years of ¥52,100-56,100.'],
+        ['What does DMU publish that I can compare?', 'MOE list position (3rd of 43, 120 seats), six-year English-medium MBBS, entry conditions, tuition of ¥42,000 a year and a yearly total of ¥52,100-56,100 from year two.'],
         ['Is China cheaper than other countries?', 'We cannot say. DMU\'s fees are published above. Obtain complete written fee schedules from the others, in the same currency, including the final year.'],
         ['Does DMU require IELTS or HSK?', 'No HSK or IELTS requirement is published for MBBS. Ask admissions how Chinese is taught, since clinical work involves Chinese-speaking patients.'],
         ['Will my country accept a degree from DMU?', 'DMU states recognition by several medical councils. Your own council decides for you, so read its current rules. CAS never promises a licence outcome.'],

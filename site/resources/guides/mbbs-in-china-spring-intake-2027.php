@@ -19,7 +19,7 @@ return [
         ['2027 system', 'Opened on 20 October 2026 (IEC notice); no closing date stated'],
         ['Programme', 'MBBS, 6 years including a 1-year internship; BDS is autumn only'],
         ['Entry', 'Age 18 to 25; chemistry, physics, biology and English; no HSK or IELTS published'],
-        ['First-year package', '¥67,100 (about US$9,450), CAS service charges included'],
+        ['Tuition', '¥42,000 a year for MBBS'],
         ['Paid within 10 days of admission letter', '¥42,800 (application fee plus tuition)'],
         ['Advice', 'Confirm the closing date with admissions'],
     ],
@@ -72,9 +72,16 @@ return [
         ]],
 
         ['id' => 'fees', 'eyebrow' => 'Money', 'h' => 'What it costs when you start in March', 'p' => [
-            "The first-year package is ¥67,100, about US$9,450, and includes the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup. The package includes CAS service charges, while DMU's own charges are set out in the fee guide.",
+            "DMU's own first-year charges are an application fee of ¥800 and a year of tuition at ¥42,000, both due within ten days of receiving the admission letter, then the visa at ¥800, a medical check-up at ¥500, books at ¥500 and insurance at ¥800 on arrival. The hostel is priced separately, and the fee guide sets out each charge.",
             "We do not know whether the first-year amount is adjusted for a student who starts in March. Ask admissions in writing how the first year is billed for a spring entrant.",
-        ], 'table' => $s['feeFirstYear'], 'link' => ['mbbs-in-china-fees-2027', 'Read the MBBS in China fees guide'], 'img' => ['src' => 'assets/images/dmu/dmu-campus-willows-and-sea.webp', 'alt' => 'Willow trees growing beside the sea next to the Dalian Medical University campus', 'caption' => 'Willow trees by the sea near the campus.']],
+        ], 'table' => ['caption' => 'DMU first-year charges, MBBS (RMB)', 'head' => ['Item', 'Amount', 'When'], 'rows' => [
+            ['Application fee', '¥800', 'Within 10 days of the admission letter'],
+            ['Tuition (MBBS), one year', '¥42,000', 'Within 10 days of the admission letter'],
+            ['Visa', '¥800', 'On arrival'],
+            ['Medical check-up', '¥500', 'On arrival'],
+            ['Books', '¥500', 'On arrival'],
+            ['Insurance', '¥800', 'On arrival'],
+        ]], 'link' => ['mbbs-in-china-fees-2027', 'Read the MBBS in China fees guide'], 'img' => ['src' => 'assets/images/dmu/dmu-campus-willows-and-sea.webp', 'alt' => 'Willow trees growing beside the sea next to the Dalian Medical University campus', 'caption' => 'Willow trees by the sea near the campus.']],
 
         ['id' => 'questions', 'eyebrow' => 'Ask admissions', 'h' => 'Questions to ask before you commit to March', 'p' => [
             "Because the published sheet does not cover everything, put these questions to admissions and keep their written replies:",
@@ -101,7 +108,7 @@ return [
         ['Can I do BDS in March?', 'No. BDS is autumn only.'],
         ['Are the entry rules different for March?', 'No. The age band, subjects and documents are the same as for the autumn intake.'],
         ['Do I need IELTS for the March intake?', 'No HSK or IELTS requirement is published for the MBBS.'],
-        ['How much is the first year if I start in March?', 'The CAS first-year package is ¥67,100, about US$9,450. Ask admissions in writing whether a spring start changes the billing.'],
+        ['How much is the first year if I start in March?', 'DMU bills an application fee of ¥800 and tuition of ¥42,000 within ten days of the admission letter, then other charges on arrival. Ask admissions in writing whether a spring start changes the billing.'],
         ['When do I pay?', 'The application fee plus tuition, ¥42,800, is due within ten days of receiving the admission letter, and the remaining charges on arrival.'],
         ['What is the first step?', 'Gather the documents and start certification, then apply through the CAS portal or the DMU online system.'],
         ['What if I miss the 5 January date?', 'Ask admissions whether a late file can be considered, or aim for the autumn window that opens on 1 March.'],

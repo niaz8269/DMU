@@ -12,14 +12,14 @@ return [
     'lead' => 'Indian applicants ask two questions before any other: do I need NEET, and will the National Medical Commission let me practise? This guide shows how to get a dependable answer to both, then sets out what Dalian Medical University publishes on fees, entry, intakes and applying.',
     'crumb' => 'MBBS in China for Indian students',
     'cta' => 'Apply from India',
-    'answer' => 'Dalian Medical University lists no entrance-exam score in its published MBBS requirements, only senior high school with physics, chemistry, biology and English, and an age of 18 to 25. Whether NEET is needed to practise in India is decided by the NMC, not DMU, so read its current rules before you pay. The first-year package is ¥67,100.',
+    'answer' => 'Dalian Medical University lists no entrance-exam score in its published MBBS requirements, only senior high school with physics, chemistry, biology and English, and an age of 18 to 25. Whether NEET is needed to practise in India is decided by the NMC, not DMU, so read its current rules before you pay. MBBS tuition is ¥42,000 a year.',
     'facts' => [
         ['University', 'Dalian Medical University (DMU), public university in Dalian, Liaoning Province, China'],
         ['Programme', 'MBBS in English, 6 years including a 1-year internship'],
         ['MOE list', '3rd of 43 universities, 120 seats (MOE notice of 1 June 2026)'],
         ['Entry as published by DMU', 'Senior high school with physics, chemistry, biology and English; age 18 to 25; no entrance-exam score listed'],
         ['NEET and NMC rules', 'Set by Indian authorities, not by DMU; check the NMC\'s current notices'],
-        ['First-year package', '¥67,100 (about US$9,450)'],
+        ['MBBS tuition', '¥42,000 a year'],
         ['From year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['Intakes', 'March (spring) and September (autumn)'],
         ['Language tests', 'No HSK or IELTS requirement is published for MBBS'],
@@ -78,9 +78,9 @@ return [
 
         ['id' => 'fees', 'eyebrow' => 'Costs', 'h' => 'Fees in yuan and what that means in rupees', 'p' => [
             "DMU charges in Chinese yuan. We show an approximate US dollar figure as a guide and we do not give rupee amounts, since the rate changes. Convert at the rate on the day of each payment, and keep a reserve for exchange movements across six years. Fees were last checked on 22 November 2026 and may change, so confirm them with admissions.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
-            ['h' => 'The years after the first', 'p' => [
-                "After the first year the price is itemised. The accommodation figure is a range because it depends on the room.",
+        ], 'sub' => [
+            ['h' => 'Tuition and the first payment', 'p' => [
+                "MBBS tuition is ¥42,000 a year. The application fee of ¥800 and the first year's tuition, ¥42,800 in all (about US$6,700), are paid within ten days of receiving the admission letter. The other charges are paid on arrival and are itemised in the next section. The accommodation figure is a range because it depends on the room.",
             ]],
         ]],
 
@@ -187,7 +187,7 @@ return [
         ['Is NEET required for MBBS in China?', 'DMU\'s published MBBS requirements do not list a NEET score. Whether NEET matters for practising in India is set by the NMC, so read its current notices and save a dated copy.'],
         ['Can Indian students study MBBS in China without NEET?', 'For admission to DMU, the published conditions do not mention it. Your eligibility to work in India afterwards is a regulator matter, and rules can change, so verify with the NMC first.'],
         ['Which Chinese universities are NMC approved?', 'We cannot give a list from the NMC. DMU is on China\'s MOE list and states recognition by Indian medical councils; confirm with the NMC\'s own current publications.'],
-        ['What are the fees for Indian students at DMU?', 'The first-year package is ¥67,100, about US$9,450. From year two it is ¥52,100-56,100 a year. There is no separate fee table for Indian nationals. Confirm with admissions.'],
+        ['What are the fees for Indian students at DMU?', 'MBBS tuition is ¥42,000 a year. From year two the yearly total, with accommodation, insurance, residence permit and medical, is ¥52,100-56,100 (about US$7,350-7,900). There is no separate fee table for Indian nationals. Confirm with admissions.'],
         ['What marks do I need after Class 12?', 'DMU requires senior high school completion with good marks and compulsory chemistry, physics, biology and English. It publishes the minimum marks only as an image, so ask admissions to assess your result.'],
         ['How long is the MBBS?', 'Six years in total, including a one-year internship.'],
         ['Is the course taught in English?', 'Yes. DMU has taught MBBS in English since 2004. Plan to learn Chinese for patient contact.'],

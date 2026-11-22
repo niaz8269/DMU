@@ -90,7 +90,7 @@ return [
 
         ['id' => 'costs-dates', 'eyebrow' => 'The practical side', 'h' => 'Fees and dates to plan around', 'p' => [
             "After you have read the council's notice, put the rest of the plan on paper. The fee figures below come from the CAS fee sheet, confirmed by the site owner, and were last checked on 22 November 2026. Fees can change, so confirm them with admissions.",
-            "The MBBS first-year complete package is ¥67,100 (about US$9,450). From year two, the total is ¥52,100-56,100 a year (about US$7,350-7,900). DMU's own fee letter asks for the application fee plus tuition, ¥42,800 (about US$6,700), within 10 days of receiving the admission letter, with the remaining items paid on arrival.",
+            "MBBS tuition is ¥42,000 a year. From year two, the yearly total, with accommodation, insurance, the residence permit and the medical, is ¥52,100-56,100 a year (about US$7,350-7,900). DMU's own fee letter asks for the application fee plus tuition, ¥42,800 (about US$6,700), within 10 days of receiving the admission letter, with the remaining items paid on arrival.",
             "There are two intakes. The autumn window runs from 1 March to 5 July and the spring window from 1 September to 5 January. Confirm both with admissions.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-glass-teaching-building.webp', 'alt' => 'Glass-fronted teaching building at Dalian Medical University with students walking past', 'caption' => 'Teaching building at Dalian Medical University.'], 'table' => $s['calendar'], 'link' => ['mbbs-in-china-for-pakistani-students', 'Read the guide for Pakistani students']],
 

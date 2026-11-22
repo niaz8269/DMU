@@ -25,19 +25,6 @@ $moeRows[] = ['', 'Total', '2,790'];
 return [
     'moeSource' => "Source: Ministry of Education of the People's Republic of China, notice 教外司来〔2026〕94号, issued 1 June 2026.",
     'moeRows' => $moeRows,
-    'feeFirstYear' => [
-        'caption' => 'MBBS first-year complete package at Dalian Medical University',
-        'head' => ['What the first-year package covers', 'Status'],
-        'rows' => [
-            ['Application processing fee', 'Included'],
-            ['Tuition fee', 'Included'],
-            ['Hostel fee', 'Included'],
-            ['Visa, health insurance and medical', 'Included'],
-            ['Registration, liaison, management and admission charges', 'Included'],
-            ['Visa letter (JW202) and airport pickup', 'Included'],
-            ['', 'Total: ¥67,100 (about USD 9,450)'],
-        ],
-    ],
     'feeYearly' => [
         'caption' => 'MBBS, second year onward, per year',
         'head' => ['Item', 'Amount (RMB ¥)'],

@@ -12,11 +12,11 @@ return [
     'lead' => 'This is not a verdict. We hold no verified figures for Pakistani private colleges, so we will not invent a comparison. What we offer instead is a framework: the questions to put to both routes, what Dalian Medical University has published on its side, and a worksheet to complete with your own college\'s prospectus.',
     'crumb' => 'MBBS in China vs Pakistan',
     'cta' => 'Talk to admissions',
-    'answer' => 'Neither route is better for every student. Dalian Medical University offers a six-year English-medium MBBS with published fees of ¥67,100 in year one and ¥52,100-56,100 afterwards, admitting on school marks and documents. A Pakistani private college has its own prospectus. Compare cost, time, entry and licensing using your own college\'s written terms.',
+    'answer' => 'Neither route is better for every student. Dalian Medical University offers a six-year English-medium MBBS with published MBBS tuition of ¥42,000 a year and a yearly total of ¥52,100-56,100 from year two, admitting on school marks and documents. A Pakistani private college has its own prospectus. Compare cost, time, entry and licensing using your own college\'s written terms.',
     'facts' => [
         ['DMU programme', 'MBBS in English, 6 years including a 1-year internship'],
         ['DMU entry basis', 'Senior high school with chemistry, physics, biology and English; age 18 to 25; documents reviewed by DMU'],
-        ['DMU first-year package', '¥67,100 (about US$9,450)'],
+        ['DMU MBBS tuition', '¥42,000 a year'],
         ['DMU from year two', '¥52,100-56,100 a year (about US$7,350-7,900)'],
         ['DMU MOE status', '3rd of 43 universities, 120 seats (notice of 1 June 2026)'],
         ['Pakistani private college', 'Take every figure from its own current prospectus and written offer'],
@@ -39,8 +39,8 @@ return [
             ['MOE list', '3rd of 43, 120 seats (notice of 1 June 2026)'],
             ['Entry', 'Senior high school with chemistry, physics, biology and English; age 18 to 25'],
             ['Entry test or language test', 'None published (no HSK or IELTS for MBBS)'],
-            ['First-year package', '¥67,100, about US$9,450'],
-            ['Later years', '¥52,100-56,100 a year'],
+            ['MBBS tuition', '¥42,000 a year'],
+            ['From year two, yearly total', '¥52,100-56,100 (about US$7,350-7,900)'],
             ['Intakes', 'March and September'],
             ['Clinical base', '3 directly affiliated and 14 affiliated hospitals'],
         ]], 'sub' => [
@@ -76,9 +76,9 @@ return [
         ]],
 
         ['id' => 'cost', 'eyebrow' => 'Question 3', 'h' => 'What will it cost, all in?', 'p' => [
-            "At DMU, the first-year package covers the application processing fee, tuition, hostel, visa, health insurance and medical, registration, liaison, management and admission charges, the JW202 visa letter and airport pickup. It comes to ¥67,100, about US$9,450. In later years the cost is ¥52,100-56,100 a year, about US$7,350-7,900. Fees were last checked on 22 November 2026 and can change.",
+            "At DMU, MBBS tuition is ¥42,000 a year. From year two the yearly total, with accommodation, insurance, the residence permit and the medical, is ¥52,100-56,100, about US$7,350-7,900. In the first year DMU's own fee letter also lists an application fee, a visa fee, a medical check-up, books and insurance, set out below. Fees were last checked on 22 November 2026 and can change.",
             "When you compare, do not set DMU's tuition against a college's tuition alone. Count everything each family will actually pay, from the first fee to the last, and put them on the same basis.",
-        ], 'table' => $s['feeFirstYear'], 'sub' => [
+        ], 'sub' => [
             ['h' => 'Costs that appear only on one side', 'p' => [
                 "Studying abroad adds air travel, personal spending and currency risk, none of which we can quantify. Studying at home may add a long list of fees that a prospectus lists separately, and living costs if the college is far from your home. Neither list should be left out.",
             ]],
@@ -126,7 +126,7 @@ return [
         ['id' => 'pros-cons', 'eyebrow' => 'Balance', 'h' => 'Pros and cons of the China route, without exaggeration', 'p' => [
             "These points come only from the facts above. Weigh them against the answers you collect from the other route.",
         ], 'list' => [
-            'Pro: DMU publishes its fees in one schedule and says what the first-year package contains.',
+            'Pro: DMU publishes its tuition and its other yearly charges item by item.',
             'Pro: the programme is taught in English and sits on the official MOE list.',
             'Pro: admission is decided from documents, with two intakes a year.',
             'Pro: a very large clinical base is attached to the university.',
@@ -187,12 +187,12 @@ return [
         ['Is MBBS in China better than MBBS in Pakistan?', 'Neither is better for everyone. The right choice depends on your marks, your budget, the certainty of a seat and the licensing rules that apply to you. Compare written offers from both sides.'],
         ['Is MBBS in China worth it for Pakistani students?', 'It can be for a student who meets the entry conditions, can fund the whole degree, will learn Chinese for clinical work and has read the current PMDC rules. It is not worth it if chosen without checking recognition and licensing.'],
         ['What are the disadvantages of studying MBBS in China?', 'Distance from home, learning Chinese for clinical work, currency risk, the length of six years and extra steps at home before registration, set by the regulator.'],
-        ['How does DMU compare on cost with a private college in Pakistan?', 'We have no verified figures for Pakistani colleges. DMU\'s first year is ¥67,100 and later years are ¥52,100-56,100. Put these beside your college\'s written offer.'],
+        ['How does DMU compare on cost with a private college in Pakistan?', 'We have no verified figures for Pakistani colleges. DMU\'s MBBS tuition is ¥42,000 a year and the yearly total from year two is ¥52,100-56,100. Put these beside your college\'s written offer.'],
         ['How long is MBBS in China compared with Pakistan?', 'At DMU the MBBS is six years, including a one-year internship. For the home route, ask the college for the length of the course and what follows it.'],
         ['Is a Chinese MBBS valid in Pakistan?', 'DMU states it is recognised by the Pakistan medical council, among others. Validity for you depends on PMDC\'s current rules when you graduate, so read them and keep a dated copy.'],
         ['Does DMU require MDCAT or an entrance test?', 'DMU\'s published requirements list no entrance test. Whether PMDC wants one from students going abroad is a regulator matter to check.'],
         ['Is the MBBS in China taught in English?', 'Yes. DMU has taught MBBS in English since 2004. Chinese is useful for working with patients.'],
-        ['What does the first year cost at DMU?', '¥67,100, about US$9,450, covering tuition, hostel, visa, insurance, medical, registration and other listed charges, the JW202 letter and airport pickup.'],
+        ['What does the first year cost at DMU?', 'MBBS tuition is ¥42,000 a year. The application fee of ¥800 and the first year\'s tuition, ¥42,800 in all (about US$6,700), are paid within ten days of the admission letter, and the other charges, such as the visa fee, medical check-up, books, insurance and hostel, are paid on arrival. Confirm current fees with admissions.'],
         ['How is a seat decided?', 'DMU reviews your documents, then issues an Acceptance Letter. You pay the fee in the letter to confirm the seat. Ask any Pakistani college for its own basis in writing.'],
         ['Can I compare MBBS in China with India or Russia?', 'The same framework works. Ask each option the same six questions. See our other comparison guide for other countries.'],
         ['Will CAS tell me not to apply if China is wrong for me?', 'We will tell you what DMU has published and what we cannot confirm. The decision, and the check of home rules, is yours.'],
