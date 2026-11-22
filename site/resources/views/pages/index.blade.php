@@ -292,22 +292,40 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
-<!-- ===================== CONTACT MATRIX (WeChat / WhatsApp) ===================== -->
-<section class="dmu-matrix">
+<!-- ===================== CONTACT (WeChat / WhatsApp) ===================== -->
+<section class="dmu-contact">
     <div class="container">
-        <div class="dmu-sechead dmu-sechead--light">
-            <span class="dmu-sechead__icon"><i class="fas fa-comments"></i></span>
-            <div class="dmu-sechead__text"><h2>Talk to us</h2><span>CONTACT</span></div>
+        <div class="dmu-contact__head">
+            <span class="dmu-contact__eyebrow">CONTACT</span>
+            <h2>Talk to our admissions team</h2>
+            <p>Scan a WeChat code or message us on WhatsApp.</p>
         </div>
-        <div class="row g-4 align-items-stretch">
-            <div class="col-md-4"><div class="dmu-matrix__card"><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy"><b>Admissions</b><small>Scan with WeChat</small></div></div>
-            <div class="col-md-4"><div class="dmu-matrix__card"><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy"><b>Consultation</b><small>Scan with WeChat</small></div></div>
-            <div class="col-md-4"><div class="dmu-matrix__card dmu-matrix__card--wa">
-                <i class="fab fa-whatsapp"></i><b>WhatsApp</b>
-                <a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827 (consultation)</a>
-                <a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030 (admissions)</a>
-                <a href="mailto:admissions@dmu.cas.moe">admissions@dmu.cas.moe</a>
-            </div></div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="dmu-contact__card">
+                    <span class="dmu-contact__tag"><i class="fab fa-weixin"></i> Admissions</span>
+                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="180" height="180"></div>
+                    <p class="dmu-contact__hint">Scan with WeChat to reach the admissions desk</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="dmu-contact__card">
+                    <span class="dmu-contact__tag"><i class="fab fa-weixin"></i> Consultation</span>
+                    <div class="dmu-contact__qr"><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="180" height="180"></div>
+                    <p class="dmu-contact__hint">Scan with WeChat for a first consultation</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="dmu-contact__card dmu-contact__card--wa">
+                    <span class="dmu-contact__tag dmu-contact__tag--wa"><i class="fab fa-whatsapp"></i> WhatsApp</span>
+                    <a class="dmu-contact__btn dmu-contact__btn--wa" href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i><span><small>Consultation</small>+86 176 4041 2827</span></a>
+                    <a class="dmu-contact__btn dmu-contact__btn--wa" href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i><span><small>Admissions</small>+86 180 4156 6030</span></a>
+                    <a class="dmu-contact__btn dmu-contact__btn--mail" href="mailto:admissions@dmu.cas.moe">
+                        <i class="fas fa-envelope"></i><span><small>Email</small>admissions@dmu.cas.moe</span></a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
