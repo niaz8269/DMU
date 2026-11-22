@@ -10,6 +10,10 @@ AddCharset UTF-8 .html .css .js .xml .json .rss .atom
 
     RewriteEngine On
 
+    # dmu.cas.moe sits inside the cas.moe web root, so cas.moe/dmu/ would show a duplicate copy: send it to the real address.
+    RewriteCond %{HTTP_HOST} ^(www\.)?cas\.moe$ [NC]
+    RewriteRule ^(.*)$ https://dmu.cas.moe/$1 [R=301,L]
+
     # Handle Authorization / X-XSRF-Token headers (Laravel default)
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
