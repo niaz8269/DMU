@@ -93,7 +93,7 @@
           <h2 data-i18n="login.contact_info_title">Contact Information</h2>
           <ul class="p-list">
             <li><i class="bi bi-geo-alt-fill"></i><div>Dalian Medical University, Dalian, Liaoning, China</div></li>
-            <li><i class="bi bi-telephone-fill"></i><div>Kami {{ \App\Support\Settings::get('contact_phone2', '+86 180 4156 6030') }}</div></li>
+            <li><i class="bi bi-telephone-fill"></i><div>Dr Ayaz {{ \App\Support\Settings::get('contact_phone2', '+86 176 4041 2827') }}<small>Kami {{ \App\Support\Settings::get('contact_phone_pk', '+86 156 7775 1526') }}</small></div></li>
             <li><i class="bi bi-envelope-fill"></i><div>{{ \App\Support\Settings::get('contact_email', 'admissions@dmu.cas.moe') }}</div></li>
             <li><i class="bi bi-clock-fill"></i><div>Mon-Fri: 8:30 AM - 5:00 PM (CST)</div></li>
           </ul>

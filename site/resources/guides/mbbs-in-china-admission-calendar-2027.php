@@ -86,7 +86,7 @@ return [
         ]],
 
         ['id' => 'contact', 'eyebrow' => 'Help', 'h' => 'Where to confirm dates', 'p' => [
-            "CAS can be reached at admissions@dmu.cas.moe, or by WhatsApp with Kami on +86 180 4156 6030 for admissions questions. DMU's own admissions office is on +86-411-86110202 or dmunewstudent@163.com, open 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
+            "CAS can be reached at admissions@dmu.cas.moe, or by WhatsApp with Kami on +86 156 7775 1526 for admissions questions. DMU's own admissions office is on +86-411-86110202 or dmunewstudent@163.com, open 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
         ], 'link' => ['mbbs-in-china-2027', 'Read the complete MBBS in China 2027 guide'], 'img' => ['src' => 'assets/images/dmu/dmu-campus-lake-view.webp', 'alt' => 'Lawns and a sea view on the Dalian Medical University campus', 'caption' => 'The campus lawns with the sea beyond.']],
     ],
     'faqs' => [

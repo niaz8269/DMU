@@ -304,7 +304,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-md-4"><div class="dmu-matrix__card"><img src="{{ get_absolute_url('images/drayazqr.jpg') }}" alt="WeChat QR code for consultation" loading="lazy"><b>Consultation</b><small>Scan with WeChat</small></div></div>
             <div class="col-md-4"><div class="dmu-matrix__card dmu-matrix__card--wa">
                 <i class="fab fa-whatsapp"></i><b>WhatsApp</b>
-                <a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030 (Kami)</a>
+                <a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827 (Dr Ayaz)</a>
+                <a href="https://wa.me/8615677751526" target="_blank" rel="noopener noreferrer">+86 156 7775 1526 (Kami)</a>
                 <a href="mailto:admissions@dmu.cas.moe">admissions@dmu.cas.moe</a>
             </div></div>
         </div>
@@ -512,7 +513,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="{{ get_absolute_url('login') }}" class="ds-btn ds-btn--lg" style="background:#fff;color:var(--ds-red)!important">
                     <span>{{ $t['home_cta_btn'] }}</span>
                 </a>
-                <a href="https://wa.me/+8618041566030" target="_blank" rel="noopener noreferrer" class="ds-btn ds-btn--ghost-light ds-btn--lg">
+                <a href="https://wa.me/+8617640412827" target="_blank" rel="noopener noreferrer" class="ds-btn ds-btn--ghost-light ds-btn--lg">
                     <i class="fab fa-whatsapp"></i> <span data-i18n="home.cta_whatsapp">Chat on WhatsApp</span>
                 </a>
             </div>

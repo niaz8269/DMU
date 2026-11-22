@@ -101,7 +101,7 @@
         "name": "Dalian Medical University",
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+86-180-4156-6030",
+            "telephone": "+86-176-4041-2827",
             "contactType": "Admissions",
             "email": "admissions@dmu.cas.moe",
             "areaServed": "Worldwide",

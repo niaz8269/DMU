@@ -147,7 +147,7 @@ class AdminCmsTest extends TestCase
             $this->assertStringNotContainsString('@verbatim', $html, $url);
         }
         // The contact phone in the search-engine data comes from Site Settings (fallback when unset).
-        $this->assertStringContainsString('"telephone": "+86-180-4156-6030"', $this->get('/')->getContent());
+        $this->assertStringContainsString('"telephone": "+86-176-4041-2827"', $this->get('/')->getContent());
     }
 
     public function test_guide_image_and_table_can_be_edited_safely(): void

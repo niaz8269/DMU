@@ -81,7 +81,7 @@
                                 <ul>
                                     <li>See english.dmu.edu.cn for the university's own leadership pages.</li>
                                     <li>Admissions questions: admissions@dmu.cas.moe.</li>
-                                    <li>WhatsApp: +86 180 4156 6030.</li>
+                                    <li>WhatsApp: +86 176 4041 2827 or +86 156 7775 1526.</li>
                                 </ul>
                             </div>
                             <div class="col-lg-5 about-media">
