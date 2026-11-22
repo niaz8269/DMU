@@ -28,9 +28,9 @@
                     <i class="fas fa-phone-alt"></i>
                     <span>{{ $phone }}</span>
                 </a>
-                <a href="tel:+8615677751526" class="phone-link" target="_blank" rel="noopener noreferrer">
+                <a href="tel:+8618041566030" class="phone-link" target="_blank" rel="noopener noreferrer">
                     <i class="fas fa-phone-alt"></i>
-                    <span>+86 156 7775 1526</span>
+                    <span>+86 180 4156 6030</span>
                 </a>
             </div>
         </section>
@@ -64,7 +64,7 @@
                             <strong>Phone:</strong>
                             <div>
                                 <a href="tel:+8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827</a> (Dr Ayaz, consultation)<br />
-                                <a href="tel:+8615677751526" target="_blank" rel="noopener noreferrer">+86 156 7775 1526</a> (Kami, admissions)
+                                <a href="tel:+8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030</a> (Kami, admissions)
                             </div>
                         </div>
                         
@@ -111,7 +111,7 @@
                 <div class="form-row">
                     <div class="form-group-half">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+86 156 7775 1526" />
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+86 180 4156 6030" />
                         <div class="form-feedback"></div>
                     </div>
                     <div class="form-group-half">

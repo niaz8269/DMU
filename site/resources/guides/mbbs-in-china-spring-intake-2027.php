@@ -86,7 +86,7 @@ return [
             'Is the hostel available from the first day?',
         ], 'sub' => [
             ['h' => 'Where to ask', 'p' => [
-                "CAS admissions can be reached at admissions@dmu.cas.moe or on WhatsApp with Kami at +86 156 7775 1526. DMU's own office is on +86-411-86110202 or dmunewstudent@163.com, open 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
+                "CAS admissions can be reached at admissions@dmu.cas.moe or on WhatsApp with Kami at +86 180 4156 6030. DMU's own office is on +86-411-86110202 or dmunewstudent@163.com, open 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
             ]],
         ]],
 

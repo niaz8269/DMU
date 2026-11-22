@@ -115,7 +115,7 @@
                                     <div class="card-body p-4">
                                         <h5 class="card-title"><i class="fas fa-headset me-2 text-primary"></i><span data-i18n="admissions.admissions_contact">Admissions Office Contact</span></h5>
                                         <div class="contact-info mt-3">
-                                            <p><i class="fas fa-phone me-2"></i> <strong>Phone:</strong> {{ \App\Support\Settings::get('contact_phone2', '+86 176 4041 2827') }} / {{ \App\Support\Settings::get('contact_phone_pk', '+86 156 7775 1526') }}  </p>
+                                            <p><i class="fas fa-phone me-2"></i> <strong>Phone:</strong> {{ \App\Support\Settings::get('contact_phone2', '+86 176 4041 2827') }} / {{ \App\Support\Settings::get('contact_phone_pk', '+86 180 4156 6030') }}  </p>
                                             <p><i class="fas fa-envelope me-2"></i> <strong>Email:</strong> admissions@dmu.cas.moe</p>
                                             <p><i class="fas fa-map-marker-alt me-2"></i> <strong>Address:</strong> No. 9 West Section, Lvshun South Road, Lvshunkou District, Dalian, Liaoning, China 116044</p>
                                         </div>

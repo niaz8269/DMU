@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-md-4"><div class="dmu-matrix__card dmu-matrix__card--wa">
                 <i class="fab fa-whatsapp"></i><b>WhatsApp</b>
                 <a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827 (Dr Ayaz)</a>
-                <a href="https://wa.me/8615677751526" target="_blank" rel="noopener noreferrer">+86 156 7775 1526 (Kami)</a>
+                <a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030 (Kami)</a>
                 <a href="mailto:admissions@dmu.cas.moe">admissions@dmu.cas.moe</a>
             </div></div>
         </div>

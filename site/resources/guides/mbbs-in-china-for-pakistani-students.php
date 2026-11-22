@@ -212,7 +212,7 @@ return [
         ], 'img' => ['src' => 'assets/images/dmu/dalian-city-view.webp', 'alt' => 'Aerial view of the centre of Dalian city', 'caption' => 'Dalian city centre from above.']],
 
         ['id' => 'contact', 'eyebrow' => 'Talk to us', 'h' => 'Who to contact', 'p' => [
-            "CAS can be reached by email at admissions@dmu.cas.moe or info@dmu.cas.moe. For a first conversation, Dr Ayaz takes consultation enquiries on WhatsApp at +86 176 4041 2827. Kami handles admissions questions at +86 156 7775 1526. DMU's own admissions office can be called on +86-411-86110202 or emailed at dmunewstudent@163.com, with office hours from 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
+            "CAS can be reached by email at admissions@dmu.cas.moe or info@dmu.cas.moe. For a first conversation, Dr Ayaz takes consultation enquiries on WhatsApp at +86 176 4041 2827. Kami handles admissions questions at +86 180 4156 6030. DMU's own admissions office can be called on +86-411-86110202 or emailed at dmunewstudent@163.com, with office hours from 08:30 to 11:30 and 13:20 to 16:30 Beijing time.",
             "Tell us your marks, your intake and the questions you have. We will say clearly what we can confirm, what we cannot, and who to ask.",
         ]],
     ],

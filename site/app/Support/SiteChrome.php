@@ -63,7 +63,7 @@ class SiteChrome
     public function top(): array
     {
         $cn = Settings::get('contact_phone2', '+86 176 4041 2827');
-        $pk = Settings::get('contact_phone_pk', '+86 156 7775 1526');
+        $pk = Settings::get('contact_phone_pk', '+86 180 4156 6030');
 
         return [
             'wa_cn'        => $cn,
