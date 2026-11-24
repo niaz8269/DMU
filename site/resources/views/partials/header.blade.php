@@ -51,77 +51,55 @@
     <script type="application/ld+json">@verbatim
     {
         "@context": "https://schema.org",
-        "@type": "EducationalOrganization",
-        "name": "Dalian Medical University",
-        "alternateName": "DMU",
-        "url": "https://dmu.cas.moe",
-        "sameAs": ["https://www.facebook.com/DalianMedicalUniversityChina"],
-        "logo": "https://dmu.cas.moe/images/logo.png",
-        "description": "Dalian Medical University is a public medical university in Dalian, Liaoning, China, offering English-medium MBBS and other medical programmes to international students.",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "No. 9 West Section, Lvshun South Road, Lvshunkou District",
-            "postalCode": "116044",
-            "addressLocality": "Dalian",
-            "addressRegion": "Liaoning",
-            "addressCountry": "CN"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+86-176-4041-2827",
-            "contactType": "Admissions",
-            "email": "admissions@dmu.cas.moe",
-            "availableLanguage": ["English", "Chinese"]
-        },
-        "educationalCredentialAwarded": "Bachelor of Medicine, Bachelor of Surgery",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Medical Programs",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Course",
-                        "name": "MBBS",
-                        "description": "Bachelor of Medicine, Bachelor of Surgery - English Medium",
-                        "provider": {
-                            "@type": "Organization",
-                            "name": "Dalian Medical University"
-                        }
-                    }
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://dmu.cas.moe/#website",
+                "name": "Dalian Medical University admissions guide",
+                "alternateName": "DMU admissions guide by CAS",
+                "url": "https://dmu.cas.moe/",
+                "inLanguage": "en",
+                "about": { "@id": "https://dmu.cas.moe/#dmu" },
+                "publisher": { "@id": "https://cas.moe/#org" }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://cas.moe/#org",
+                "name": "Consultancy for Abroad Study (CAS)",
+                "alternateName": "CAS",
+                "url": "https://cas.moe/",
+                "description": "CAS runs this website as an admissions guide and application help service for Dalian Medical University. CAS is not the university.",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+86-176-4041-2827",
+                    "contactType": "Admissions enquiries",
+                    "email": "admissions@dmu.cas.moe",
+                    "availableLanguage": ["English", "Chinese"]
                 }
-            ]
-        }
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "@id": "https://dmu.cas.moe/#dmu",
+                "name": "Dalian Medical University",
+                "alternateName": "DMU",
+                "url": "https://english.dmu.edu.cn/",
+                "sameAs": ["https://www.facebook.com/DalianMedicalUniversityChina"],
+                "logo": "https://dmu.cas.moe/images/logo.png",
+                "foundingDate": "1947",
+                "description": "Dalian Medical University is a public medical university in Dalian, Liaoning, China, offering English-medium MBBS and other medical programmes to international students.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "No. 9 West Section, Lvshun South Road, Lvshunkou District",
+                    "postalCode": "116044",
+                    "addressLocality": "Dalian",
+                    "addressRegion": "Liaoning",
+                    "addressCountry": "CN"
+                }
+            }
+        ]
     }
     @endverbatim</script>
-    
-    <!-- Additional Structured Data for University -->
-    <script type="application/ld+json">@verbatim
-    {
-        "@context": "https://schema.org",
-        "@type": "CollegeOrUniversity",
-        "name": "Dalian Medical University",
-        "url": "https://dmu.cas.moe",
-        "sameAs": ["https://www.facebook.com/DalianMedicalUniversityChina"],
-        "logo": "https://dmu.cas.moe/images/logo.png",
-        "foundingDate": "1947",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "No. 9 West Section, Lvshun South Road, Lvshunkou District",
-            "postalCode": "116044",
-            "addressLocality": "Dalian",
-            "addressRegion": "Liaoning",
-            "addressCountry": "China"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+86-176-4041-2827",
-            "contactType": "Admissions Office",
-            "email": "admissions@dmu.cas.moe"
-        }
-    }
-    @endverbatim</script>
-    
+
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome loaded non-render-blocking (icons paint just after first paint) -->

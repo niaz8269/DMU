@@ -47,5 +47,126 @@ Disallow: /download_application
 # Disallow backups
 Disallow: /*.bak$
 
+# AI search and assistant crawlers are welcome on public pages (private areas stay disallowed above).
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
+User-agent: CCBot
+Allow: /
+Disallow: /admin/
+Disallow: /uploads/
+Allow: /uploads/blogs/
+Allow: /uploads/events/
+Allow: /uploads/gallery/
+Allow: /uploads/testimonials/
+Allow: /uploads/consultants/
+
 # Sitemap location
 Sitemap: https://dmu.cas.moe/sitemap.xml

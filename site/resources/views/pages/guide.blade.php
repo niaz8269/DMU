@@ -14,7 +14,7 @@
 }
 </script>
 <script type="application/ld+json">
-{!! json_encode(['@context' => 'https://schema.org', '@type' => 'BlogPosting', 'headline' => $guide['h1'], 'description' => $guide['description'], 'mainEntityOfPage' => $page_url, 'datePublished' => $guide['published'] ?? $guide['updated'], 'dateModified' => $guide['updated'], 'abstract' => $guide['answer'] ?? $guide['lead'], 'image' => $page_image, 'inLanguage' => 'en', 'about' => ['@type' => 'CollegeOrUniversity', 'name' => 'Dalian Medical University', 'url' => 'https://dmu.cas.moe/'], 'speakable' => ['@type' => 'SpeakableSpecification', 'cssSelector' => ['h1', '.guide-answer']], 'author' => ['@type' => 'Organization', 'name' => 'Dalian Medical University Admissions'], 'publisher' => ['@type' => 'Organization', 'name' => 'DMU', 'logo' => ['@type' => 'ImageObject', 'url' => 'https://dmu.cas.moe/images/logo.png']]], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) !!}
+{!! json_encode(['@context' => 'https://schema.org', '@type' => 'BlogPosting', 'headline' => $guide['h1'], 'description' => $guide['description'], 'mainEntityOfPage' => $page_url, 'datePublished' => $guide['published'] ?? $guide['updated'], 'dateModified' => $guide['updated'], 'abstract' => $guide['answer'] ?? $guide['lead'], 'image' => $page_image, 'inLanguage' => 'en', 'isPartOf' => ['@id' => 'https://dmu.cas.moe/#website'], 'about' => ['@type' => 'CollegeOrUniversity', 'name' => 'Dalian Medical University', 'url' => 'https://english.dmu.edu.cn/'], 'speakable' => ['@type' => 'SpeakableSpecification', 'cssSelector' => ['h1', '.guide-answer']], 'author' => ['@type' => 'Organization', 'name' => 'Consultancy for Abroad Study (CAS)', 'url' => 'https://cas.moe/'], 'publisher' => ['@type' => 'Organization', 'name' => 'Consultancy for Abroad Study (CAS)', 'url' => 'https://cas.moe/']], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) !!}
 </script>
 @if (!empty($guide['faqs']))
 <script type="application/ld+json">
@@ -211,6 +211,17 @@
     </div>
 </section>
 @endif
+
+<!-- ===================== SOURCES / WHO WROTE THIS ===================== -->
+<section class="ds-section" id="sources">
+    <div class="container">
+        <div class="mbbs-faq-wrap" style="font-size:.95rem">
+            <h2 class="ds-title" style="font-size:1.25rem">Sources and who publishes this guide</h2>
+            <p>This guide is published by <a href="https://cas.moe/" target="_blank" rel="noopener">Consultancy for Abroad Study (CAS)</a>, an admissions guide and application help service. CAS is not the university; Dalian Medical University decides who is admitted. Last updated {{ $updatedLabel }}.</p>
+            <p>Facts come from the <a href="https://english.dmu.edu.cn/" target="_blank" rel="noopener">DMU English website</a>, the <a href="https://iec.dmu.edu.cn/" target="_blank" rel="noopener">DMU International Education College</a>, the <a href="https://dmu.admissions.cn/" target="_blank" rel="noopener">DMU admissions portal</a> and the CAS fee sheet. Fees, dates and rules can change, so confirm them with admissions before you pay.</p>
+        </div>
+    </div>
+</section>
 
 <!-- ===================== RELATED GUIDES ===================== -->
 @if ($related)
