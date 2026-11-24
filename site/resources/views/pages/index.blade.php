@@ -317,8 +317,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="dmu-c2__qrs">
                 <span class="dmu-c2__qrtitle"><i class="fab fa-weixin"></i> WeChat</span>
                 <div class="dmu-c2__qrrow">
-                    <figure><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="112" height="112"><figcaption>Admissions</figcaption></figure>
-                    <figure><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="112" height="112"><figcaption>Consultation</figcaption></figure>
+                    <figure><img src="{{ get_absolute_url('images/wechat.png') }}" alt="WeChat QR code for admissions" loading="lazy" width="112" height="112"></figure>
+                    <figure><img src="{{ get_absolute_url('images/qr-consultation.jpg') }}" alt="WeChat QR code for consultation" loading="lazy" width="112" height="112"></figure>
                 </div>
             </div>
         </div>

@@ -71,7 +71,7 @@
                         <div class="contact-item">
                             <strong>Email:</strong>
                             <div>
-                                <a href="mailto:{{ $admissions_email }}" target="_blank" rel="noopener noreferrer">{{ $admissions_email }}</a> (Admissions)<br />
+                                <a href="mailto:{{ $admissions_email }}" target="_blank" rel="noopener noreferrer">{{ $admissions_email }}</a><br />
                                 <a href="mailto:{{ $contact_email }}" target="_blank" rel="noopener noreferrer">{{ $contact_email }}</a> (General Inquiry)
                             </div>
                         </div>
