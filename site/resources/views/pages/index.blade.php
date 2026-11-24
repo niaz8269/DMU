@@ -302,11 +302,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <ul class="dmu-c2__list">
                     <li><a href="https://wa.me/8618041566030" target="_blank" rel="noopener noreferrer">
                         <span class="dmu-c2__icon dmu-c2__icon--wa"><i class="fab fa-whatsapp"></i></span>
-                        <span class="dmu-c2__text"><small>Admissions &middot; WhatsApp</small><b>+86 180 4156 6030</b></span>
+                        <span class="dmu-c2__text"><small>WhatsApp</small><b>+86 180 4156 6030</b></span>
                         <i class="fas fa-arrow-right dmu-c2__go"></i></a></li>
                     <li><a href="https://wa.me/8617640412827" target="_blank" rel="noopener noreferrer">
                         <span class="dmu-c2__icon dmu-c2__icon--wa"><i class="fab fa-whatsapp"></i></span>
-                        <span class="dmu-c2__text"><small>Consultation &middot; WhatsApp</small><b>+86 176 4041 2827</b></span>
+                        <span class="dmu-c2__text"><small>WhatsApp</small><b>+86 176 4041 2827</b></span>
                         <i class="fas fa-arrow-right dmu-c2__go"></i></a></li>
                     <li><a href="mailto:admissions@dmu.cas.moe">
                         <span class="dmu-c2__icon"><i class="far fa-envelope"></i></span>

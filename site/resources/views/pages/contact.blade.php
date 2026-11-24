@@ -63,8 +63,8 @@
                         <div class="contact-item">
                             <strong>Phone:</strong>
                             <div>
-                                <a href="tel:+8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827</a> (consultation)<br />
-                                <a href="tel:+8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030</a> (admissions)
+                                <a href="tel:+8617640412827" target="_blank" rel="noopener noreferrer">+86 176 4041 2827</a> /
+                                <a href="tel:+8618041566030" target="_blank" rel="noopener noreferrer">+86 180 4156 6030</a>
                             </div>
                         </div>
                         

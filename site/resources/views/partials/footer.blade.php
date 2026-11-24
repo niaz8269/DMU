@@ -79,10 +79,9 @@
             </div>
         </div>
         <div class="copyright">
-            <p data-i18n="footer.partner">Consultancy for Abroad Study (CAS) is an authorized admission partner of Dalian Medical University.</p>
             <p>&copy; {{ $siteFoot['year'] }} <span data-i18n="footer.copyright">Dalian Medical University. All Rights Reserved.</span> | <a href="/privacy" style="color: white;" data-i18n="footer.privacy_policy">Privacy Policy</a> | <a href="/terms" style="color: white" data-i18n="footer.terms_of_use">Terms of Use</a></p>
             <p><b data-i18n="footer.powered_by">Powered By: <a href="https://cas.moe/" target="_blank" rel="noopener noreferrer" style="white-space: nowrap; text-decoration: none;">
-    Consultancy for Abroad Study (CAS)
+    CAS
 </a></b></p>
         </div>
     </div>
