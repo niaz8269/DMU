@@ -288,6 +288,10 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--teal" href="{{ get_absolute_url('mbbs-in-china-fees-2027') }}">MBBS fees 2027</a></div>
             <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--green" href="{{ get_absolute_url('mbbs-in-china-scholarship-2027') }}">Scholarships</a></div>
             <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--red" href="{{ get_absolute_url('china-student-visa-for-mbbs') }}">Student visa guide</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--blue" href="{{ get_absolute_url('bds-in-china') }}">BDS in China</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--teal" href="{{ get_absolute_url('study-in-china') }}">Study in China</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--green" href="{{ get_absolute_url('dalian-medical-university') }}">Dalian Medical University</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--red" href="{{ get_absolute_url('mbbs-in-china-2027') }}">MBBS in China 2027</a></div>
         </div>
     </div>
 </section>

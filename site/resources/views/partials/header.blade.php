@@ -22,6 +22,7 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ $siteHead['url'] }}">
+    <link rel="alternate" type="application/atom+xml" title="DMU admission guides" href="https://dmu.cas.moe/feed.xml">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="{{ $siteHead['og_type'] }}">

@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\DB;
 /** Dynamic sitemap.xml (same URLs, priorities and Content-Type as the original sitemap.php). */
 class SitemapController extends Controller
 {
+    public const SITE_UPDATED = '2026-11-25';
+
     private const STATIC = [
         ['/',               'daily',   '1.0'],
         ['/mbbs',           'weekly',  '1.0'],
@@ -31,6 +33,9 @@ class SitemapController extends Controller
     {
         $base = 'https://dmu.cas.moe';
         $today = date('Y-m-d');
+        // Static pages: use the date the site content last changed (bump on edits), not today's date,
+        // so search engines can trust <lastmod>.
+        $siteUpdated = self::SITE_UPDATED;
 
         $blogs = [];
         try {
@@ -52,7 +57,7 @@ class SitemapController extends Controller
             . "        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n\n";
 
         foreach (self::STATIC as [$loc, $freq, $prio]) {
-            $xml .= $url($base . $loc, $today, $freq, $prio);
+            $xml .= $url($base . $loc, $siteUpdated, $freq, $prio);
         }
         foreach (config('seo_guides', []) as $slug => $guide) {
             $xml .= $url($base . '/' . $slug, $guide['updated'], 'weekly', '0.9');

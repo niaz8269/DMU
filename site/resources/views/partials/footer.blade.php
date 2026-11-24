@@ -64,6 +64,8 @@
                         <ul class="footer-links">
                             <li><a href="/admissions" data-i18n="footer.international_students">International Students</a></li>
                             <li><a href="/support">Student Support</a></li>
+                            <li><a href="/bds-in-china">BDS in China</a></li>
+                            <li><a href="/study-in-china">Study in China</a></li>
                             <li><a href="/be-our-partner" data-i18n="footer.careers">Careers</a></li>
                             <li><a href="/sitemap.xml" data-i18n="footer.sitemap">Sitemap</a></li>
                         </ul>

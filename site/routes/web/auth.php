@@ -58,4 +58,5 @@ Route::post('/submit-testimonial.php', [TestimonialSubmissionController::class, 
 
 Route::get('/sitemap', SitemapController::class);
 Route::get('/sitemap.php', SitemapController::class);
+Route::get('/feed.xml', \App\Http\Controllers\FeedController::class);
 Route::get('/sitemap.xml', SitemapController::class); // original .htaccess served sitemap.php here (also kept for local runs without Apache rewrites)
