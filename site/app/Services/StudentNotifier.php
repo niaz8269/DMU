@@ -23,7 +23,7 @@ class StudentNotifier
 
     public function submitted(int $userId): bool
     {
-        return $this->send($userId, 'Your application has been received - Dalian Medical University', 'emails.application-submitted', []);
+        return $this->send($userId, 'We received your application (DMU admissions guide)', 'emails.application-submitted', []);
     }
 
     public function statusChanged(int $userId, string $status, ?string $remark): bool
@@ -32,7 +32,7 @@ class StudentNotifier
             return false;   // nothing worth an email (for example back to "Pending" with no remark)
         }
 
-        return $this->send($userId, 'Update on your application - Dalian Medical University', 'emails.application-status',
+        return $this->send($userId, 'Update on your application (DMU admissions guide)', 'emails.application-status',
             ['status' => $status, 'remark' => trim((string) $remark)]);
     }
 

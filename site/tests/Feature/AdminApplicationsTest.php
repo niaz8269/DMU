@@ -208,7 +208,7 @@ class AdminApplicationsTest extends TestCase
         $sent = array_values(array_filter($mailer->outbox, fn ($m) => str_contains($m['subject'] ?? '', 'Update on your application')));
         $this->assertCount(1, $sent);
         $this->assertSame('stu@example.com', $sent[0]['to']);
-        $this->assertStringContainsString('has been <strong>approved</strong>', $sent[0]['html']);
+        $this->assertStringContainsString('the next step is ready', $sent[0]['html']);
         $this->assertStringContainsString('Well done &lt;script&gt;', $sent[0]['html']);
         $this->assertSame(1, \Illuminate\Support\Facades\DB::table('crm_application_log')->where('user_id', $uid)->where('type', 'email')->count());
     }
