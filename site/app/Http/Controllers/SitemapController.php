@@ -48,19 +48,42 @@ class SitemapController extends Controller
         } catch (\Throwable $e) {
         }
 
-        $url = fn (string $loc, string $lastmod, string $freq, string $prio) => "  <url>\n    <loc>{$loc}</loc>\n    <lastmod>{$lastmod}</lastmod>\n    <changefreq>{$freq}</changefreq>\n    <priority>{$prio}</priority>\n  </url>\n";
+        $esc = fn (string $t) => htmlspecialchars($t, ENT_XML1 | ENT_QUOTES, 'UTF-8');
+        $imgXml = function (array $imgs) use ($base, $esc): string {
+            $o = '';
+            foreach ($imgs as $src => [$alt, $cap]) {
+                $o .= "    <image:image>\n      <image:loc>{$base}/" . ltrim($src, '/') . "</image:loc>\n      <image:title>" . $esc($cap ?: $alt) . "</image:title>\n      <image:caption>" . $esc($alt) . "</image:caption>\n    </image:image>\n";
+            }
+
+            return $o;
+        };
+        $url = fn (string $loc, string $lastmod, string $freq, string $prio, array $imgs = []) => "  <url>\n    <loc>{$loc}</loc>\n    <lastmod>{$lastmod}</lastmod>\n    <changefreq>{$freq}</changefreq>\n    <priority>{$prio}</priority>\n" . $imgXml($imgs) . "  </url>\n";
+
+        // Every guide image with its alt text and caption, so Google Images can index the photos.
+        $allImages = [];
+        $guideImages = [];
+        foreach (config('seo_guides', []) as $slug => $guide) {
+            foreach ($guide['sections'] ?? [] as $sec) {
+                if (! empty($sec['img']['src'])) {
+                    $row = [$sec['img']['alt'] ?? '', $sec['img']['caption'] ?? ''];
+                    $allImages[$sec['img']['src']] ??= $row;
+                    $guideImages[$slug][$sec['img']['src']] = $row;
+                }
+            }
+        }
 
         $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         $xml .= "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"\n"
+            . "        xmlns:image=\"http://www.google.com/schemas/sitemap-image/1.1\"\n"
             . "        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n"
             . "        xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9\n"
             . "        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n\n";
 
         foreach (self::STATIC as [$loc, $freq, $prio]) {
-            $xml .= $url($base . $loc, $siteUpdated, $freq, $prio);
+            $xml .= $url($base . $loc, $siteUpdated, $freq, $prio, in_array($loc, ['/', '/about', '/gallery'], true) ? $allImages : []);
         }
         foreach (config('seo_guides', []) as $slug => $guide) {
-            $xml .= $url($base . '/' . $slug, $guide['updated'], 'weekly', '0.9');
+            $xml .= $url($base . '/' . $slug, $guide['updated'], 'weekly', '0.9', $guideImages[$slug] ?? []);
         }
         $xml .= "\n";
         foreach ($blogs as $b) {
