@@ -119,7 +119,7 @@ return [
     // home_faqs_fallback
     'home_faqs_fallback' => [
         ['question' => 'Is Dalian Medical University recognized for MBBS?',
-         'answer' => 'DMU is on China\'s Ministry of Education (MOE) list of universities allowed to teach MBBS in English, is listed in the World Directory of Medical Schools and is ECFMG eligible. It is recognised by medical councils in countries including Pakistan (PMDC), India, the UK, the US, the Gulf countries and Africa. Always check your own medical council\'s current rules before you apply.'],
+         'answer' => 'DMU is on China\'s Ministry of Education (MOE) list of universities allowed to teach MBBS in English, is listed in the World Directory of Medical Schools and is ECFMG eligible. It is recognised by medical councils in many regions. Always check your own medical council\'s current rules before you apply.'],
         ['question' => 'What is the medium of instruction for the MBBS program?',
          'answer' => 'The MBBS program is taught in English. DMU launched its English-medium MBBS in 2004. No HSK or IELTS requirement is published for MBBS.'],
         ['question' => 'How much does MBBS at DMU cost?',

@@ -6,7 +6,7 @@ return [
     'updated' => '2026-11-22',
     'title' => 'Non-MOE Universities in China for MBBS: Risks Explained',
     'description' => 'What can go wrong with MBBS at a non-MOE listed university in China: the certificate, bilingual programmes, recognition at home, and a checklist for cheap offers.',
-    'keywords' => 'non MOE universities MBBS China risks, moe listed vs non moe listed universities mbbs, is non moe listed mbbs valid in pakistan, bilingual MBBS China vs English, are bilingual mbbs programs accepted by pmdc, MBBS in China scam, what is the difference between moe listed and non moe listed universities, MBBS in China 2027',
+    'keywords' => 'non MOE universities MBBS China risks, moe listed vs non moe listed universities mbbs, is non moe listed mbbs valid for my home council, bilingual MBBS China vs English, are bilingual mbbs programs accepted by my medical council, MBBS in China scam, what is the difference between moe listed and non moe listed universities, MBBS in China 2027',
     'eyebrow' => 'Risk guide',
     'h1' => 'Non-MOE Universities in China for MBBS: The Risks and How to Avoid Them',
     'lead' => 'Some offers for MBBS in China come from universities that are not on the Ministry of Education list. They are often cheaper and faster to answer. This guide explains what the notice says about such universities, the practical problems students can meet, why bilingual programmes are a particular concern, and a plan for checking any offer before money changes hands.',
@@ -70,7 +70,7 @@ return [
             ['University on the notice', 'Yes', 'Where is the university on the list?']
         ]], 'sub' => [
             ['h' => 'Do councils accept bilingual programmes?', 'p' => [
-                "Searches ask whether a council such as PMDC accepts bilingual MBBS programmes. We cannot answer for any council. The only reliable answer is on the council's current published rules, and in a written reply from the council to your question. This site never promises a licence outcome.",
+                "Searches ask whether a home medical council accepts bilingual MBBS programmes. We cannot answer for any council. The only reliable answer is on the council's current published rules, and in a written reply from the council to your question. This site never promises a licence outcome.",
             ]],
             ['h' => 'If an agent says it is fine', 'p' => [
                 "Ask the agent to send the council's rule in writing and to show where on the council's website it appears. If they cannot, treat the claim as unproven.",
@@ -125,7 +125,7 @@ return [
 
         ['id' => 'dmu', 'eyebrow' => 'Dalian Medical University', 'h' => 'How Dalian Medical University fits into this picture', 'p' => [
             "Dalian Medical University is MOE listed, the third entry on the notice with 120 seats. Its MBBS runs for six years, including a one-year internship, and is taught in English. DMU's International Education College started the English-medium MBBS in 2004.",
-            "CAS, the consultancy that runs this site, also lists DMU as WHO and WDOMS listed and ECFMG recognised, and as recognised by medical councils in Pakistan (PMDC), India, the UK, the US, the Gulf countries and Africa. Students must still check the current rules of their own council before applying. Nothing on this site is a promise of a licence outcome.",
+            "CAS, the consultancy that runs this site, also lists DMU as WHO and WDOMS listed and ECFMG recognised, and as recognised by medical councils in many regions. Students must still check the current rules of their own council before applying. Nothing on this site is a promise of a licence outcome.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building at Dalian Medical University with its sign', 'caption' => 'The library at Dalian Medical University.'], 'table' => $s['programmes'], 'sub' => [
             ['h' => 'Costs, so you can compare', 'p' => [
                 "For comparison, DMU's MBBS tuition is ¥42,000 a year, and from year two the yearly cost adds accommodation of ¥8,000-12,000, insurance ¥800, residence permit ¥800 and medical ¥500, a total of ¥52,100-56,100 a year (about US$7,350-7,900). A very different price is a reason to ask what is left out.",
@@ -135,7 +135,7 @@ return [
     'faqs' => [
         ['What is the difference between MOE listed and non-MOE listed universities?', "A listed university is named in the Ministry of Education notice and may teach English-taught MBBS to international students. An unlisted one may admit international students only to Chinese-medium clinical medicine and may not issue an English MBBS certificate."],
         ['Can I study MBBS at a non-MOE university?', "Not as an English-taught MBBS for international students under the 2026 notice. An unlisted university may offer Chinese-medium clinical medicine, which is a different programme with a different language demand."],
-        ['Is non-MOE listed MBBS valid in Pakistan?', "We cannot answer for PMDC. Recognition is decided by your own council, so read its current rules and, if needed, ask it in writing. Do not rely on a promise from an agent."],
+        ['Is non-MOE listed MBBS valid in my country?', "We cannot answer for any council. Recognition is decided by your own council, so read its current rules and, if needed, ask it in writing. Do not rely on a promise from an agent."],
         ['Are bilingual MBBS programmes accepted?', "The notice does not allow bilingual teaching as a way around the list. Whether a council accepts a particular bilingual programme is a question for that council."],
         ['Why are some offers so much cheaper?', "There can be several reasons, including a different programme, fewer included services or a deposit that is the whole point of the offer. Ask for a written breakdown and compare it with the fee letter of a listed university."],
         ['How do I check whether a university is listed?', "Find the exact name in the MOE table on our list page and match the city. Then ask the university to confirm the programme in writing."],

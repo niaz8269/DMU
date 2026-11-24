@@ -118,7 +118,7 @@ return [
             ['Will my home council accept the degree and let me sit its licensing steps?', 'Your own medical council', 'Its current published rules'],
         ]], 'sub' => [
             ['h' => 'What we say about recognition', 'p' => [
-                "CAS, which runs this site, lists DMU as MOE listed, WHO and WDOMS listed and ECFMG listed, and as recognised by medical councils in Pakistan (PMDC), India, the UK, the US, the Gulf countries and Africa. Students must still check the current rules of their own medical council before applying. This site cannot promise any licence outcome, and nobody who contacts you can lawfully promise it either.",
+                "CAS, which runs this site, lists DMU as MOE listed, WHO and WDOMS listed and ECFMG listed, and as recognised by medical councils in many regions. Students must still check the current rules of their own medical council before applying. This site cannot promise any licence outcome, and nobody who contacts you can lawfully promise it either.",
             ]],
         ], 'link' => ['who-listed-medical-universities-in-china', 'Read about WHO and WDOMS listing']],
 

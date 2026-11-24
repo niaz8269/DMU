@@ -55,6 +55,7 @@
         "name": "Dalian Medical University",
         "alternateName": "DMU",
         "url": "https://dmu.cas.moe",
+        "sameAs": ["https://www.facebook.com/DalianMedicalUniversityChina"],
         "logo": "https://dmu.cas.moe/images/logo.png",
         "description": "Dalian Medical University is a public medical university in Dalian, Liaoning, China, offering English-medium MBBS and other medical programmes to international students.",
         "address": {
@@ -101,6 +102,7 @@
         "@type": "CollegeOrUniversity",
         "name": "Dalian Medical University",
         "url": "https://dmu.cas.moe",
+        "sameAs": ["https://www.facebook.com/DalianMedicalUniversityChina"],
         "logo": "https://dmu.cas.moe/images/logo.png",
         "foundingDate": "1947",
         "address": {

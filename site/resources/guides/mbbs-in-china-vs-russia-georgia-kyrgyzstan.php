@@ -6,7 +6,7 @@ return [
     'updated' => '2026-11-22',
     'title' => 'MBBS in China vs Russia, Georgia and Kyrgyzstan: How to Compare',
     'description' => 'MBBS in China vs Russia, Georgia and Kyrgyzstan: how to compare approval, cost, language and licensing fairly, and how DMU\'s published terms measure up.',
-    'keywords' => 'MBBS in China vs Russia, MBBS in China vs Georgia, MBBS in China vs Kyrgyzstan, MBBS in China vs Kyrgyzstan for Pakistani students, MBBS in China vs Russia for Pakistani students, which is better China or Russia for MBBS, which country is best for MBBS abroad, pros and cons of MBBS in China',
+    'keywords' => 'MBBS in China vs Russia, MBBS in China vs Georgia, MBBS in China vs Kyrgyzstan, MBBS in China vs Kyrgyzstan for international students, MBBS in China vs Russia for international students, which is better China or Russia for MBBS, which country is best for MBBS abroad, pros and cons of MBBS in China',
     'eyebrow' => 'Country comparison guide',
     'h1' => 'MBBS in China vs Russia, Georgia and Kyrgyzstan: A Decision Framework',
     'lead' => 'Which country is best for MBBS abroad? We cannot answer that honestly with claims about three countries we have not verified. What we can do is give you the questions to ask about any country, show where Dalian Medical University stands on each, and help you build a comparison from sources you can check yourself.',
@@ -39,7 +39,7 @@ return [
 
         ['id' => 'q-recognition', 'eyebrow' => 'Question 2', 'h' => 'Will your own council accept the degree?', 'p' => [
             "The decisive question is the same for every country and it has nothing to do with where the university is. A degree is only as useful as the rules of the council where you will want to register. Those rules can treat graduates of different countries differently, they apply conditions before you leave and after you return, and they change.",
-            "DMU states that it is recognised by medical councils in Pakistan, India, the United Kingdom, the United States, the Gulf and Africa. We report it with the reminder that you must read your own council's current rules before applying, and that CAS never promises a licence outcome.",
+            "DMU states that it is recognised by medical councils in many regions. We report it with the reminder that you must read your own council's current rules before applying, and that CAS never promises a licence outcome.",
             "For a rival country, do the same. Open your council's own website, find its notices on foreign graduates, and see whether they name countries, list universities or set general criteria. Save the date of every notice you read.",
         ], 'list' => [
             'Which council will register me, and where is its current notice on foreign graduates?',
@@ -121,9 +121,9 @@ return [
             ['Home council position', 'Read your council\'s current rules', 'Read your council\'s current rules'],
         ]]],
 
-        ['id' => 'pakistani', 'eyebrow' => 'For Pakistani readers', 'h' => 'If you are comparing for a Pakistani student', 'p' => [
-            "Pakistani families often compare China with Kyrgyzstan or Russia in particular. The same eight questions apply. The one that matters most is the second: what do PMDC's current notices say about foreign graduates, and do they treat the country in question differently? We do not state what PMDC requires. Read its notices, save dated copies, and ask any adviser, including us, to point to the exact notice behind each claim.",
-        ], 'link' => ['mbbs-in-china-for-pakistani-students', 'MBBS in China for Pakistani students']],
+        ['id' => 'home-council', 'eyebrow' => 'Your home council', 'h' => 'If you are comparing destinations for your own degree', 'p' => [
+            "Many families compare China with Kyrgyzstan or Russia in particular. The same eight questions apply. The one that matters most is the second: what do your own medical council's current notices say about foreign graduates, and do they treat the country in question differently? We do not state what any council requires. Read its notices, save dated copies, and ask any adviser, including us, to point to the exact notice behind each claim.",
+        ], 'link' => ['who-listed-medical-universities-in-china', 'Read how MOE, WHO, WDOMS, ECFMG and council listings differ']],
 
         ['id' => 'red-flags', 'eyebrow' => 'Warning signs', 'h' => 'Red flags in any country comparison', 'p' => [
             "These warning signs apply to any adviser and any country.",
@@ -170,5 +170,5 @@ return [
         ['Can I speak to a current student?', 'Ask admissions to arrange it. A student now enrolled is more useful than a brochure, in any country.'],
         ['When can I apply to DMU?', 'Autumn: 1 March to 5 July. Spring: 1 September to 5 January. BDS is autumn only. Confirm with admissions.'],
     ],
-    'related' => ['compare-mbbs-universities-in-china', 'mbbs-in-china-vs-pakistan', 'english-taught-mbbs-in-china'],
+    'related' => ['compare-mbbs-universities-in-china', 'is-mbbs-in-china-good', 'english-taught-mbbs-in-china'],
 ];

@@ -6,7 +6,7 @@ return [
     'updated' => '2026-11-22',
     'title' => 'WHO and WDOMS Listed Medical Universities in China: Check',
     'description' => 'What WHO and WDOMS listing means for MBBS in China, why it is not the same as MOE approval or council recognition, and how to check Dalian Medical University yourself.',
-    'keywords' => 'WDOMS listed universities in China, WHO listed medical universities in China, WDMS listed medical universities in China, what is WDOMS and why does it matter, WDOMS vs PMDC list difference, WDOMS listing check Chinese university, ECFMG eligible Chinese medical schools, Dalian Medical University WDOMS, MBBS in China 2027',
+    'keywords' => 'WDOMS listed universities in China, WHO listed medical universities in China, WDMS listed medical universities in China, what is WDOMS and why does it matter, WDOMS vs medical council list difference, WDOMS listing check Chinese university, ECFMG eligible Chinese medical schools, Dalian Medical University WDOMS, MBBS in China 2027',
     'eyebrow' => 'Recognition and trust',
     'h1' => 'WHO and WDOMS Listed Medical Universities in China: What the Listing Means',
     'lead' => 'A medical school directory entry is one of several checks a careful applicant makes before choosing MBBS in China. This guide explains what the WHO and WDOMS listings are for, how they differ from the Ministry of Education list and from your own council, how to search the directory yourself, and what we can say about Dalian Medical University.',
@@ -26,7 +26,7 @@ return [
     'sections' => [
 
         ['id' => 'why-search', 'eyebrow' => 'Why people ask', 'h' => 'Why WDOMS and WHO listing come up in every MBBS conversation', 'p' => [
-            "Anyone researching MBBS in China meets the same strings of letters sooner or later: MOE, WHO, WDOMS, ECFMG, PMDC. They are easy to confuse, partly because agents use them as a single vague badge of approval. In reality they come from different organisations and answer different questions. Learning which is which protects you from paying for a promise that was never about the thing you care about.",
+            "Anyone researching MBBS in China meets the same strings of letters sooner or later: MOE, WHO, WDOMS, ECFMG, and your own medical council. They are easy to confuse, partly because agents use them as a single vague badge of approval. In reality they come from different organisations and answer different questions. Learning which is which protects you from paying for a promise that was never about the thing you care about.",
             "The directory question is practical. Several licensing and certification bodies ask where a graduate trained, and they use a published directory of medical schools to check that the school exists as a medical school, that it is government recognised in its own country and that the programme is a medical degree. If your school is missing from the directory, the process of proving your training can become harder. That is the reason families search for 'WDOMS listed universities in China' before choosing.",
             "This page looks at that single check. It does not claim that the directory decides who can practise. It cannot, and the bodies that do decide are covered in the sections that follow.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-main-gate.webp', 'alt' => 'Main gate of Dalian Medical University with the university name', 'caption' => 'Dalian Medical University, a public medical university in Dalian, Liaoning Province.']],
@@ -37,7 +37,7 @@ return [
             ['MOE (Ministry of Education, China)', 'The Chinese ministry that names the universities allowed to teach English-taught MBBS to international students', 'It does not decide licensing in your home country'],
             ['WHO / WDOMS', 'A published directory of medical schools that lets outsiders confirm a school exists and is recognised in its own country', 'It does not grant a licence and does not rank schools'],
             ['ECFMG', 'The organisation that certifies international medical graduates who want to enter US residency training', 'It does not cover other countries'],
-            ['Your medical council (for example PMDC in Pakistan)', 'The authority that sets the rules for registration and licensing at home', 'It does not follow a single international rule; each council writes its own'],
+            ['Your medical council (the regulator in your home country)', 'The authority that sets the rules for registration and licensing at home', 'It does not follow a single international rule; each council writes its own'],
         ]], 'sub' => [
             ['h' => 'About the spelling WDMS', 'p' => [
                 "People also type WDMS or WDOMS-WFME when they search. They mean the same family of directories. The correct abbreviation, WDOMS, stands for World Directory of Medical Schools. If a website shows a screenshot labelled in some other way, open the real directory and run the search yourself.",
@@ -56,7 +56,7 @@ return [
             ['Ministry of Education list', 'Listed, third entry, 120 seats (notice of 1 June 2026)'],
             ['WHO / WDOMS', 'Listed (confirmed by the site owner)'],
             ['ECFMG', 'Listed (confirmed by the site owner)'],
-            ['Medical councils in Pakistan, India, the UK, the US, the Gulf and Africa', 'Described as recognising DMU; check your own council\'s current rules before applying'],
+            ['Medical councils in many regions', 'Described as recognising DMU; check your own council\'s current rules before applying'],
         ]], 'note' => $s['moeSource']],
 
         ['id' => 'search-steps', 'eyebrow' => 'Do it yourself', 'h' => 'How to run a directory search for a Chinese university', 'p' => [
@@ -91,7 +91,7 @@ return [
             ['h' => 'No one can promise the outcome', 'p' => [
                 "This site never promises a licence. If anyone promises you registration, a pass in a licensing exam or a house job, ask them to put the promise in writing and to name the council rule it rests on. Responsible advisers will decline.",
             ]],
-        ], 'link' => ['mdcat-pmdc-rules-for-mbbs-in-china', 'Read the guide to MDCAT and PMDC rules']],
+        ], 'link' => ['mbbs-in-china-eligibility-2027', 'Read the MBBS in China eligibility guide']],
 
         ['id' => 'delisting', 'eyebrow' => 'Rumours', 'h' => 'Delisting rumours and how to handle them', 'p' => [
             "Searches such as 'Chinese medical universities delisted by WHO' appear whenever a rumour spreads through social media. Rumours often start from a misread of a directory update, an old list or a clip with no source. Treat them in the same careful way as promises.",
@@ -132,7 +132,7 @@ return [
         ['Is Dalian Medical University WDOMS listed?', "The site owner has confirmed that Dalian Medical University is WHO and WDOMS listed, and is also MOE listed and ECFMG recognised. Search the directory yourself and keep a dated screenshot, because entries can be updated."],
         ['What is WDOMS and why does it matter?', "WDOMS is the World Directory of Medical Schools. Licensing and certification bodies may consult it to confirm that a school exists and is recognised in its own country. It does not grant a licence and does not rank schools."],
         ['Is WDOMS the same as the MOE list?', "No. The Ministry of Education list is a Chinese permission to teach English-taught MBBS to international students. A directory listing is a separate record of the school. You need to check both, and your own council as well."],
-        ['What is the difference between the WDOMS listing and the PMDC list?', "The directory is international and describes schools. A council such as PMDC sets its own rules for registering graduates. They are different documents from different bodies, so check the council's current rules directly."],
+        ['What is the difference between the WDOMS listing and a medical council list?', "The directory is international and describes schools. A medical council sets its own rules for registering graduates. They are different documents from different bodies, so check the council's current rules directly."],
         ['Are WDMS listed medical universities in China the same as WDOMS listed ones?', "The abbreviation WDMS is a common misspelling. The directory is the World Directory of Medical Schools, abbreviated WDOMS. Always search the official directory instead of relying on a screenshot."],
         ['Is a WHO or WDOMS listing enough to practise in my country?', "No. Your own medical council decides who can register or sit licensing steps. Read its current rules for foreign graduates before you apply and again before you pay."],
         ['Is Dalian Medical University ECFMG recognised?', "The site owner has confirmed it. Students who want to work in the United States should read the current ECFMG requirements themselves, because they apply to each individual graduate."],

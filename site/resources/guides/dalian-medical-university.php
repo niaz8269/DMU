@@ -94,14 +94,14 @@ return [
 
         ['id' => 'recognition', 'eyebrow' => 'Recognition', 'h' => 'Recognition: MOE, WHO listing and your own medical council', 'p' => [
             "DMU is an MOE-listed English-medium MBBS provider. The Ministry of Education notice 教外司来〔2026〕94号 of 1 June 2026 names 43 universities, and DMU is third on that list with 120 seats. The position and the number of seats come from the notice itself, and we have flagged both to the site owner for a final check. The whole list is available on our MOE list page so that you can compare for yourself.",
-            "DMU is also WHO / WDOMS listed and is covered by ECFMG, according to information confirmed by the site owner. It is recognised by medical councils in Pakistan (PMDC), India, the United Kingdom, the United States, the Gulf countries and Africa.",
+            "DMU is also WHO / WDOMS listed and is covered by ECFMG, according to information confirmed by the site owner. It is recognised by medical councils in many regions.",
             "Now the rule we apply on every page. Recognition by a council is a statement about a university, but your licence depends on your own country's current rules, on your own record and on any examinations that council requires. Rules change. Before you apply, read the current requirements published by the medical council of the country where you want to practise, and keep a copy. This site never promises a licence outcome, and you should distrust any adviser who does.",
         ], 'img' => ['src' => 'assets/images/dmu/dmu-campus-trees-and-main-building.webp', 'alt' => 'The main building of Dalian Medical University seen behind a row of cypress trees', 'caption' => 'The main building behind the cypress trees.'],
         'table' => ['caption' => 'DMU recognition at a glance', 'head' => ['Body or list', 'Position stated'], 'rows' => [
             ['Ministry of Education English-medium MBBS list', 'Listed; third of 43; 120 seats'],
             ['WHO / WDOMS', 'Listed'],
             ['ECFMG', 'Covered (confirmed by the site owner)'],
-            ['Medical councils', 'Recognised in Pakistan (PMDC), India, UK, US, Gulf countries and Africa; check the current rules of your own council'],
+            ['Medical councils', 'Recognised by medical councils in many regions; check the current rules of your own council'],
         ]],
         'note' => $s['moeSource'], 'link' => ['moe-listed-mbbs-universities-in-china', 'See all 43 MOE listed universities and their seats']],
 

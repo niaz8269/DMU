@@ -109,7 +109,7 @@ UPDATE site_settings SET setting_value = CASE setting_key
  WHEN 'admissions_email' THEN 'admissions@dmu.cas.moe'
  WHEN 'support_email' THEN 'info@dmu.cas.moe'
  WHEN 'office_address' THEN 'No. 9 West Section, Lvshun South Road, Lvshunkou District, Dalian, Liaoning, China 116044'
- WHEN 'social_facebook' THEN ''
+ WHEN 'social_facebook' THEN 'https://www.facebook.com/DalianMedicalUniversityChina'
  WHEN 'social_youtube' THEN ''
  WHEN 'home_hero_eyebrow' THEN 'March & September 2027 intakes'
  WHEN 'home_trust1' THEN 'WHO / WDOMS Listed'

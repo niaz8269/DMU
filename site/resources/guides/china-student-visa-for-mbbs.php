@@ -6,7 +6,7 @@ return [
     'updated' => '2026-11-22',
     'title' => 'China Student Visa for MBBS: X1 Visa and JW202 Steps (DMU)',
     'description' => 'How the China student visa works for MBBS at Dalian Medical University: acceptance letter, JW202 form, X1 visa, bank statement, medical form and residence permit.',
-    'keywords' => 'China student visa for MBBS, X1 visa China, what is X1 visa for China, JW202 form China student visa, what is JW202 JW201 form, China student visa requirements, China student visa bank statement, China student visa physical examination form, X1 visa to residence permit conversion China, China student visa from Pakistan, MBBS in China 2027',
+    'keywords' => 'China student visa for MBBS, X1 visa China, what is X1 visa for China, JW202 form China student visa, what is JW202 JW201 form, China student visa requirements, China student visa bank statement, China student visa physical examination form, X1 visa to residence permit conversion China, China student visa for international students, MBBS in China 2027',
     'eyebrow' => 'Visa guide',
     'h1' => 'China Student Visa for MBBS: From Acceptance Letter and JW202 to the X1 Visa',
     'lead' => 'The visa is the stage where many MBBS plans slow down, usually because a paper is missing or a name does not match. This guide follows the path for a Dalian Medical University applicant from the application to the acceptance letter, the JW202 form, the X1 visa at the embassy and the residence permit after arrival, and says plainly where you must read your own embassy\'s page.',

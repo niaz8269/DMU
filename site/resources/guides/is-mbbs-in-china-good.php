@@ -6,7 +6,7 @@ return [
     'updated' => '2026-11-22',
     'title' => 'Is MBBS in China Worth It? An Honest Look Using DMU Facts',
     'description' => 'Is MBBS in China worth it? A balanced decision guide using confirmed Dalian Medical University facts: listing, fees, hospitals, language and what to verify yourself.',
-    'keywords' => 'is MBBS in China good, MBBS in China worth it, is MBBS in China worth it for Pakistani students, pros and cons MBBS in China, MBBS in China English medium, Dalian Medical University MBBS worth it, MOE listed MBBS',
+    'keywords' => 'is MBBS in China good, MBBS in China worth it, is MBBS in China worth it for international students, pros and cons MBBS in China, MBBS in China English medium, Dalian Medical University MBBS worth it, MOE listed MBBS',
     'eyebrow' => 'Decision guide',
     'h1' => 'Is MBBS in China Worth It? A Balanced Look for Applicants',
     'lead' => 'Nobody can say for you whether an MBBS in China is worth it, but you can test the question against facts. This guide sets out what is in favour, what needs care and which checks to run, using the confirmed figures for Dalian Medical University as the working example.',
@@ -54,7 +54,7 @@ return [
         'link' => ['life-in-dalian-for-international-students', 'Read what we can verify about life in Dalian']],
 
         ['id' => 'licence', 'eyebrow' => 'Test five', 'h' => 'Will your own country let you practise?', 'p' => [
-            "This is the test that matters most and the one that no foreign university can pass for you. DMU is recognised by medical councils in Pakistan (PMDC), India, the United Kingdom, the United States, the Gulf countries and Africa, and is covered by ECFMG, according to the site owner. Even so, you must check the current rules of your own medical council before you apply. Rules change, and an approval that applied to last year's graduates may not describe next year's.",
+            "This is the test that matters most and the one that no foreign university can pass for you. DMU is recognised by medical councils in many regions, and is covered by ECFMG, according to the site owner. Even so, you must check the current rules of your own medical council before you apply. Rules change, and an approval that applied to last year's graduates may not describe next year's.",
             "This site never promises a licence outcome. If an agent says you will definitely be licensed, treat the statement as a warning sign, not as reassurance.",
         ], 'table' => ['caption' => 'A five-test scorecard you can fill in yourself', 'head' => ['Test', 'What to verify', 'Where DMU stands on our confirmed facts'], 'rows' => [
             ['Listing', 'Ministry of Education list', 'Third of 43; 120 seats'],
@@ -90,7 +90,7 @@ return [
     ],
     'faqs' => [
         ['Is MBBS in China good?', 'It can be a sound choice when the university is on the Ministry of Education list, teaches in English, fits your budget and is accepted by your own medical council. Dalian Medical University is third of 43 on the 1 June 2026 list, with 120 seats.'],
-        ['Is MBBS in China worth it for Pakistani students?', 'DMU is recognised by PMDC according to the site owner, but PMDC rules can change. Read the current PMDC rules before you apply. This site cannot promise a licence outcome.'],
+        ['Is MBBS in China worth it for international students?', 'DMU is recognised by medical councils in many regions according to the site owner, but council rules can change. Read the current rules of your own medical council before you apply. This site cannot promise a licence outcome.'],
         ['How much does MBBS at DMU cost?', 'MBBS tuition is ¥42,000 a year. From the second year the yearly total is ¥52,100 to ¥56,100 a year, about USD 7,350 to 7,900. A six-year total is not published.'],
         ['Is the degree taught in English?', 'Yes. English-medium MBBS has been taught at DMU since 2004, and no HSK or IELTS requirement is published for it.'],
         ['What are the main risks?', 'The main risks are choosing an unlisted university, relying on a licence promise, and underestimating costs. Check the ministry list, your council\'s rules and a written fee schedule.'],

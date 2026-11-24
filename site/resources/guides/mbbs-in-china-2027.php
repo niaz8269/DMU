@@ -56,7 +56,7 @@ return [
         ]], 'note' => $s['moeSource'], 'link' => ['moe-listed-mbbs-universities-in-china', 'See the full list of 43 MOE listed universities']],
 
         ['id' => 'recognition', 'eyebrow' => 'Recognition', 'h' => 'Recognition by medical councils and registers', 'p' => [
-            "Besides the MOE listing, DMU is WHO / WDOMS listed and appears in ECFMG arrangements. The site owner also reports recognition by medical councils in Pakistan (PMDC), India, the United Kingdom, the United States, the Gulf countries and parts of Africa.",
+            "Besides the MOE listing, DMU is WHO / WDOMS listed and appears in ECFMG arrangements. The site owner also reports recognition by medical councils in many regions.",
             "A listing is not a licence. Each council writes its own rules about which foreign degrees it accepts, which examinations a returning graduate must pass, and what clinical hours count. Those rules change. Read the current rules of your own council before you apply, and again before you pay, and do not rely on any website, including this one, to promise a licensing outcome.",
         ], 'sub' => [
             ['h' => 'Questions to put to your own council', 'list' => [

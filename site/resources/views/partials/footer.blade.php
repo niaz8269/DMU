@@ -66,6 +66,12 @@
                             <li><a href="/support">Student Support</a></li>
                             <li><a href="/bds-in-china">BDS in China</a></li>
                             <li><a href="/study-in-china">Study in China</a></li>
+                            <li><a href="/mbbs-in-china-from-africa">MBBS from Africa</a></li>
+                            <li><a href="/mbbs-in-china-from-the-gulf">MBBS from the Gulf</a></li>
+                            <li><a href="/mbbs-in-china-from-europe">MBBS from Europe</a></li>
+                            <li><a href="/mbbs-in-china-from-russia-and-central-asia">MBBS from Russia &amp; Central Asia</a></li>
+                            <li><a href="/mbbs-in-china-from-south-asia">MBBS from South Asia</a></li>
+                            <li><a href="/mbbs-in-china-from-southeast-asia">MBBS from Southeast Asia</a></li>
                             <li><a href="/be-our-partner" data-i18n="footer.careers">Careers</a></li>
                             <li><a href="/sitemap.xml" data-i18n="footer.sitemap">Sitemap</a></li>
                         </ul>

@@ -84,7 +84,7 @@ return [
 
         ['id' => 'moe-context', 'eyebrow' => 'Choosing safely', 'h' => 'The MOE list and checking your home rules', 'p' => [
             "If you are weighing universities, one reference point is the Ministry of Education list of universities approved to teach English-medium MBBS to international students. The list issued on 1 June 2026 names 43 universities, and DMU is third, with 120 seats. We do not copy the whole list here. The moe-listed guide shows it with seats for each university.",
-            "Recognition is a different question again. DMU is listed with WHO / WDOMS and ECFMG, and medical councils in Pakistan, India, the UK, the US, the Gulf countries and Africa recognise it. Still, rules change and each council decides for itself. Check the current requirements of your own medical council before you apply. Neither the university nor CAS can promise a licence outcome.",
+            "Recognition is a different question again. DMU is listed with WHO / WDOMS and ECFMG, and medical councils in many regions recognise it. Still, rules change and each council decides for itself. Check the current requirements of your own medical council before you apply. Neither the university nor CAS can promise a licence outcome.",
         ], 'note' => $s['moeSource'], 'link' => ['moe-listed-mbbs-universities-in-china', 'See all 43 MOE listed universities and their seats'], 'img' => ['src' => 'assets/images/dmu/dmu-library.webp', 'alt' => 'The library building at Dalian Medical University', 'caption' => 'The university library on the Dalian campus.']],
 
         ['id' => 'next', 'eyebrow' => 'Where to go next', 'h' => 'Where to go next', 'p' => [
@@ -103,5 +103,5 @@ return [
         ['Is CAS the university?', 'No. CAS, Consultancy for Abroad Study, runs this admissions guide and application help service. The university decides admissions.'],
         ['Does this site cover other universities in China?', 'No. It covers Dalian Medical University. For context on other English-medium MBBS universities, see the Ministry of Education list guide.'],
     ],
-    'related' => ['mbbs-in-china-2027', 'dalian-medical-university', 'mbbs-in-china-scholarship-2027', 'china-student-visa-for-mbbs', 'mbbs-in-china-eligibility-2027', 'moe-listed-mbbs-universities-in-china', 'life-in-dalian-for-international-students', 'csca-test-for-study-in-china'],
+    'related' => ['mbbs-in-china-2027', 'dalian-medical-university', 'mbbs-in-china-scholarship-2027', 'china-student-visa-for-mbbs', 'mbbs-in-china-eligibility-2027', 'moe-listed-mbbs-universities-in-china', 'life-in-dalian-for-international-students', 'csca-test-for-study-in-china', 'bds-in-china', 'mbbs-in-china-from-africa', 'mbbs-in-china-from-the-gulf', 'mbbs-in-china-from-europe', 'mbbs-in-china-from-russia-and-central-asia', 'mbbs-in-china-from-south-asia', 'mbbs-in-china-from-southeast-asia'],
 ];

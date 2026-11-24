@@ -32,7 +32,7 @@ return [
     'updated' => '2026-11-22',
     'title' => 'Compare MBBS Universities in China: Criteria and the MOE List',
     'description' => 'How to compare medical universities in China for MBBS: MOE listing, seats, language, fees and hospitals, with Dalian Medical University as the worked example.',
-    'keywords' => 'compare MBBS universities in China, best medical universities in China, top medical universities in China, MBBS universities in China, which Chinese university is best for MBBS, MOE listed universities, best medical university in China for Pakistani students, medical universities in China',
+    'keywords' => 'compare MBBS universities in China, best medical universities in China, top medical universities in China, MBBS universities in China, which Chinese university is best for MBBS, MOE listed universities, best medical university in China for international students, medical universities in China',
     'eyebrow' => 'Comparison guide',
     'h1' => 'How to Compare MBBS Universities in China: A Practical Method',
     'lead' => 'Lists of the best medical universities in China are easy to find and hard to trust. This guide gives you a method instead: start with the Ministry of Education list, filter by language, fees, hospitals and recognition, and score each candidate on facts you can check, with Dalian Medical University as the university this site covers.',
@@ -92,7 +92,7 @@ return [
         ], 'img' => ['src' => 'assets/images/dmu/dmu-glass-teaching-building.webp', 'alt' => 'Students walking past the glass teaching building at Dalian Medical University', 'caption' => 'The teaching building at DMU.']],
 
         ['id' => 'recognition', 'eyebrow' => 'Step five', 'h' => 'Step five: recognition and your own council', 'p' => [
-            "Ask each university which medical councils and directories recognise it, and then check those claims against the councils' own published rules. For DMU, the site owner confirms listing in WHO / WDOMS, coverage by ECFMG and recognition by medical councils in Pakistan (PMDC), India, the UK, the US, the Gulf countries and Africa.",
+            "Ask each university which medical councils and directories recognise it, and then check those claims against the councils' own published rules. For DMU, the site owner confirms listing in WHO / WDOMS, coverage by ECFMG and recognition by medical councils in many regions.",
             "The wording rule applies to every university you consider: check the current rules of your own medical council before applying. This site never promises a licence outcome for any university, including DMU.",
         ]],
 

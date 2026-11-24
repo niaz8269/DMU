@@ -292,6 +292,12 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--teal" href="{{ get_absolute_url('study-in-china') }}">Study in China</a></div>
             <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--green" href="{{ get_absolute_url('dalian-medical-university') }}">Dalian Medical University</a></div>
             <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--red" href="{{ get_absolute_url('mbbs-in-china-2027') }}">MBBS in China 2027</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--blue" href="{{ get_absolute_url('mbbs-in-china-from-africa') }}">MBBS from Africa</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--teal" href="{{ get_absolute_url('mbbs-in-china-from-the-gulf') }}">MBBS from the Gulf</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--green" href="{{ get_absolute_url('mbbs-in-china-from-europe') }}">MBBS from Europe</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--red" href="{{ get_absolute_url('mbbs-in-china-from-russia-and-central-asia') }}">MBBS from Russia &amp; Central Asia</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--blue" href="{{ get_absolute_url('mbbs-in-china-from-south-asia') }}">MBBS from South Asia</a></div>
+            <div class="col-6 col-lg-3"><a class="dmu-topic dmu-topic--teal" href="{{ get_absolute_url('mbbs-in-china-from-southeast-asia') }}">MBBS from Southeast Asia</a></div>
         </div>
     </div>
 </section>
@@ -386,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </ul>
         <div class="row g-4 mt-1">
             <div class="col-md-6"><div class="ds-card"><h3>Clinical Excellence</h3><p>Rotations across 8 affiliated hospitals give real patient exposure from early years.</p></div></div>
-            <div class="col-md-6"><div class="ds-card"><h3>Globally Recognized</h3><p>Listed by WHO (WDOMS) and recognized by PMDC, NMC and other councils for licensing.</p></div></div>
+            <div class="col-md-6"><div class="ds-card"><h3>Globally Recognized</h3><p>Listed by WHO (WDOMS) and recognised by medical councils in many regions. Check your own council's current rules.</p></div></div>
         </div>
         <a href="{{ get_absolute_url('programs') }}" class="ds-btn ds-btn--outline mt-4">Explore All Programs</a>
     </div>

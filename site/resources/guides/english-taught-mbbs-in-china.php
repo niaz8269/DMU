@@ -81,7 +81,7 @@ return [
         ], 'table' => $s['calendar'], 'img' => ['src' => 'assets/images/dmu/dmu-campus-spring-flowers.webp', 'alt' => 'Students on a flower-covered lawn at Dalian Medical University', 'caption' => 'A flower-covered lawn on the campus.']],
 
         ['id' => 'recognition', 'eyebrow' => 'Recognition', 'h' => 'Will your home council accept it?', 'p' => [
-            "DMU is WHO / WDOMS listed, ECFMG is covered, and the site owner has confirmed recognition by medical councils in Pakistan (PMDC), India, the United Kingdom, the United States, the Gulf countries and Africa. Every council writes its own rules and revises them. Before you apply, read the current rules of the council in the country where you want to work, keep a dated copy and ask the university whether it has recent graduates from your country.",
+            "DMU is WHO / WDOMS listed, ECFMG is covered, and the site owner has confirmed recognition by medical councils in many regions. Every council writes its own rules and revises them. Before you apply, read the current rules of the council in the country where you want to work, keep a dated copy and ask the university whether it has recent graduates from your country.",
             "We never promise a licence outcome. An English-taught degree from a listed university gives you a legitimate qualification; whether you can register at home is decided by the licensing body.",
         ], 'link' => ['after-mbbs-in-china', 'Read what happens after the MBBS']],
 

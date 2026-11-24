@@ -12,10 +12,10 @@ return [
     'lead' => 'The degree is only one part of becoming a practising doctor. This guide explains the stages after an MBBS at Dalian Medical University in general terms: the internship year, the licensing step set by your own country, postgraduate options, and how to keep your records in order from the first day.',
     'crumb' => 'After MBBS in China',
     'cta' => 'Plan your MBBS at DMU',
-    'answer' => 'After an MBBS at Dalian Medical University you finish the one-year internship that is part of the six years, then follow the licensing route of the country where you want to practise. DMU is recognised by councils in Pakistan, India, the UK, the US, the Gulf and Africa, but you must check your own council\'s current rules. Nobody can promise a licence outcome.',
+    'answer' => 'After an MBBS at Dalian Medical University you finish the one-year internship that is part of the six years, then follow the licensing route of the country where you want to practise. DMU is recognised by councils in many regions, but you must check your own council\'s current rules. Nobody can promise a licence outcome.',
     'facts' => [
         ['Course length', '6 years including a 1-year internship'],
-        ['Recognition (confirmed by site owner)', 'WHO / WDOMS listed; ECFMG; councils in Pakistan (PMDC), India, UK, US, Gulf countries, Africa'],
+        ['Recognition (confirmed by site owner)', 'WHO / WDOMS listed; ECFMG; medical councils in many regions'],
         ['Licence outcome', 'Decided by your own medical council; check its current rules'],
         ['Affiliated hospitals', '3 directly affiliated, 14 in total'],
         ['Master\'s at DMU', '3 years, ¥41,000 tuition a year'],
@@ -35,13 +35,13 @@ return [
         ], 'img' => ['src' => 'assets/images/dmu/dmu-glass-teaching-building.webp', 'alt' => 'Students walking by the glass teaching building at Dalian Medical University', 'caption' => 'The teaching building on the DMU campus.']],
 
         ['id' => 'recognition', 'eyebrow' => 'Stage two', 'h' => 'Recognition: what DMU has confirmed', 'p' => [
-            "The site owner has confirmed that DMU is MOE-listed for English-medium MBBS, WHO / WDOMS listed, covered by ECFMG, and recognised by medical councils in Pakistan (PMDC), India, the United Kingdom, the United States, the Gulf countries and Africa. The Ministry of Education notice of 1 June 2026 puts DMU third out of 43 universities with 120 seats.",
+            "The site owner has confirmed that DMU is MOE-listed for English-medium MBBS, WHO / WDOMS listed, covered by ECFMG, and recognised by medical councils in many regions. The Ministry of Education notice of 1 June 2026 puts DMU third out of 43 universities with 120 seats.",
             "Treat that as a starting point. A listing tells a council that the school exists and is approved; it does not register you. Councils write their own rules about the length of the course, the language of teaching, the exams and the supervised practice they require, and they revise them. The wording rule for this site is therefore firm: you must check the current rules of your own medical council before you apply, and this site never promises a licence outcome.",
         ], 'table' => ['caption' => 'What DMU has confirmed and what stays with your council', 'head' => ['Topic', 'Position'], 'rows' => [
             ['MOE list, English-medium MBBS', 'Listed, third of 43, 120 seats'],
             ['WHO / WDOMS', 'Listed'],
             ['ECFMG', 'Covered, as confirmed by the site owner'],
-            ['Recognition by councils', 'Pakistan (PMDC), India, UK, US, Gulf countries and Africa'],
+            ['Recognition by councils', 'Many regions; check the current rules of your own council'],
             ['Your licence', 'Decided by your own council under its current rules'],
             ['Pass rates in licensing exams', 'Not published, so not quoted'],
         ]], 'note' => $s['moeSource']],
@@ -93,12 +93,12 @@ return [
     ],
     'faqs' => [
         ['What happens after an MBBS at Dalian Medical University?', 'You complete the one-year internship that is part of the six years, graduate, and then follow the licensing route of the country where you want to practise. That route is set by your own medical council.'],
-        ['Can I practise in my country after MBBS in China?', 'DMU is recognised by councils in Pakistan (PMDC), India, the UK, the US, the Gulf countries and Africa, but your licence depends on your council\'s current rules. Read them before you apply. This site cannot promise a licence outcome.'],
+        ['Can I practise in my country after MBBS in China?', 'DMU is recognised by councils in many regions, but your licence depends on your council\'s current rules. Read them before you apply. This site cannot promise a licence outcome.'],
         ['Do I have to take a licensing exam?', 'Most countries ask foreign-trained graduates to pass a licensing examination. Which one applies to you is decided by your own council, so ask it and keep the answer.'],
         ['Is the internship in China enough, or do I need a house job at home?', 'The one-year internship is part of the DMU degree. Whether your home council accepts it or asks for more supervised work is the council\'s decision. Ask it directly.'],
         ['Can I do the USMLE or PLAB after an MBBS from DMU?', 'The relevant bodies publish their own eligibility rules. DMU is covered by ECFMG according to the site owner, but you must read the current published rules before relying on that.'],
         ['What postgraduate programmes does DMU offer?', 'A three-year Master\'s with tuition of ¥41,000 a year and a three-year PhD at ¥45,000 a year.'],
         ['Do you publish licensing exam pass rates for DMU graduates?', 'No. None are published in our confirmed sources, so we do not quote any.'],
     ],
-    'related' => ['dalian-medical-university', 'is-mbbs-in-china-good', 'mbbs-in-china-for-pakistani-students'],
+    'related' => ['dalian-medical-university', 'is-mbbs-in-china-good', 'who-listed-medical-universities-in-china'],
 ];
