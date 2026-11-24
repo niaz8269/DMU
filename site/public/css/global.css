@@ -1442,3 +1442,6 @@ table { max-width: 100%; }
     .main-navbar.is-stuck { box-shadow: 0 6px 16px rgba(5, 30, 66, .22); }
 }
 .top-header.hide { transform: none; opacity: 1; }
+
+/* Narrow screens: the vertical "Be Our Partner" tab covered text at the left edge; the footer keeps the link. */
+@media (max-width: 991.98px) { #partnerWidget { display: none !important; } }

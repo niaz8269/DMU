@@ -5,11 +5,11 @@
 /* hero */
 .mbbs-hero {
     position: relative; color: #fff; overflow: hidden;
-    background: var(--ds-navy);
+    background: #0b4a8c;
     padding: clamp(3rem, 7vw, 5rem) 0;
 }
 .mbbs-hero__bg { position: absolute; inset: 0; background: url('../images/campus12.webp') center/cover no-repeat; opacity: .18; z-index: 0; }
-.mbbs-hero::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(120deg, rgba(9,28,50,.94), rgba(9,28,50,.7)); }
+.mbbs-hero::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(120deg, rgba(11,74,140,.93), rgba(15,95,176,.62)); }
 .mbbs-hero .container { position: relative; z-index: 2; }
 .mbbs-hero h1 { color: #fff; font-size: clamp(2rem, 4.5vw, 3.1rem); font-weight: 800; margin: .3rem 0 .9rem; max-width: 20ch; }
 .mbbs-hero__lead { color: #cdd9e8; font-size: 1.12rem; line-height: 1.7; max-width: 44rem; margin: 0 0 1.6rem; }
