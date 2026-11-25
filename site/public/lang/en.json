@@ -80,8 +80,8 @@
   },
   "login": {
     "int_students": "International Students",
-    "system_name": "Centralized Admissions System (CAS)",
-    "cas_desc": "Our Centralized Admission System (CAS) ensures a seamless journey from submission to admission.",
+    "system_name": "International Students Application Portal",
+    "cas_desc": "Apply online, upload your documents and follow your application step by step.",
     "faq_title": "Frequently Asked Questions",
     "faq_q1": "Is my personal data secure?",
     "faq_a1": "Yes. Your personal information and documents are secured with advanced encryption and strict privacy controls within our system.",
@@ -120,7 +120,7 @@
   },
   "register": {
     "int_students": "International Students",
-    "system_name": "Centralized Admissions System (CAS)",
+    "system_name": "International Students Application Portal",
     "create_account_heading": "Dalian Medical University Application Portal: Create Your Account",
     "create_account_lead": "Create your account to start your application to Dalian Medical University and follow it step by step.",
     "why_title": "Why Create an Account?",
@@ -151,7 +151,7 @@
     "required_docs": "Required Documents",
     "admissions_phone": "Admissions Office: +86 180 4156 6030",
     "copyright": "© Copyright 2027 Dalian Medical University All Rights Reserved",
-    "copyright_sub": "International Students Centralized Admissions System",
+    "copyright_sub": "International Students Application Portal",
     "resend_modal_title": "Resend Verification Link",
     "resend_modal_desc": "Enter the email address you used during registration. We will send you a fresh verification link.",
     "registered_email": "Registered Email",

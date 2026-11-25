@@ -80,8 +80,8 @@
   },
   "login": {
     "int_students": "Étudiants internationaux",
-    "system_name": "Système d'admissions centralisé (CAS)",
-    "cas_desc": "Notre système d'admissions centralisé (CAS) garantit un parcours fluide, de la soumission de dossier jusqu'à l'admission.",
+    "system_name": "Portail de candidature des étudiants internationaux",
+    "cas_desc": "Déposez votre candidature en ligne, téléversez vos documents et suivez votre dossier étape par étape.",
     "faq_title": "Foire aux questions",
     "faq_q1": "Mes données personnelles sont-elles sécurisées ?",
     "faq_a1": "Oui. Vos informations personnelles et vos documents sont protégés par un chiffrement avancé et des contrôles de confidentialité stricts.",
@@ -120,7 +120,7 @@
   },
   "register": {
     "int_students": "Étudiants internationaux",
-    "system_name": "Système d'admissions centralisé (CAS)",
+    "system_name": "Portail de candidature des étudiants internationaux",
     "create_account_heading": "Portail de candidature de l'Université médicale de Dalian : créer votre compte",
     "create_account_lead": "Créez votre compte pour commencer votre candidature à l'Université médicale de Dalian et la suivre étape par étape.",
     "why_title": "Pourquoi créer un compte ?",
@@ -151,7 +151,7 @@
     "required_docs": "Documents requis",
     "admissions_phone": "Bureau des admissions : +86 180 4156 6030",
     "copyright": "© Copyright 2027 Université médicale de Dalian – Tous droits réservés",
-    "copyright_sub": "Système centralisé d'admissions pour étudiants internationaux",
+    "copyright_sub": "Portail de candidature des étudiants internationaux",
     "resend_modal_title": "Renvoyer le lien de vérification",
     "resend_modal_desc": "Entrez l'adresse e-mail utilisée lors de votre inscription. Nous vous enverrons un nouveau lien de vérification.",
     "registered_email": "E-mail enregistré",

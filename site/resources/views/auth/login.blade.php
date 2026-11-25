@@ -137,7 +137,7 @@
           
 					<div class="mt-2 mt-md-0">
 						<span class="fw-bold fs-5 d-block text-black" data-i18n="login.int_students">International Students</span>
-						<span class="fs-6 d-block text-black" data-i18n="login.system_name">Centralized Admissions System (CAS)</span>
+						<span class="fs-6 d-block text-black" data-i18n="login.system_name">International Students Application Portal</span>
 					</div>
 				</div>
 
@@ -165,7 +165,7 @@
 						<div class="col-lg-7 col-md-12 text-center text-lg-start">
 								 <h1 class="display-6 fw-bold mb-3 text-jmu-primary">Dalian Medical University Application Portal</h1>
 								 <p class="fs-5 mb-4 lh-base" data-i18n="login.cas_desc">
-										 Our Centralized Admission System (CAS) ensures a seamless journey from submission to admission.
+										 Apply online, upload your documents and follow your application step by step.
 								 </p>
 
 								 <div class="card faq-card rounded-4 shadow">

@@ -117,7 +117,7 @@
 
     <footer class="app-footer">
         <div class="float-end d-none d-sm-inline">Dalian Medical University</div>
-        <strong>DMU Admin</strong> &mdash; Centralized Admissions System
+        <strong>DMU Admin</strong> &mdash; Application Portal admin
     </footer>
 </div><!-- /.app-wrapper -->
 

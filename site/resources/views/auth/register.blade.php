@@ -117,7 +117,7 @@
           
           <div class="mt-2 mt-md-0">
             <span class="fw-bold fs-5 d-block"><span data-i18n="register.int_students">International Students</span></span>
-            <span class="fs-6 d-block"><span data-i18n="register.system_name">Centralized Admissions System (CAS)</span></span>
+            <span class="fs-6 d-block"><span data-i18n="register.system_name">International Students Application Portal</span></span>
           </div>
         </div>
 
@@ -272,7 +272,7 @@
 
       <div class="text-center small py-4 mt-4 bg-light rounded">
         <p class="mb-0"><span data-i18n="register.copyright">© Copyright 2027 Dalian Medical University All Rights Reserved</span></p>
-        <p class="mt-2 mb-0 text-muted" data-i18n="register.copyright_sub">International Students Centralized Admissions System</p>
+        <p class="mt-2 mb-0 text-muted" data-i18n="register.copyright_sub">International Students Application Portal</p>
       </div>
     </div>
   </footer>

@@ -3,7 +3,7 @@
     <div class="p-bar__in">
       <a class="p-brand" href="index" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/logo.webp" alt="Dalian Medical University">
-        <span class="p-brand__t">International Students <small>Centralized Admissions System (CAS)</small></span>
+        <span class="p-brand__t">International Students <small>Application Portal</small></span>
       </a>
       <nav class="p-nav" aria-label="Portal">
         <a href="front" class="{{ ($active ?? '') === 'dashboard' ? 'is-active' : '' }}">Dashboard</a>
