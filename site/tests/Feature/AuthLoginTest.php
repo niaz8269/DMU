@@ -24,7 +24,7 @@ class AuthLoginTest extends TestCase
         $r = $this->get('/login');
         $r->assertOk();
         $r->assertSee('name="_token"', false);
-        $r->assertSee('Student Login', false);
+        $r->assertSee('Application Portal', false);
         $this->get('/login.php')->assertStatus(301)->assertRedirect(url('/login'));
         $this->get('/register')->assertOk()->assertSee('name="_token"', false);
     }

@@ -4,8 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="dmu-base" content="https://dmu.cas.moe">
-	<title>Dalian Medical University - Student Login</title>
+	<title>Dalian Medical University Application Portal: Sign In</title>
+	<meta name="description" content="Sign in to the Dalian Medical University application portal to continue your application, upload documents and track your status. New applicants can create an account.">
+	<meta name="robots" content="index, follow, max-image-preview:large">
 	<link rel="canonical" href="https://dmu.cas.moe/login">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Dalian Medical University Application Portal: Sign In">
+	<meta property="og:description" content="Sign in to the Dalian Medical University application portal to continue your application, upload documents and track your status. New applicants can create an account.">
+	<meta property="og:url" content="https://dmu.cas.moe/login">
+	<meta property="og:image" content="https://dmu.cas.moe/images/logo.png">
+	<script type="application/ld+json">@verbatim{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://dmu.cas.moe/login#webpage", "url": "https://dmu.cas.moe/login", "name": "Dalian Medical University Application Portal: Sign In", "description": "Sign in to the Dalian Medical University application portal to continue your application, upload documents and track your status. New applicants can create an account.", "isPartOf": {"@id": "https://dmu.cas.moe/#website"}, "about": {"@id": "https://dmu.cas.moe/#dmu"}, "inLanguage": "en"}, {"@type": "WebApplication", "name": "Dalian Medical University Application Portal", "url": "https://dmu.cas.moe/login", "applicationCategory": "EducationApplication", "operatingSystem": "Web", "description": "Online portal where international students create an account, upload documents and track their application to Dalian Medical University.", "publisher": {"@id": "https://cas.moe/#org"}}]}@endverbatim</script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 	<link rel="icon" href="assets/images/logo2.webp" type="image/x-icon">
@@ -155,6 +163,7 @@
 				<div class="row align-items-center justify-content-between g-5">
             
 						<div class="col-lg-7 col-md-12 text-center text-lg-start">
+								 <h1 class="display-6 fw-bold mb-3 text-jmu-primary">Dalian Medical University Application Portal</h1>
 								 <p class="fs-5 mb-4 lh-base" data-i18n="login.cas_desc">
 										 Our Centralized Admission System (CAS) ensures a seamless journey from submission to admission.
 								 </p>

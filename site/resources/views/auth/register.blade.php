@@ -4,8 +4,16 @@
   <meta charset="UTF-8">
   <meta name="dmu-base" content="https://dmu.cas.moe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dalian Medical University - Student Registration</title>
-  <link rel="canonical" href="https://dmu.cas.moe/register">
+  <title>Dalian Medical University Application Portal: Create Account</title>
+	<meta name="description" content="Create your account on the Dalian Medical University application portal to start your application, upload documents and track your status. Registration is free.">
+	<meta name="robots" content="index, follow, max-image-preview:large">
+	<link rel="canonical" href="https://dmu.cas.moe/register">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Dalian Medical University Application Portal: Create Account">
+	<meta property="og:description" content="Create your account on the Dalian Medical University application portal to start your application, upload documents and track your status. Registration is free.">
+	<meta property="og:url" content="https://dmu.cas.moe/register">
+	<meta property="og:image" content="https://dmu.cas.moe/images/logo.png">
+	<script type="application/ld+json">@verbatim{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://dmu.cas.moe/register#webpage", "url": "https://dmu.cas.moe/register", "name": "Dalian Medical University Application Portal: Create Account", "description": "Create your account on the Dalian Medical University application portal to start your application, upload documents and track your status. Registration is free.", "isPartOf": {"@id": "https://dmu.cas.moe/#website"}, "about": {"@id": "https://dmu.cas.moe/#dmu"}, "inLanguage": "en"}, {"@type": "WebApplication", "name": "Dalian Medical University Application Portal", "url": "https://dmu.cas.moe/login", "applicationCategory": "EducationApplication", "operatingSystem": "Web", "description": "Online portal where international students create an account, upload documents and track their application to Dalian Medical University.", "publisher": {"@id": "https://cas.moe/#org"}}]}@endverbatim</script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   <link rel="icon" href="assets/images/logo2.webp" type="image/x-icon">
@@ -135,9 +143,9 @@
       <div class="row justify-content-center align-items-center g-4">
         
         <div class="col-lg-5 mb-4 d-none d-lg-block text-white">
-          <h1 class="display-6 fw-bold mb-4 text-jmu-primary" data-i18n="register.create_account_heading">Create Your Account</h1>
+          <h1 class="display-6 fw-bold mb-4 text-jmu-primary" data-i18n="register.create_account_heading">Dalian Medical University Application Portal: Create Your Account</h1>
           <p class="fs-5 mb-4 lh-base shadow-text">
-            Join thousands of international students who have chosen Dalian Medical University for their medical education. Create your account to begin your application journey.
+            Create your account to start your application to Dalian Medical University and follow it step by step.
           </p>
           
           <div class="bg-white text-dark p-4 rounded shadow">

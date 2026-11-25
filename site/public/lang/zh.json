@@ -121,8 +121,8 @@
   "register": {
     "int_students": "国际学生",
     "system_name": "集中录取系统 (CAS)",
-    "create_account_heading": "创建您的账号",
-    "create_account_lead": "加入数千名选择大连医科大学求学的国际学生。创建账号，开启您的申请之旅。",
+    "create_account_heading": "大连医科大学申请门户：创建账户",
+    "create_account_lead": "创建账户，开始申请大连医科大学，并逐步跟进申请进度。",
     "why_title": "为何要创建账号？",
     "why1": "保存并追踪申请进度",
     "why2": "安全上传所需材料",

@@ -121,8 +121,8 @@
   "register": {
     "int_students": "International Students",
     "system_name": "Centralized Admissions System (CAS)",
-    "create_account_heading": "Create Your Account",
-    "create_account_lead": "Join thousands of international students who have chosen Dalian Medical University for their medical education. Create your account to begin your application journey.",
+    "create_account_heading": "Dalian Medical University Application Portal: Create Your Account",
+    "create_account_lead": "Create your account to start your application to Dalian Medical University and follow it step by step.",
     "why_title": "Why Create an Account?",
     "why1": "Save and track your application progress",
     "why2": "Upload required documents securely",

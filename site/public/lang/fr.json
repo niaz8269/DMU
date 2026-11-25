@@ -121,8 +121,8 @@
   "register": {
     "int_students": "Étudiants internationaux",
     "system_name": "Système d'admissions centralisé (CAS)",
-    "create_account_heading": "Créer votre compte",
-    "create_account_lead": "Rejoignez des milliers d'étudiants internationaux qui ont choisi l'Université médicale de Dalian pour leurs études médicales. Créez votre compte pour commencer votre parcours de candidature.",
+    "create_account_heading": "Portail de candidature de l'Université médicale de Dalian : créer votre compte",
+    "create_account_lead": "Créez votre compte pour commencer votre candidature à l'Université médicale de Dalian et la suivre étape par étape.",
     "why_title": "Pourquoi créer un compte ?",
     "why1": "Sauvegarder et suivre votre dossier de candidature",
     "why2": "Télécharger les documents requis en toute sécurité",
