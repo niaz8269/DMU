@@ -82,7 +82,7 @@
                 <h5 data-i18n="footer.newsletter">Newsletter</h5>
                 <p data-i18n="footer.newsletter_desc">Subscribe to get updates on admissions and events</p>
                 <div class="input-group mb-3">
-                    <input type="email" class="form-control" placeholder="Your Email" data-i18n-placeholder="footer.newsletter_placeholder">
+                    <input type="email" id="footerNewsletterEmail" name="email" autocomplete="email" class="form-control" placeholder="Your Email" data-i18n-placeholder="footer.newsletter_placeholder">
                     <button class="btn btn-secondary-custom" type="button" data-i18n="footer.subscribe">Subscribe</button>
                 </div>
             </div>
@@ -130,7 +130,7 @@
 (function () {
     var TARGET = 'Dalian Medical University', URL = 'https://dmu.cas.moe';
     // Elements whose text must not be turned into links.
-    var SKIP = { A:1, BUTTON:1, SCRIPT:1, STYLE:1, TEXTAREA:1, OPTION:1, SELECT:1, CODE:1, PRE:1, SVG:1, NOSCRIPT:1, TITLE:1 };
+    var SKIP = { A:1, BUTTON:1, SCRIPT:1, STYLE:1, TEXTAREA:1, OPTION:1, SELECT:1, CODE:1, PRE:1, SUMMARY:1, SVG:1, NOSCRIPT:1, TITLE:1 };
     function walk(node) {
         for (var child = node.firstChild; child; ) {
             var next = child.nextSibling;

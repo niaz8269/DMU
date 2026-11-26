@@ -266,11 +266,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="{{ get_absolute_url('gallery') }}" class="dmu-sechead__more">View More &rsaquo;</a>
         </div>
         <div class="dmu-mosaic">
-            <a class="dmu-mosaic__a" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-letters-campus-scenes.webp') }}" alt="DMU lettering with three campus scenes" loading="lazy"></a>
-            <a class="dmu-mosaic__b" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-main-gate-panorama.webp') }}" alt="Main gate of Dalian Medical University" loading="lazy"><span>Main gate</span></a>
-            <a class="dmu-mosaic__c" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-1947-arch-dusk.webp') }}" alt="The 1947 stone arch at dusk" loading="lazy"><span>The 1947 arch</span></a>
-            <a class="dmu-mosaic__d" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-library.webp') }}" alt="DMU library" loading="lazy"><span>Library</span></a>
-            <a class="dmu-mosaic__e" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-campus-willows-and-sea.webp') }}" alt="Willow trees by the sea" loading="lazy"><span>By the sea</span></a>
+            <a class="dmu-mosaic__a" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-letters-campus-scenes.webp') }}" alt="DMU lettering with three campus scenes" loading="lazy" width="548" height="220"></a>
+            <a class="dmu-mosaic__b" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-main-gate-panorama.webp') }}" alt="Main gate of Dalian Medical University" loading="lazy" width="1000" height="350"><span>Main gate</span></a>
+            <a class="dmu-mosaic__c" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-1947-arch-dusk.webp') }}" alt="The 1947 stone arch at dusk" loading="lazy" width="500" height="630"><span>The 1947 arch</span></a>
+            <a class="dmu-mosaic__d" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-library.webp') }}" alt="DMU library" loading="lazy" width="1000" height="342"><span>Library</span></a>
+            <a class="dmu-mosaic__e" href="{{ get_absolute_url('gallery') }}"><img src="{{ get_absolute_url('assets/images/dmu/dmu-campus-willows-and-sea.webp') }}" alt="Willow trees by the sea" loading="lazy" width="1000" height="350"><span>By the sea</span></a>
         </div>
     </div>
 </section>

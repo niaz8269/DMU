@@ -107,7 +107,8 @@
 
             @if (!empty($sec['img']))
             <figure style="margin:1.5rem 0">
-                <img src="{{ get_absolute_url($sec['img']['src']) }}" alt="{{ $sec['img']['alt'] }}" loading="lazy" decoding="async" style="width:100%; height:auto; border-radius:14px">
+                @php $__sz = @getimagesize(public_path($sec['img']['src'])) ?: [0, 0]; @endphp
+                <img src="{{ get_absolute_url($sec['img']['src']) }}" alt="{{ $sec['img']['alt'] }}"@if ($__sz[0]) width="{{ $__sz[0] }}" height="{{ $__sz[1] }}"@endif loading="lazy" decoding="async" style="width:100%; height:auto; border-radius:14px">
                 <figcaption style="color:var(--ds-muted); font-size:.9rem; margin-top:.5rem">{{ $sec['img']['caption'] }}</figcaption>
             </figure>
             @endif
