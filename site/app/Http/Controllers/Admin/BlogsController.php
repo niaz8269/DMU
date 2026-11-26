@@ -118,6 +118,11 @@ class BlogsController extends AdminController
                     $successMessage = 'Blog post created successfully!';
                 }
 
+                // New or changed published post: tell search engines now (the sitemap lists it automatically).
+                if ($status === 'published') {
+                    \App\Support\IndexNow::ping(['/blog/' . rawurlencode($slug), '/blogs', '/sitemap.xml']);
+                }
+
                 // Redirect to edit page with success message
                 return redirect("/admin/edit-blog?id={$blogId}&success=1");
             } catch (QueryException $e) {

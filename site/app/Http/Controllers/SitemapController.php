@@ -99,6 +99,6 @@ class SitemapController extends Controller
         }
         $xml .= "\n</urlset>\n";
 
-        return response($xml)->header('Content-Type', 'application/xml; charset=UTF-8');
+        return response($xml)->header('Content-Type', 'application/xml; charset=UTF-8')->header('Cache-Control', 'public, max-age=900');
     }
 }

@@ -77,6 +77,9 @@
                     </a>
                 </div>
 
+                <script type="application/ld+json">
+{!! json_encode(['@context' => 'https://schema.org', '@type' => 'BlogPosting', 'headline' => $blog->title, 'description' => strip_tags((string) $blog->excerpt), 'mainEntityOfPage' => get_absolute_url('blog/' . rawurlencode($blog->slug)), 'datePublished' => $blog->published_at ? date('c', strtotime((string) $blog->published_at)) : null, 'dateModified' => $blog->updated_at ? date('c', strtotime((string) $blog->updated_at)) : null, 'image' => $featured_image ?: 'https://dmu.cas.moe/images/logo.png', 'inLanguage' => 'en', 'isPartOf' => ['@id' => 'https://dmu.cas.moe/#website'], 'about' => ['@type' => 'CollegeOrUniversity', 'name' => 'Dalian Medical University', 'url' => 'https://english.dmu.edu.cn/'], 'author' => ['@type' => 'Organization', 'name' => 'Consultancy for Abroad Study (CAS)', 'url' => 'https://cas.moe/'], 'publisher' => ['@type' => 'Organization', 'name' => 'Consultancy for Abroad Study (CAS)', 'url' => 'https://cas.moe/']], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) !!}
+                </script>
             </article>
         </div>
     </div>
