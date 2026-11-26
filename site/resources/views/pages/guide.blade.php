@@ -212,17 +212,6 @@
 </section>
 @endif
 
-<!-- ===================== SOURCES / WHO WROTE THIS ===================== -->
-<section class="ds-section" id="sources">
-    <div class="container">
-        <div class="mbbs-faq-wrap" style="font-size:.95rem">
-            <h2 class="ds-title" style="font-size:1.25rem">Sources and who publishes this guide</h2>
-            <p>This guide is published by <a href="https://cas.moe/" target="_blank" rel="noopener">Consultancy for Abroad Study (CAS)</a>, an admissions guide and application help service. CAS is not the university; Dalian Medical University decides who is admitted. Last updated {{ $updatedLabel }}.</p>
-            <p>Facts come from the <a href="https://english.dmu.edu.cn/" target="_blank" rel="noopener">DMU English website</a>, the <a href="https://iec.dmu.edu.cn/" target="_blank" rel="noopener">DMU International Education College</a>, the <a href="https://dmu.admissions.cn/" target="_blank" rel="noopener">DMU admissions portal</a> and the CAS fee sheet. Fees, dates and rules can change, so confirm them with admissions before you pay.</p>
-        </div>
-    </div>
-</section>
-
 <!-- ===================== RELATED GUIDES ===================== -->
 @if ($related)
 <section class="ds-section ds-section--soft">
